@@ -1,0 +1,11 @@
+[0.005s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.073s] [ 20%] Built target brightness_check
+[0.099s] [ 40%] Built target grayscaler
+[0.129s] [ 60%] Built target brightmask
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[0.445s] [ 70%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[38.396s] gmake[2]: *** Deleting file 'CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o'
+[38.850s] gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Interrupt
+[38.850s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/light_tracker.dir/all] Interrupt
+[38.850s] gmake: *** [Makefile:146: all] Interrupt
+[39.440s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

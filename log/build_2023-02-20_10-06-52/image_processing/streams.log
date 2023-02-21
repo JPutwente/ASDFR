@@ -1,0 +1,22 @@
+[0.014s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.072s] [100%] Built target brightness_check
+[0.082s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.118s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing
+[0.125s] -- Install configuration: ""
+[0.125s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check
+[0.126s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+[0.126s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+[0.131s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+[0.131s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.sh
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.dsv
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.bash
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.sh
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.zsh
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.dsv
+[0.132s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.dsv
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/packages/image_processing
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+[0.132s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.xml
+[0.135s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing

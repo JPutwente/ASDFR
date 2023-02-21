@@ -1,0 +1,30 @@
+[ 20%] Built target grayscaler
+[ 40%] Built target brightness_check
+[ 60%] Built target brightmask
+[ 80%] Built target light_tracker
+[35m[1mConsolidate compiler generated dependencies of target SimpleSub[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/SimpleSub.dir/src/SimpleSub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable SimpleSub[0m
+[100%] Built target SimpleSub
+-- Install configuration: ""
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/grayscaler
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightmask
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/light_tracker
+-- Installing: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/SimpleSub
+-- Set runtime path of "/home/ram-user/ASDFR/install/image_processing/lib/image_processing/SimpleSub" to ""
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+-- Installing: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+-- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.sh
+-- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.bash
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.sh
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.zsh
+-- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.dsv
+-- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/packages/image_processing
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.xml

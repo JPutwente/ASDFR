@@ -1,0 +1,14 @@
+[0.018s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[1.248s] [ 25%] Built target grayscaler
+[1.248s] [ 50%] Built target brightness_check
+[1.325s] [35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[1.384s] [ 75%] Built target brightmask
+[1.395s] [ 87%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[5.821s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.821s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetector[m[K’ is not a member of ‘[01m[Kcv[m[K’
+[5.821s]    29 |         cv::[01;31m[Kdetector[m[K.detect( image_th, keypoints);
+[5.821s]       |             [01;31m[K^~~~~~~~[m[K
+[9.149s] gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+[9.150s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+[9.150s] gmake: *** [Makefile:146: all] Error 2
+[9.152s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

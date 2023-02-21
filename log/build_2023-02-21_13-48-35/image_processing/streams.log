@@ -1,0 +1,55 @@
+[0.021s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.077s] [ 20%] Built target grayscaler
+[0.081s] [ 40%] Built target brightness_check
+[0.111s] [ 60%] Built target brightmask
+[0.122s] [ 80%] Built target light_tracker
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target SimpleSub[0m
+[0.140s] [ 90%] [32mBuilding CXX object CMakeFiles/SimpleSub.dir/src/SimpleSub.cpp.o[0m
+[2.621s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.622s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.622s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.622s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.622s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.624s]                  from [01m[K/home/ram-user/ASDFR/src/image_processing/src/SimpleSub.cpp:3[m[K:
+[2.624s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/SimpleSub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.624s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/SimpleSub.cpp:22:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<geometry_msgs::msg::Pose2D_<std::allocator<void> > >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.625s]    22 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%s'"[m[K, msg);
+[2.625s]       |                                       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.625s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/SimpleSub.cpp:22:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.625s]    22 |       RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%s[m[K'", msg);
+[2.625s]       |                                                  [01;36m[K~^[m[K
+[2.625s]       |                                                   [01;36m[K|[m[K
+[2.625s]       |                                                   [01;36m[Kchar*[m[K
+[9.141s] [100%] [32m[1mLinking CXX executable SimpleSub[0m
+[9.569s] [100%] Built target SimpleSub
+[9.582s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[9.638s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing
+[9.645s] -- Install configuration: ""
+[9.646s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check
+[9.646s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/grayscaler
+[9.647s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightmask
+[9.647s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/light_tracker
+[9.647s] -- Installing: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/SimpleSub
+[9.652s] -- Set runtime path of "/home/ram-user/ASDFR/install/image_processing/lib/image_processing/SimpleSub" to ""
+[9.652s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+[9.652s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+[9.653s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+[9.653s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+[9.653s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.sh
+[9.653s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.dsv
+[9.654s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.bash
+[9.654s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.sh
+[9.654s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.zsh
+[9.654s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.dsv
+[9.655s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.dsv
+[9.655s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/packages/image_processing
+[9.655s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+[9.655s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+[9.655s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.xml
+[9.658s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing

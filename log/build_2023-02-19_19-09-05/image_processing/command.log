@@ -1,0 +1,6 @@
+Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/image_processing -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/install/image_processing
+Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/image_processing -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/install/image_processing
+Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing
+Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing

@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.000507] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.008189] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.010490] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.010545] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/build/image_processing', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user/ASDFR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/src'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd17dbaf_168d_4718_930c_20246ffc9953'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QIL8Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058832] (image_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target brightness_check\x1b[0m\n'}
+[0.076827] (image_processing) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/brightness_check.dir/src/brightness_check.cpp.o\x1b[0m\n'}
+[0.100235] (-) TimerEvent: {}
+[0.200728] (-) TimerEvent: {}
+[0.301474] (-) TimerEvent: {}
+[0.402071] (-) TimerEvent: {}
+[0.502443] (-) TimerEvent: {}
+[0.603151] (-) TimerEvent: {}
+[0.703666] (-) TimerEvent: {}
+[0.804346] (-) TimerEvent: {}
+[0.904761] (-) TimerEvent: {}
+[1.005176] (-) TimerEvent: {}
+[1.105882] (-) TimerEvent: {}
+[1.206257] (-) TimerEvent: {}
+[1.306658] (-) TimerEvent: {}
+[1.407064] (-) TimerEvent: {}
+[1.507445] (-) TimerEvent: {}
+[1.607699] (-) TimerEvent: {}
+[1.708906] (-) TimerEvent: {}
+[1.809413] (-) TimerEvent: {}
+[1.910059] (-) TimerEvent: {}
+[2.010332] (-) TimerEvent: {}
+[2.110935] (-) TimerEvent: {}
+[2.211414] (-) TimerEvent: {}
+[2.312143] (-) TimerEvent: {}
+[2.412832] (-) TimerEvent: {}
+[2.513179] (-) TimerEvent: {}
+[2.613900] (-) TimerEvent: {}
+[2.714263] (-) TimerEvent: {}
+[2.814708] (-) TimerEvent: {}
+[2.915238] (-) TimerEvent: {}
+[3.015787] (-) TimerEvent: {}
+[3.116242] (-) TimerEvent: {}
+[3.216816] (-) TimerEvent: {}
+[3.317417] (-) TimerEvent: {}
+[3.336785] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/brightnode/src/brightness_check.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KImageBrightnessNode::ImageBrightnessNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.337151] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/brightnode/src/brightness_check.cpp:16:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImageBrightnessNode::image_callback(image_tools::ROSCvMatContainer)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.337270] (image_processing) StderrLine: {'line': b'   16 |     sub_ = create_subscription<image_tools::ROSCvMatContainer>("image", 10, \x1b[01;31m\x1b[Kimage_callback\x1b[m\x1b[K);\n'}
+[3.337384] (image_processing) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.337445] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/brightnode/src/brightness_check.cpp:20:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.337500] (image_processing) StderrLine: {'line': b'   20 |   void \x1b[01;36m\x1b[Kimage_callback\x1b[m\x1b[K(const image_tools::ROSCvMatContainer)\n'}
+[3.337553] (image_processing) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.417811] (-) TimerEvent: {}
+[3.518192] (-) TimerEvent: {}
+[3.618943] (-) TimerEvent: {}
+[3.719281] (-) TimerEvent: {}
+[3.819739] (-) TimerEvent: {}
+[3.920637] (-) TimerEvent: {}
+[4.021217] (-) TimerEvent: {}
+[4.122070] (-) TimerEvent: {}
+[4.222460] (-) TimerEvent: {}
+[4.323331] (-) TimerEvent: {}
+[4.424138] (-) TimerEvent: {}
+[4.524704] (-) TimerEvent: {}
+[4.625138] (-) TimerEvent: {}
+[4.697849] (image_processing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/brightness_check.dir/build.make:76: CMakeFiles/brightness_check.dir/src/brightness_check.cpp.o] Error 1\n'}
+[4.698021] (image_processing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brightness_check.dir/all] Error 2\n'}
+[4.698127] (image_processing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.700486] (image_processing) CommandEnded: {'returncode': 2}
+[4.725995] (-) TimerEvent: {}
+[4.738698] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 2}
+[4.750116] (-) EventReactorShutdown: {}

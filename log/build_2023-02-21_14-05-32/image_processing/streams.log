@@ -1,0 +1,7 @@
+[1.862s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[2.023s] [ 20%] Built target brightness_check
+[2.073s] [ 40%] Built target grayscaler
+[2.128s] [ 50%] [32mBuilding CXX object CMakeFiles/brightmask.dir/src/brightness_mask.cpp.o[0m
+[69.779s] [ 60%] [32m[1mLinking CXX executable brightmask[0m
+[91.621s] [ 60%] Built target brightmask
+[91.698s] [ 70%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m

@@ -1,0 +1,12 @@
+[ 20%] Built target brightness_check
+[ 40%] Built target grayscaler
+[35m[1mConsolidate compiler generated dependencies of target brightmask[0m
+[ 60%] Built target brightmask
+[ 70%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:34:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct cv::SimpleBlobDetector::Params[m[K’ has no member named ‘[01m[KfilterByThresholds[m[K’
+   34 |         params.[01;31m[KfilterByThresholds[m[K = false;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/light_tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

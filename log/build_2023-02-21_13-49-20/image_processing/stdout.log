@@ -1,0 +1,6 @@
+[ 20%] Built target grayscaler
+[ 40%] Built target brightness_check
+[ 60%] Built target light_tracker
+[ 80%] Built target brightmask
+[35m[1mConsolidate compiler generated dependencies of target SimpleSub[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/SimpleSub.dir/src/SimpleSub.cpp.o[0m

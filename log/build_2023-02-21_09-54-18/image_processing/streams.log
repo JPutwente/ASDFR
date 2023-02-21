@@ -1,0 +1,25 @@
+[0.113s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.186s] [ 25%] Built target brightness_check
+[0.197s] [ 50%] Built target grayscaler
+[0.216s] [35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[0.220s] [ 75%] Built target brightmask
+[0.235s] [ 87%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[3.523s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.523s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:52:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::SimpleBlobDetector::SimpleBlobDetector(cv::SimpleBlobDetector::Params&)[m[K’
+[3.523s]    52 |         cv::SimpleBlobDetector detector(params[01;31m[K)[m[K;
+[3.523s]       |                                               [01;31m[K^[m[K
+[3.524s] In file included from [01m[K/usr/include/opencv4/opencv2/calib3d.hpp:48[m[K,
+[3.524s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:56[m[K,
+[3.524s]                  from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[3.524s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::SimpleBlobDetector::SimpleBlobDetector()[m[K’
+[3.524s]   695 | class CV_EXPORTS_W [01;36m[KSimpleBlobDetector[m[K : public Feature2D
+[3.524s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.525s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[3.525s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::SimpleBlobDetector::SimpleBlobDetector(const cv::SimpleBlobDetector&)[m[K’
+[3.525s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::SimpleBlobDetector::Params[m[K’ to ‘[01m[Kconst cv::SimpleBlobDetector&[m[K’
+[3.525s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::SimpleBlobDetector::SimpleBlobDetector(cv::SimpleBlobDetector&&)[m[K’
+[3.525s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::SimpleBlobDetector::Params[m[K’ to ‘[01m[Kcv::SimpleBlobDetector&&[m[K’
+[6.545s] gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+[6.545s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+[6.545s] gmake: *** [Makefile:146: all] Error 2
+[6.546s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

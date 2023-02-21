@@ -1,0 +1,23 @@
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:17:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleBlobDetector[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::SimpleBlobDetector[m[K’?
+   62 |         cv::Ptr<[01;31m[KSimpleBlobDetector[m[K> detector = SimpleBlobDetector::create(params);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[Kcv::SimpleBlobDetector[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/calib3d.hpp:48[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:56[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::SimpleBlobDetector[m[K’ declared here
+  695 | class CV_EXPORTS_W [01;36m[KSimpleBlobDetector[m[K : public Feature2D
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:35:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |         cv::Ptr<SimpleBlobDetector[01;31m[K>[m[K detector = SimpleBlobDetector::create(params);
+      |                                   [01;31m[K^[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:48:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleBlobDetector[m[K’ is not a class, namespace, or enumeration
+   62 |         cv::Ptr<SimpleBlobDetector> detector = [01;31m[KSimpleBlobDetector[m[K::create(params);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdetector[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   62 |         cv::Ptr<SimpleBlobDetector> [01;35m[Kdetector[m[K = SimpleBlobDetector::create(params);
+      |                                     [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

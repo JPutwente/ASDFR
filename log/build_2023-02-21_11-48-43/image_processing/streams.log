@@ -1,0 +1,13 @@
+[0.158s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[1.602s] [ 50%] Built target grayscaler
+[1.602s] [ 50%] Built target brightness_check
+[1.708s] [ 62%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[1.740s] [ 87%] Built target brightmask
+[4.327s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/Float32MultiArray.hpp: No such file or directory
+[4.327s]     6 | #include [01;31m[K"std_msgs/Float32MultiArray.hpp"[m[K
+[4.328s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.328s] compilation terminated.
+[4.333s] gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+[4.334s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+[4.335s] gmake: *** [Makefile:146: all] Error 2
+[4.339s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

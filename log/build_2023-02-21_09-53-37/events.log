@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000768] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.000799] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.010588] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.012133] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.012181] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/build/image_processing', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1996'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1297,unix/ramuser-vm:/tmp/.ICE-unix/1297'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/06119048_b97a_416a_99e2_bedb1620789d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RI8M01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble')]), 'shell': False}
+[0.084270] (image_processing) StdoutLine: {'line': b'[ 25%] Built target brightness_check\n'}
+[0.094093] (image_processing) StdoutLine: {'line': b'[ 50%] Built target grayscaler\n'}
+[0.098963] (-) TimerEvent: {}
+[0.111826] (image_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target light_tracker\x1b[0m\n'}
+[0.122297] (image_processing) StdoutLine: {'line': b'[ 75%] Built target brightmask\n'}
+[0.138255] (image_processing) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o\x1b[0m\n'}
+[0.199213] (-) TimerEvent: {}
+[0.299818] (-) TimerEvent: {}
+[0.400311] (-) TimerEvent: {}
+[0.500843] (-) TimerEvent: {}
+[0.601494] (-) TimerEvent: {}
+[0.701898] (-) TimerEvent: {}
+[0.803424] (-) TimerEvent: {}
+[0.903950] (-) TimerEvent: {}
+[1.004599] (-) TimerEvent: {}
+[1.105003] (-) TimerEvent: {}
+[1.205565] (-) TimerEvent: {}
+[1.307081] (-) TimerEvent: {}
+[1.408268] (-) TimerEvent: {}
+[1.508623] (-) TimerEvent: {}
+[1.609608] (-) TimerEvent: {}
+[1.710111] (-) TimerEvent: {}
+[1.810381] (-) TimerEvent: {}
+[1.911155] (-) TimerEvent: {}
+[2.011699] (-) TimerEvent: {}
+[2.112203] (-) TimerEvent: {}
+[2.212689] (-) TimerEvent: {}
+[2.313334] (-) TimerEvent: {}
+[2.414768] (-) TimerEvent: {}
+[2.515268] (-) TimerEvent: {}
+[2.615824] (-) TimerEvent: {}
+[2.716342] (-) TimerEvent: {}
+[2.817909] (-) TimerEvent: {}
+[2.919804] (-) TimerEvent: {}
+[3.020895] (-) TimerEvent: {}
+[3.121463] (-) TimerEvent: {}
+[3.221886] (-) TimerEvent: {}
+[3.322540] (-) TimerEvent: {}
+[3.422963] (-) TimerEvent: {}
+[3.524521] (-) TimerEvent: {}
+[3.625073] (-) TimerEvent: {}
+[3.725564] (-) TimerEvent: {}
+[3.823311] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.823525] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSimpleBlobDetector\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::SimpleBlobDetector\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.823598] (image_processing) StderrLine: {'line': b'   62 |         cv::Ptr<\x1b[01;31m\x1b[KSimpleBlobDetector\x1b[m\x1b[K> detector = SimpleBlobDetector::create(params);\n'}
+[3.823656] (image_processing) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.823710] (image_processing) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kcv::SimpleBlobDetector\x1b[m\x1b[K\n'}
+[3.823762] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/calib3d.hpp:48\x1b[m\x1b[K,\n'}
+[3.823814] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:56\x1b[m\x1b[K,\n'}
+[3.823864] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3\x1b[m\x1b[K:\n'}
+[3.823914] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::SimpleBlobDetector\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.824003] (image_processing) StderrLine: {'line': b'  695 | class CV_EXPORTS_W \x1b[01;36m\x1b[KSimpleBlobDetector\x1b[m\x1b[K : public Feature2D\n'}
+[3.824092] (image_processing) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.824147] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.824198] (image_processing) StderrLine: {'line': b'   62 |         cv::Ptr<SimpleBlobDetector\x1b[01;31m\x1b[K>\x1b[m\x1b[K detector = SimpleBlobDetector::create(params);\n'}
+[3.824247] (image_processing) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.824296] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSimpleBlobDetector\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[3.824347] (image_processing) StderrLine: {'line': b'   62 |         cv::Ptr<SimpleBlobDetector> detector = \x1b[01;31m\x1b[KSimpleBlobDetector\x1b[m\x1b[K::create(params);\n'}
+[3.824396] (image_processing) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.825975] (-) TimerEvent: {}
+[3.844955] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdetector\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.845231] (image_processing) StderrLine: {'line': b'   62 |         cv::Ptr<SimpleBlobDetector> \x1b[01;35m\x1b[Kdetector\x1b[m\x1b[K = SimpleBlobDetector::create(params);\n'}
+[3.845460] (image_processing) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.926650] (-) TimerEvent: {}
+[4.027187] (-) TimerEvent: {}
+[4.127689] (-) TimerEvent: {}
+[4.228135] (-) TimerEvent: {}
+[4.328685] (-) TimerEvent: {}
+[4.430261] (-) TimerEvent: {}
+[4.530495] (-) TimerEvent: {}
+[4.631266] (-) TimerEvent: {}
+[4.731796] (-) TimerEvent: {}
+[4.832383] (-) TimerEvent: {}
+[4.932911] (-) TimerEvent: {}
+[5.033402] (-) TimerEvent: {}
+[5.133932] (-) TimerEvent: {}
+[5.234437] (-) TimerEvent: {}
+[5.334991] (-) TimerEvent: {}
+[5.435545] (-) TimerEvent: {}
+[5.536030] (-) TimerEvent: {}
+[5.636656] (-) TimerEvent: {}
+[5.737127] (-) TimerEvent: {}
+[5.837648] (-) TimerEvent: {}
+[5.938093] (-) TimerEvent: {}
+[6.038741] (-) TimerEvent: {}
+[6.139211] (-) TimerEvent: {}
+[6.240671] (-) TimerEvent: {}
+[6.341219] (-) TimerEvent: {}
+[6.441845] (-) TimerEvent: {}
+[6.542269] (-) TimerEvent: {}
+[6.642852] (-) TimerEvent: {}
+[6.743457] (-) TimerEvent: {}
+[6.843846] (-) TimerEvent: {}
+[6.944407] (-) TimerEvent: {}
+[7.044930] (-) TimerEvent: {}
+[7.145514] (-) TimerEvent: {}
+[7.163142] (image_processing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1\n'}
+[7.164122] (image_processing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2\n'}
+[7.164234] (image_processing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.166303] (image_processing) CommandEnded: {'returncode': 2}
+[7.226216] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 2}
+[7.227203] (-) EventReactorShutdown: {}

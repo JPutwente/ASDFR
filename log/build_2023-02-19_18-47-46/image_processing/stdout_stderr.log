@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target brightness_check[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/brightness_check.dir/src/brightness_check.cpp.o[0m
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/brightness_check.cpp:[m[K In constructor ‘[01m[KImageBrightnessNode::ImageBrightnessNode()[m[K’:
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/brightness_check.cpp:16:77:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid ImageBrightnessNode::image_callback(const image_tools::ROSCvMatContainer&)[m[K’
+   16 |     sub_ = create_subscription<image_tools::ROSCvMatContainer>("image", 10, [01;31m[Kimage_callback[m[K);
+      |                                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/brightness_check.cpp:20:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   20 |   void [01;36m[Kimage_callback[m[K(const image_tools::ROSCvMatContainer & container)
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/brightness_check.cpp:[m[K In member function ‘[01m[Kvoid ImageBrightnessNode::image_callback(const image_tools::ROSCvMatContainer&)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/brightness_check.cpp:20:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontainer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 |   void image_callback([01;35m[Kconst image_tools::ROSCvMatContainer & container[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/brightness_check.dir/build.make:76: CMakeFiles/brightness_check.dir/src/brightness_check.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brightness_check.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

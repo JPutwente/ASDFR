@@ -1,0 +1,42 @@
+[0.013s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target grayscaler[0m
+[0.070s] [ 33%] Built target brightness_check
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o[0m
+[0.095s] [ 83%] Built target brightmask
+[3.158s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:34[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.159s]                  from [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:1[m[K:
+[3.159s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_tools[m[K’ was not declared in this scope
+[3.159s]    10 |   [01;31m[Kimage_tools[m[K::ROSCvMatContainer,
+[3.160s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.160s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:9:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.160s]     9 | [01;31m[KRCLCPP_USING_CUSTOM_TYPE_AS_ROS_MESSAGE_TYPE[m[K(
+[3.160s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.171s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_tools[m[K’ was not declared in this scope
+[3.171s]    10 |   [01;31m[Kimage_tools[m[K::ROSCvMatContainer,
+[3.171s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.171s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:9:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.171s]     9 | [01;31m[KRCLCPP_USING_CUSTOM_TYPE_AS_ROS_MESSAGE_TYPE[m[K(
+[3.171s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.171s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:9:1:[m[K [01;31m[Kerror: [m[Kexplicit specialization of non-template ‘[01m[K<unnamed struct>[m[K’
+[3.171s]     9 | [01;31m[KRCLCPP_USING_CUSTOM_TYPE_AS_ROS_MESSAGE_TYPE[m[K(
+[3.172s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.172s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_specialized[m[K’ has not been declared
+[3.172s]     9 | [01;31m[KRCLCPP_USING_CUSTOM_TYPE_AS_ROS_MESSAGE_TYPE[m[K(
+[3.172s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.172s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:9:1:[m[K [01;31m[Kerror: [m[Kabstract declarator ‘[01m[K<unnamed struct>[m[K’ used as declaration
+[3.172s]     9 | [01;31m[KRCLCPP_USING_CUSTOM_TYPE_AS_ROS_MESSAGE_TYPE[m[K(
+[3.172s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.609s] gmake[2]: *** [CMakeFiles/grayscaler.dir/build.make:76: CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o] Error 1
+[6.610s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/grayscaler.dir/all] Error 2
+[6.611s] gmake: *** [Makefile:146: all] Error 2
+[6.612s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.087s] [ 25%] Built target grayscaler
+[0.089s] [ 50%] Built target brightness_check
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[0.118s] [ 75%] Built target brightmask
+[0.124s] [ 87%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[3.363s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.363s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.363s]    85 |         [01;31m[Kpublisher_[m[K->publish(pos);
+[3.363s]       |         [01;31m[K^~~~~~~~~~[m[K
+[3.364s]       |         [32m[Krmw_publisher_t[m[K
+[6.138s] gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+[6.139s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+[6.140s] gmake: *** [Makefile:146: all] Error 2
+[6.141s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

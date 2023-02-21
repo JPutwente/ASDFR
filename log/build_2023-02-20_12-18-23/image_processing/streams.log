@@ -1,0 +1,13 @@
+[0.155s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[1.247s] [35m[1mConsolidate compiler generated dependencies of target grayscaler[0m
+[1.267s] [ 33%] Built target brightness_check
+[1.275s] [ 66%] Built target grayscaler
+[1.361s] [ 83%] [32mBuilding CXX object CMakeFiles/brightmask.dir/src/brightness_mask.cpp.o[0m
+[7.725s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/brightness_mask.cpp:[m[K In member function ‘[01m[Kvoid BrightnessMask::image_callback(sensor_msgs::msg::Image)[m[K’:
+[7.725s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/brightness_mask.cpp:30:40:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<cv_bridge::CvImage>[m[K’} to non-scalar type ‘[01m[Kcv::Mat[m[K’ requested
+[7.725s]    30 |     cv::Mat image = [01;31m[Kcv_bridge::toCvCopy(image_msg,  "mono8")[m[K;
+[7.725s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.948s] gmake[2]: *** [CMakeFiles/brightmask.dir/build.make:76: CMakeFiles/brightmask.dir/src/brightness_mask.cpp.o] Error 1
+[11.950s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/brightmask.dir/all] Error 2
+[11.950s] gmake: *** [Makefile:146: all] Error 2
+[12.277s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

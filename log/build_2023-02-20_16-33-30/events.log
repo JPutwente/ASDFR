@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000452] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.000496] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.013653] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.014604] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.014652] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/build/image_processing', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1996'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1297,unix/ramuser-vm:/tmp/.ICE-unix/1297'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/06119048_b97a_416a_99e2_bedb1620789d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RI8M01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble')]), 'shell': False}
+[0.081772] (image_processing) StdoutLine: {'line': b'[ 25%] Built target grayscaler\n'}
+[0.082404] (image_processing) StdoutLine: {'line': b'[ 50%] Built target brightness_check\n'}
+[0.096840] (-) TimerEvent: {}
+[0.098771] (image_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target light_tracker\x1b[0m\n'}
+[0.108571] (image_processing) StdoutLine: {'line': b'[ 75%] Built target brightmask\n'}
+[0.120931] (image_processing) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o\x1b[0m\n'}
+[0.197039] (-) TimerEvent: {}
+[0.298020] (-) TimerEvent: {}
+[0.398547] (-) TimerEvent: {}
+[0.499054] (-) TimerEvent: {}
+[0.599626] (-) TimerEvent: {}
+[0.701088] (-) TimerEvent: {}
+[0.801589] (-) TimerEvent: {}
+[0.903166] (-) TimerEvent: {}
+[1.003624] (-) TimerEvent: {}
+[1.104218] (-) TimerEvent: {}
+[1.205650] (-) TimerEvent: {}
+[1.307223] (-) TimerEvent: {}
+[1.407830] (-) TimerEvent: {}
+[1.508215] (-) TimerEvent: {}
+[1.608806] (-) TimerEvent: {}
+[1.709353] (-) TimerEvent: {}
+[1.809841] (-) TimerEvent: {}
+[1.910318] (-) TimerEvent: {}
+[2.010945] (-) TimerEvent: {}
+[2.111498] (-) TimerEvent: {}
+[2.213399] (-) TimerEvent: {}
+[2.313736] (-) TimerEvent: {}
+[2.414958] (-) TimerEvent: {}
+[2.515565] (-) TimerEvent: {}
+[2.616077] (-) TimerEvent: {}
+[2.717492] (-) TimerEvent: {}
+[2.818183] (-) TimerEvent: {}
+[2.918580] (-) TimerEvent: {}
+[3.019101] (-) TimerEvent: {}
+[3.119647] (-) TimerEvent: {}
+[3.220215] (-) TimerEvent: {}
+[3.321657] (-) TimerEvent: {}
+[3.422221] (-) TimerEvent: {}
+[3.522718] (-) TimerEvent: {}
+[3.623276] (-) TimerEvent: {}
+[3.723839] (-) TimerEvent: {}
+[3.824179] (-) TimerEvent: {}
+[3.924564] (-) TimerEvent: {}
+[4.000469] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.000740] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:27:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDetect\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kselect\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.000828] (image_processing) StderrLine: {'line': b'   27 |         \x1b[01;31m\x1b[KDetect\x1b[m\x1b[K blobs.\n'}
+[4.000900] (image_processing) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.000968] (image_processing) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kselect\x1b[m\x1b[K\n'}
+[4.010075] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:29:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimage_th\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kimage\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.010316] (image_processing) StderrLine: {'line': b'   29 |         detector.detect( \x1b[01;31m\x1b[Kimage_th\x1b[m\x1b[K, keypoints);\n'}
+[4.010411] (image_processing) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.010517] (image_processing) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kimage\x1b[m\x1b[K\n'}
+[4.019201] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:29:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkeypoints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.019360] (image_processing) StderrLine: {'line': b'   29 |         detector.detect( image_th, \x1b[01;31m\x1b[Kkeypoints\x1b[m\x1b[K);\n'}
+[4.019423] (image_processing) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.024945] (-) TimerEvent: {}
+[4.125537] (-) TimerEvent: {}
+[4.226132] (-) TimerEvent: {}
+[4.326643] (-) TimerEvent: {}
+[4.427103] (-) TimerEvent: {}
+[4.527621] (-) TimerEvent: {}
+[4.628193] (-) TimerEvent: {}
+[4.729705] (-) TimerEvent: {}
+[4.831184] (-) TimerEvent: {}
+[4.931716] (-) TimerEvent: {}
+[5.032176] (-) TimerEvent: {}
+[5.132749] (-) TimerEvent: {}
+[5.233311] (-) TimerEvent: {}
+[5.334860] (-) TimerEvent: {}
+[5.435284] (-) TimerEvent: {}
+[5.535807] (-) TimerEvent: {}
+[5.636418] (-) TimerEvent: {}
+[5.736865] (-) TimerEvent: {}
+[5.837427] (-) TimerEvent: {}
+[5.937932] (-) TimerEvent: {}
+[6.038488] (-) TimerEvent: {}
+[6.139013] (-) TimerEvent: {}
+[6.239264] (-) TimerEvent: {}
+[6.340160] (-) TimerEvent: {}
+[6.440666] (-) TimerEvent: {}
+[6.541215] (-) TimerEvent: {}
+[6.641695] (-) TimerEvent: {}
+[6.743168] (-) TimerEvent: {}
+[6.843659] (-) TimerEvent: {}
+[6.944251] (-) TimerEvent: {}
+[7.044763] (-) TimerEvent: {}
+[7.145235] (-) TimerEvent: {}
+[7.245782] (-) TimerEvent: {}
+[7.254618] (image_processing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1\n'}
+[7.256660] (image_processing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2\n'}
+[7.257612] (image_processing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.258030] (image_processing) CommandEnded: {'returncode': 2}
+[7.313268] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 2}
+[7.324370] (-) EventReactorShutdown: {}

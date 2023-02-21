@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000640] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.000679] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.009548] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.010653] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.010698] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/build/image_processing', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1318'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1288,unix/ramuser-vm:/tmp/.ICE-unix/1288'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/70712348_c24e_4c7b_8d4c_0300259c98b3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KJBK01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066697] (image_processing) StdoutLine: {'line': b'[ 50%] Built target grayscaler\n'}
+[0.066895] (image_processing) StdoutLine: {'line': b'[ 50%] Built target brightness_check\n'}
+[0.079213] (image_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target light_tracker\x1b[0m\n'}
+[0.090512] (image_processing) StdoutLine: {'line': b'[ 75%] Built target brightmask\n'}
+[0.096251] (image_processing) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o\x1b[0m\n'}
+[0.099536] (-) TimerEvent: {}
+[0.199857] (-) TimerEvent: {}
+[0.300353] (-) TimerEvent: {}
+[0.400772] (-) TimerEvent: {}
+[0.501199] (-) TimerEvent: {}
+[0.601570] (-) TimerEvent: {}
+[0.701966] (-) TimerEvent: {}
+[0.802308] (-) TimerEvent: {}
+[0.902668] (-) TimerEvent: {}
+[1.003003] (-) TimerEvent: {}
+[1.103457] (-) TimerEvent: {}
+[1.203887] (-) TimerEvent: {}
+[1.304304] (-) TimerEvent: {}
+[1.426552] (-) TimerEvent: {}
+[1.526906] (-) TimerEvent: {}
+[1.627228] (-) TimerEvent: {}
+[1.727639] (-) TimerEvent: {}
+[1.828061] (-) TimerEvent: {}
+[1.928400] (-) TimerEvent: {}
+[2.028770] (-) TimerEvent: {}
+[2.129191] (-) TimerEvent: {}
+[2.229542] (-) TimerEvent: {}
+[2.329993] (-) TimerEvent: {}
+[2.430392] (-) TimerEvent: {}
+[2.530750] (-) TimerEvent: {}
+[2.631539] (-) TimerEvent: {}
+[2.731919] (-) TimerEvent: {}
+[2.833020] (-) TimerEvent: {}
+[2.933433] (-) TimerEvent: {}
+[3.033812] (-) TimerEvent: {}
+[3.046971] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLightTracker::LightTracker()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.047197] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.047272] (image_processing) StderrLine: {'line': b'   17 |     publisher_ = this->create_publisher<std_msgs::msg::String>("COGL", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.047329] (image_processing) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.047547] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.047619] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.047673] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.047724] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.047785] (image_processing) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[3.047836] (image_processing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.047887] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.047937] (image_processing) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.047995] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.048049] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:74:\x1b[m\x1b[K   required from here\n'}
+[3.048099] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.048150] (image_processing) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.048200] (image_processing) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.048249] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.048311] (image_processing) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[3.048362] (image_processing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.048437] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.048490] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.048549] (image_processing) StderrLine: {'line': b'   17 |     publisher_ = this->create_publisher<std_msgs::msg::String>("COGL", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.048609] (image_processing) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.048659] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.048708] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.048757] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.048806] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.048862] (image_processing) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[3.049032] (image_processing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.049095] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.049150] (image_processing) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.049205] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.049258] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:74:\x1b[m\x1b[K   required from here\n'}
+[3.049309] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.049373] (image_processing) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.049436] (image_processing) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.049485] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.049542] (image_processing) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[3.049597] (image_processing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.049645] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.049694] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.049749] (image_processing) StderrLine: {'line': b'   17 |     publisher_ = this->create_publisher<std_msgs::msg::String>("COGL", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.049798] (image_processing) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.049846] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.049894] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.049942] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.049991] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.050045] (image_processing) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[3.050098] (image_processing) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.050147] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.050198] (image_processing) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[3.050247] (image_processing) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.050295] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.050381] (image_processing) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[3.050458] (image_processing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.050506] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.050597] (image_processing) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[3.050646] (image_processing) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.061504] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.061665] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:85:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >::publish(std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.061729] (image_processing) StderrLine: {'line': b'   85 |         \x1b[01;31m\x1b[Kpublisher_->publish(pos)\x1b[m\x1b[K;\n'}
+[3.061786] (image_processing) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.061838] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[3.061890] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.061945] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.061997] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.062045] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.062158] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.062208] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.062257] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.062306] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.062365] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.062415] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.062463] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.062535] (image_processing) StderrLine: {'line': b'  251 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)\n'}
+[3.062585] (image_processing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.062633] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.062682] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:85:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.062732] (image_processing) StderrLine: {'line': b'   85 |         \x1b[01;36m\x1b[Kpublisher_->publish(pos)\x1b[m\x1b[K;\n'}
+[3.062780] (image_processing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.062828] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[3.062877] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.062925] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.062972] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.063020] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.063188] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.063242] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.063290] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.063338] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.063386] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.063435] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.063483] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.063537] (image_processing) StderrLine: {'line': b'  292 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[3.063592] (image_processing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.063641] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.063690] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[3.063742] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[3.063797] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[3.063850] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[3.063901] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.063954] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.064086] (image_processing) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.064151] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, sensor_msgs::msg::Image_<std::allocator<void> > >::value), void> rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >::publish<T>(const T&) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.064205] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:85:28:\x1b[m\x1b[K   required from here\n'}
+[3.064260] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2585:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.064311] (image_processing) StderrLine: {'line': b' 2585 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[3.064364] (image_processing) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.064414] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[3.064463] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.064512] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.064561] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.064609] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.064657] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.064705] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.064753] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.064832] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.064881] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.064929] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.065011] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.065099] (image_processing) StderrLine: {'line': b'  322 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, PublishedTypeDeleter> msg)\n'}
+[3.065149] (image_processing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.065198] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.065252] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:85:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.065304] (image_processing) StderrLine: {'line': b'   85 |         \x1b[01;36m\x1b[Kpublisher_->publish(pos)\x1b[m\x1b[K;\n'}
+[3.065352] (image_processing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.065401] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[3.065450] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.065498] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.065547] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.065595] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.065643] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.065691] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.065745] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.065794] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.065846] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.065895] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.065943] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066028] (image_processing) StderrLine: {'line': b'  364 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[3.066078] (image_processing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.066126] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.066176] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066227] (image_processing) StderrLine: {'line': b'  383 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[3.066275] (image_processing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.066323] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_s&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.066373] (image_processing) StderrLine: {'line': b'  383 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[3.066421] (image_processing) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.066469] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066519] (image_processing) StderrLine: {'line': b'  389 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[3.066569] (image_processing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.066617] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066675] (image_processing) StderrLine: {'line': b'  389 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[3.066724] (image_processing) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.066773] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066825] (image_processing) StderrLine: {'line': b'  403 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)\n'}
+[3.066873] (image_processing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.066921] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066997] (image_processing) StderrLine: {'line': b'  403 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[3.067079] (image_processing) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.135703] (-) TimerEvent: {}
+[3.236136] (-) TimerEvent: {}
+[3.336474] (-) TimerEvent: {}
+[3.436888] (-) TimerEvent: {}
+[3.537441] (-) TimerEvent: {}
+[3.637865] (-) TimerEvent: {}
+[3.738335] (-) TimerEvent: {}
+[3.838886] (-) TimerEvent: {}
+[3.949204] (-) TimerEvent: {}
+[4.049795] (-) TimerEvent: {}
+[4.150374] (-) TimerEvent: {}
+[4.250757] (-) TimerEvent: {}
+[4.351175] (-) TimerEvent: {}
+[4.451556] (-) TimerEvent: {}
+[4.552378] (-) TimerEvent: {}
+[4.652759] (-) TimerEvent: {}
+[4.753273] (-) TimerEvent: {}
+[4.853648] (-) TimerEvent: {}
+[4.954238] (-) TimerEvent: {}
+[5.055176] (-) TimerEvent: {}
+[5.155543] (-) TimerEvent: {}
+[5.256183] (-) TimerEvent: {}
+[5.356765] (-) TimerEvent: {}
+[5.457143] (-) TimerEvent: {}
+[5.557509] (-) TimerEvent: {}
+[5.657960] (-) TimerEvent: {}
+[5.758863] (-) TimerEvent: {}
+[5.859391] (-) TimerEvent: {}
+[5.945575] (image_processing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1\n'}
+[5.945974] (image_processing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2\n'}
+[5.946039] (image_processing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.947598] (image_processing) CommandEnded: {'returncode': 2}
+[5.959572] (-) TimerEvent: {}
+[5.993101] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 2}
+[6.004638] (-) EventReactorShutdown: {}

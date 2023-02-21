@@ -1,0 +1,63 @@
+[0.058s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/brightnode -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/install/image_processing
+[1.411s] -- The C compiler identification is GNU 11.3.0
+[1.622s] -- The CXX compiler identification is GNU 11.3.0
+[1.713s] -- Detecting C compiler ABI info
+[1.860s] -- Detecting C compiler ABI info - done
+[1.868s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.870s] -- Detecting C compile features
+[1.885s] -- Detecting C compile features - done
+[1.897s] -- Detecting CXX compiler ABI info
+[2.083s] -- Detecting CXX compiler ABI info - done
+[2.090s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.091s] -- Detecting CXX compile features
+[2.091s] -- Detecting CXX compile features - done
+[2.277s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.613s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.053s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[3.447s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.462s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.486s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.647s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.838s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.864s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.438s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.489s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.531s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.591s] -- Looking for pthread.h
+[4.690s] -- Looking for pthread.h - found
+[4.691s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.103s] -- Found Threads: TRUE  
+[5.462s] -- Found OpenCV: /usr (found version "4.5.4") 
+[5.501s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.750s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[5.863s] -- Configuring done
+[5.911s] -- Generating done
+[5.913s] -- Build files have been written to: /home/ram-user/ASDFR/build/image_processing
+[5.924s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/brightnode -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/install/image_processing
+[5.925s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[5.967s] [ 50%] [32mBuilding CXX object CMakeFiles/brightness_check.dir/src/brightness_check.cpp.o[0m
+[19.772s] [100%] [32m[1mLinking CXX executable brightness_check[0m
+[26.128s] [100%] Built target brightness_check
+[26.168s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[26.223s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing
+[26.263s] -- Install configuration: ""
+[26.293s] -- Installing: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check
+[26.311s] -- Set runtime path of "/home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check" to ""
+[26.311s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+[26.312s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+[26.313s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+[26.313s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+[26.314s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.sh
+[26.314s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.dsv
+[26.315s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.bash
+[26.317s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.sh
+[26.317s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.zsh
+[26.319s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.dsv
+[26.319s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.dsv
+[26.319s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/packages/image_processing
+[26.320s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+[26.321s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+[26.321s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.xml
+[26.324s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing

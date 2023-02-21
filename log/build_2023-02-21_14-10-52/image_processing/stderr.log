@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o'
+gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/light_tracker.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

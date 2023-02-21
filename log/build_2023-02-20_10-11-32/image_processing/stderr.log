@@ -1,0 +1,8 @@
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:[m[K In constructor ‘[01m[KGreyScalerNode::GreyScalerNode()[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   15 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::Image>("image", 10, std::bind(&GreyScalerNode::image_callback, this, std::placeholders::_1));
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/grayscaler.dir/build.make:76: CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/grayscaler.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

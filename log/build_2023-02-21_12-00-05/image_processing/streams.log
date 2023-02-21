@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.077s] [ 25%] Built target brightness_check
+[0.083s] [ 50%] Built target grayscaler
+[0.104s] [ 75%] Built target brightmask
+[0.122s] [ 87%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[4.383s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.383s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:78:18:[m[K [01;31m[Kerror: [m[K‘[01m[KX[m[K’ was not declared in this scope
+[4.383s]    78 |         pos[0] = [01;31m[KX[m[K;
+[4.383s]       |                  [01;31m[K^[m[K
+[4.388s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:79:18:[m[K [01;31m[Kerror: [m[K‘[01m[KY[m[K’ was not declared in this scope
+[4.388s]    79 |         pos[1] = [01;31m[KY[m[K;
+[4.388s]       |                  [01;31m[K^[m[K
+[4.396s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[4.396s]    82 |         [01;31m[Kpublisher_[m[K->publish(pos);
+[4.396s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.396s]       |         [32m[Krmw_publisher_t[m[K
+[7.588s] gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+[7.589s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+[7.590s] gmake: *** [Makefile:146: all] Error 2
+[7.591s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

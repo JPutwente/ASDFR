@@ -1,0 +1,220 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp: In instantiation of ‘[01m[Kclass rclcpp::Publisher<std::vector<Pos> >[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:91:40:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: given message type is not compatible with ROS and cannot be used with a Publisher
+   81 |     rclcpp::is_ros_compatible_type<MessageT>::[01;31m[Kvalue[m[K,
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::is_ros_compatible_type<std::vector<Pos> >::value[m[K’ evaluates to false
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:60:[m[K [01;31m[Kerror: [m[K‘[01m[KX[m[K’ was not declared in this scope
+   80 |             RCLCPP_INFO(this->get_logger(), "X %f! Y %f!", [01;31m[KX[m[K, Y);
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:63:[m[K [01;31m[Kerror: [m[K‘[01m[KY[m[K’ was not declared in this scope
+   80 |             RCLCPP_INFO(this->get_logger(), "X %f! Y %f!", X, [01;31m[KY[m[K);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<Pos>::vector(Pos&)[m[K’
+   83 |         std::vector<Pos> vector_pos(pos[01;31m[K)[m[K;
+      |                                        [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:653:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _InputIterator, class> std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = Pos; _Alloc = std::allocator<Pos>][m[K’
+  653 |         [01;36m[Kvector[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:653:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:40:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+   83 |         std::vector<Pos> vector_pos(pos[01;36m[K)[m[K;
+      |                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::initializer_list<_Tp>, const allocator_type&) [with _Tp = Pos; _Alloc = std::allocator<Pos>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Pos>][m[K’
+  625 |       [01;36m[Kvector[m[K(initializer_list<value_type> __l,
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:625:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPos[m[K’ to ‘[01m[Kstd::initializer_list<Pos>[m[K’
+  625 |       vector([01;36m[Kinitializer_list<value_type> __l[m[K,
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:607:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&) [with _Tp = Pos; _Alloc = std::allocator<Pos>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Pos>][m[K’
+  607 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:607:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/11/bits/stl_vector.h:589:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&, std::false_type) [with _Tp = Pos; _Alloc = std::allocator<Pos>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Pos>; std::false_type = std::integral_constant<bool, false>][m[K’
+  589 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m, false_type)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:589:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/11/bits/stl_vector.h:585:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&, std::true_type) [with _Tp = Pos; _Alloc = std::allocator<Pos>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Pos>; std::true_type = std::integral_constant<bool, true>][m[K’
+  585 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m, true_type) noexcept
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:585:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/11/bits/stl_vector.h:575:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&, const allocator_type&) [with _Tp = Pos; _Alloc = std::allocator<Pos>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Pos>][m[K’
+  575 |       [01;36m[Kvector[m[K(const vector& __x, const allocator_type& __a)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:575:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/11/bits/stl_vector.h:572:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&) [with _Tp = Pos; _Alloc = std::allocator<Pos>][m[K’
+  572 |       [01;36m[Kvector[m[K(vector&&) noexcept = default;
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:572:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPos[m[K’ to ‘[01m[Kstd::vector<Pos>&&[m[K’
+  572 |       vector([01;36m[Kvector&&[m[K) noexcept = default;
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:553:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = Pos; _Alloc = std::allocator<Pos>][m[K’
+  553 |       [01;36m[Kvector[m[K(const vector& __x)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:553:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPos[m[K’ to ‘[01m[Kconst std::vector<Pos>&[m[K’
+  553 |       vector([01;36m[Kconst vector& __x[m[K)
+      |              [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:522:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = Pos; _Alloc = std::allocator<Pos>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = Pos; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Pos>][m[K’
+  522 |       [01;36m[Kvector[m[K(size_type __n, const value_type& __value,
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:522:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/11/bits/stl_vector.h:510:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = Pos; _Alloc = std::allocator<Pos>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Pos>][m[K’
+  510 |       [01;36m[Kvector[m[K(size_type __n, const allocator_type& __a = allocator_type())
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:510:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPos[m[K’ to ‘[01m[Kstd::vector<Pos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+  510 |       vector([01;36m[Ksize_type __n[m[K, const allocator_type& __a = allocator_type())
+      |              [01;36m[K~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:497:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const allocator_type&) [with _Tp = Pos; _Alloc = std::allocator<Pos>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Pos>][m[K’
+  497 |       [01;36m[Kvector[m[K(const allocator_type& __a) _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:497:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPos[m[K’ to ‘[01m[Kconst allocator_type&[m[K’ {aka ‘[01m[Kconst std::allocator<Pos>&[m[K’}
+  497 |       vector([01;36m[Kconst allocator_type& __a[m[K) _GLIBCXX_NOEXCEPT
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector() [with _Tp = Pos; _Alloc = std::allocator<Pos>][m[K’
+  487 |       [01;36m[Kvector[m[K() = default;
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:87:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<std::vector<Pos> >::publish(std::vector<Pos>&)[m[K’
+   87 |         [01;31m[Kpublisher_->publish(vector_pos)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = std::vector<Pos>; AllocatorT = std::allocator<void>][m[K’
+  251 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:87:28:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<Pos>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<std::vector<Pos> > >[m[K’
+   87 |         [01;36m[Kpublisher_->publish(vector_pos)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = std::vector<Pos>; AllocatorT = std::allocator<void>][m[K’
+  292 |   [01;36m[Kpublish[m[K(const T & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+/usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K   required by substitution of ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, std::vector<Pos> >::value), void> rclcpp::Publisher<std::vector<Pos> >::publish<T>(const T&) [with T = std::vector<Pos>][m[K’
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:87:28:[m[K   required from here
+[01m[K/usr/include/c++/11/type_traits:2585:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+ 2585 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+      |           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = std::vector<Pos>; AllocatorT = std::allocator<void>][m[K’
+  322 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:87:28:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<Pos>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<std::vector<Pos> > >[m[K’
+   87 |         [01;36m[Kpublisher_->publish(vector_pos)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = std::vector<Pos>; AllocatorT = std::allocator<void>][m[K’
+  364 |   [01;36m[Kpublish[m[K(const T & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = std::vector<Pos>; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K’
+  383 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<Pos>[m[K’ to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+  383 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = std::vector<Pos>; AllocatorT = std::allocator<void>][m[K’
+  389 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<Pos>[m[K’ to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+  389 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = std::vector<Pos>; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = std::vector<Pos>][m[K’
+  403 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<Pos>[m[K’ to ‘[01m[Krclcpp::LoanedMessage<std::vector<Pos>, std::allocator<void> >&&[m[K’
+  403 |   publish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

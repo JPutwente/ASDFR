@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001111] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.001143] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.010444] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.011182] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.011925] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/build/image_processing', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user/ASDFR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184bf434_8859_40da_bd1e_cbd4f5b5895f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QIL8Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble')]), 'shell': False}
+[0.040024] (image_processing) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.103488] (-) TimerEvent: {}
+[0.188063] (image_processing) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.203973] (-) TimerEvent: {}
+[0.217560] (image_processing) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.220138] (image_processing) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.225909] (image_processing) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.240180] (image_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.257239] (image_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.311063] (-) TimerEvent: {}
+[0.328125] (image_processing) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.331796] (image_processing) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.411876] (-) TimerEvent: {}
+[0.464021] (image_processing) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.512634] (-) TimerEvent: {}
+[0.613241] (-) TimerEvent: {}
+[0.641114] (image_processing) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.713446] (-) TimerEvent: {}
+[0.768642] (image_processing) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.775854] (image_processing) StdoutLine: {'line': b'-- Found image_tools: 0.20.3 (/opt/ros/humble/share/image_tools/cmake)\n'}
+[0.813643] (-) TimerEvent: {}
+[0.911505] (image_processing) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.914129] (-) TimerEvent: {}
+[1.015207] (-) TimerEvent: {}
+[1.053928] (image_processing) StdoutLine: {'line': b'-- Generating done\n'}
+[1.055870] (image_processing) StdoutLine: {'line': b'-- Build files have been written to: /home/ram-user/ASDFR/build/image_processing\n'}
+[1.079947] (image_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target brightness_check\x1b[0m\n'}
+[1.089649] (image_processing) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o\x1b[0m\n'}
+[1.097356] (image_processing) StdoutLine: {'line': b'[ 75%] Built target brightness_check\n'}
+[1.115375] (-) TimerEvent: {}
+[1.216449] (-) TimerEvent: {}
+[1.317535] (-) TimerEvent: {}
+[1.417986] (-) TimerEvent: {}
+[1.518472] (-) TimerEvent: {}
+[1.619007] (-) TimerEvent: {}
+[1.719420] (-) TimerEvent: {}
+[1.819781] (-) TimerEvent: {}
+[1.920469] (-) TimerEvent: {}
+[2.020918] (-) TimerEvent: {}
+[2.121520] (-) TimerEvent: {}
+[2.221900] (-) TimerEvent: {}
+[2.322557] (-) TimerEvent: {}
+[2.423187] (-) TimerEvent: {}
+[2.523576] (-) TimerEvent: {}
+[2.624332] (-) TimerEvent: {}
+[2.724705] (-) TimerEvent: {}
+[2.825715] (-) TimerEvent: {}
+[2.926245] (-) TimerEvent: {}
+[3.026884] (-) TimerEvent: {}
+[3.127337] (-) TimerEvent: {}
+[3.227919] (-) TimerEvent: {}
+[3.328340] (-) TimerEvent: {}
+[3.428973] (-) TimerEvent: {}
+[3.529505] (-) TimerEvent: {}
+[3.629904] (-) TimerEvent: {}
+[3.730293] (-) TimerEvent: {}
+[3.830715] (-) TimerEvent: {}
+[3.931261] (-) TimerEvent: {}
+[4.031745] (-) TimerEvent: {}
+[4.132232] (-) TimerEvent: {}
+[4.233062] (-) TimerEvent: {}
+[4.332559] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:13:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KGreyScalerNode\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.332774] (image_processing) StderrLine: {'line': b'   13 |   \x1b[01;31m\x1b[KGreyScalerNode\x1b[m\x1b[K() : Node("grayscaler_node")\n'}
+[4.332868] (image_processing) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.333284] (-) TimerEvent: {}
+[4.338230] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ImageBrightnessNode::GreyScalerNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.338397] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:13:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[4.338472] (image_processing) StderrLine: {'line': b'   13 |   GreyScalerNode() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("grayscaler_node")\n'}
+[4.338532] (image_processing) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.361468] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.361665] (image_processing) StderrLine: {'line': b'   15 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::Image>("image", 10, std::bind(&GreyScalerNode::image_callback, this, std::placeholders::_1));\n'}
+[4.361729] (image_processing) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.361784] (image_processing) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[4.372178] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:15:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGreyScalerNode\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.372432] (image_processing) StderrLine: {'line': b'   15 |     subscription_ = this->create_subscription<sensor_msgs::msg::Image>("image", 10, std::bind(&\x1b[01;31m\x1b[KGreyScalerNode\x1b[m\x1b[K::image_callback, this, std::placeholders::_1));\n'}
+[4.372511] (image_processing) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.375624] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:18:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.375724] (image_processing) StderrLine: {'line': b'   18 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.375796] (image_processing) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.394816] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.394996] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:39:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGreyScalerNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.395059] (image_processing) StderrLine: {'line': b'   39 |   auto node = std::make_shared<\x1b[01;31m\x1b[KGreyScalerNode\x1b[m\x1b[K>();\n'}
+[4.395114] (image_processing) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.395166] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:39:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.395225] (image_processing) StderrLine: {'line': b'   39 |   auto node = \x1b[01;31m\x1b[Kstd::make_shared<GreyScalerNode>()\x1b[m\x1b[K;\n'}
+[4.395277] (image_processing) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[4.395429] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[4.395490] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.395543] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:1\x1b[m\x1b[K:\n'}
+[4.395594] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.395696] (image_processing) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[4.395796] (image_processing) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.395883] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.395951] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:39:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.396002] (image_processing) StderrLine: {'line': b'   39 |   auto node = \x1b[01;31m\x1b[Kstd::make_shared<GreyScalerNode>()\x1b[m\x1b[K;\n'}
+[4.396052] (image_processing) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[4.433855] (-) TimerEvent: {}
+[4.534378] (-) TimerEvent: {}
+[4.634908] (-) TimerEvent: {}
+[4.735436] (-) TimerEvent: {}
+[4.835967] (-) TimerEvent: {}
+[4.936492] (-) TimerEvent: {}
+[5.037024] (-) TimerEvent: {}
+[5.137549] (-) TimerEvent: {}
+[5.238063] (-) TimerEvent: {}
+[5.338753] (-) TimerEvent: {}
+[5.439105] (-) TimerEvent: {}
+[5.539686] (-) TimerEvent: {}
+[5.640204] (-) TimerEvent: {}
+[5.740715] (-) TimerEvent: {}
+[5.841251] (-) TimerEvent: {}
+[5.932279] (image_processing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/grayscaler.dir/build.make:76: CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o] Error 1\n'}
+[5.932814] (image_processing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/grayscaler.dir/all] Error 2\n'}
+[5.933025] (image_processing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.935713] (image_processing) CommandEnded: {'returncode': 2}
+[5.941741] (-) TimerEvent: {}
+[5.980264] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 2}
+[5.981217] (-) EventReactorShutdown: {}

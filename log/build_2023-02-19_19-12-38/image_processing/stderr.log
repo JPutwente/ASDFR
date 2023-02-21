@@ -1,0 +1,7 @@
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/brightness_check.cpp:[m[K In member function ‘[01m[Kvoid ImageBrightnessNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/brightness_check.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdarkness_threshold[m[K’ was not declared in this scope
+   29 |     [01;31m[Kdarkness_threshold[m[K = 5;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/brightness_check.dir/build.make:76: CMakeFiles/brightness_check.dir/src/brightness_check.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brightness_check.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

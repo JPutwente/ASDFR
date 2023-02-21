@@ -1,0 +1,7 @@
+[0.105s] Invoking command in '/home/ram-user/ASDFR/src/build/brightnode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/brightnode -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/brightnode
+[0.149s] [31mCMake Error at CMakeLists.txt:4:
+[0.149s]   Parse error.  Expected "(", got identifier with text "to".
+[0.149s] 
+[0.149s] [0m
+[0.150s] -- Configuring incomplete, errors occurred!
+[0.151s] Invoked command in '/home/ram-user/ASDFR/src/build/brightnode' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/brightnode -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/brightnode

@@ -1,0 +1,59 @@
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:63:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   63 |   rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::Image>::SharedPtr subscription_;
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:63:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |   rclcpp::Subscription<sensor_msgs::msg::Image[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:63:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:63:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:63:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:63:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   63 |   rclcpp::Subscription<sensor_msgs::msg::Image>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:63:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   63 |   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                            [32m[Krmw_subscription_t[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:[m[K In constructor ‘[01m[KBrightnessDeterminer::BrightnessDeterminer()[m[K’:
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   21 |     [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:22:75:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   22 |       "topic", 10, std::bind(&BrightnessDeterminer::topic_callback, this, [01;31m[K_1[m[K));
+      |                                                                           [01;31m[K^~[m[K
+      |                                                                           [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:5[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:[m[K In member function ‘[01m[Kvoid BrightnessDeterminer::topic_callback(const String&) const[m[K’:
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+   35 |     [01;31m[Kcv[m[K::Mat image = cv_bridge::toCvCopy(image_msg, "mono8")->image;
+      |     [01;31m[K^~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:38:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+   38 |     double brightness = [01;31m[Kcv[m[K::mean(image)[0];
+      |                         [01;31m[K^~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:38:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage[m[K’ was not declared in this scope
+   38 |     double brightness = cv::mean([01;31m[Kimage[m[K)[0];
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdarkness_threshold[m[K’ was not declared in this scope
+   45 |     [01;31m[Kdarkness_threshold[m[K = this->get_parameter("darkness_threshold").get_parameter_value();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:50:25:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst BrightnessDeterminer[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   50 |     [01;31m[Kthis->set_parameters(all_new_parameters)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:593:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::vector<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > > rclcpp::Node::set_parameters(const std::vector<rclcpp::Parameter>&)[m[K’
+  593 |   [01;36m[Kset_parameters[m[K(const std::vector<rclcpp::Parameter> & parameters);
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:32:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 |   void topic_callback([01;35m[Kconst std_msgs::msg::String & msg[m[K) const
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/Mrbrightside.dir/build.make:76: CMakeFiles/Mrbrightside.dir/src/Brightness_check.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Mrbrightside.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

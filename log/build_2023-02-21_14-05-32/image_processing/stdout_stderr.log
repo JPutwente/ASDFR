@@ -1,0 +1,6 @@
+[ 20%] Built target brightness_check
+[ 40%] Built target grayscaler
+[ 50%] [32mBuilding CXX object CMakeFiles/brightmask.dir/src/brightness_mask.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable brightmask[0m
+[ 60%] Built target brightmask
+[ 70%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m

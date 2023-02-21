@@ -1,0 +1,5 @@
+[ 20%] Built target brightness_check
+[ 40%] Built target grayscaler
+[ 60%] Built target brightmask
+[35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m

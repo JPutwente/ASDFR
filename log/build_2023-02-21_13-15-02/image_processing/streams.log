@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.069s] [ 50%] Built target brightness_check
+[0.069s] [ 50%] Built target grayscaler
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[0.092s] [ 75%] Built target brightmask
+[0.099s] [ 87%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[3.057s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.057s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose2D_<std::allocator<void> >[m[K’})
+[3.057s]    80 |         publisher_->publish([01;31m[K*Pos[m[K);
+[3.057s]       |                             [01;31m[K^~~~[m[K
+[3.057s] In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+[3.057s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.057s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.057s]                  from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[3.057s] [01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[3.058s]   392 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[3.058s]       |     [01;36m[K^~~~~~~~[m[K
+[3.058s] [01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.058s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose2D_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[3.058s]    80 |         publisher_->publish(*[01;36m[KPos[m[K);
+[3.058s]       |                              [01;36m[K^~~[m[K
+[3.058s] In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+[3.058s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.058s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.058s]                  from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[3.058s] [01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+[3.058s]   401 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+[3.058s]       |     [01;36m[K^~~~~~~~[m[K
+[3.058s] [01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.058s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose2D_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[3.058s]    80 |         publisher_->publish(*[01;36m[KPos[m[K);
+[3.058s]       |                              [01;36m[K^~~[m[K
+[3.058s] In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+[3.058s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.058s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.059s]                  from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[3.059s] [01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+[3.059s]   410 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+[3.059s]       |     [01;36m[K^~~~~~~~[m[K
+[3.059s] [01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.059s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:30:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[3.059s]    80 |         publisher_->publish(*[01;36m[KPos[m[K);
+[3.059s]       |                              [01;36m[K^~~[m[K
+[5.900s] gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+[5.900s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+[5.901s] gmake: *** [Makefile:146: all] Error 2
+[5.903s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

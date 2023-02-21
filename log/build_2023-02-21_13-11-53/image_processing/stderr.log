@@ -1,0 +1,72 @@
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPose2D[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’?
+   83 |     rclcpp::Publisher<geometry_msgs::[01;31m[KPose2D[m[K>::SharedPtr publisher_;
+      |                                      [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp:7[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’ declared here
+  150 | using [01;36m[KPose2D[m[K =
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   83 |     rclcpp::Publisher<geometry_msgs::Pose2D[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   83 |     rclcpp::Publisher<geometry_msgs::Pose2D>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   83 |     rclcpp::Publisher<geometry_msgs::Pose2D>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+      |                                                         [32m[Krmw_publisher_t[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In constructor ‘[01m[KLightTracker::LightTracker()[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   17 |     [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::Pose2D>("COGL", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:56:[m[K [01;31m[Kerror: [m[K‘[01m[KPose2D[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’?
+   17 |     publisher_ = this->create_publisher<geometry_msgs::[01;31m[KPose2D[m[K>("COGL", 10);
+      |                                                        [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp:7[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’ declared here
+  150 | using [01;36m[KPose2D[m[K =
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLightTracker::create_publisher<<expression error> >(const char [5], int)[m[K’
+   17 |   publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::Pose2D>("COGL", 10)[m[K;
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |   publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::Pose2D>("COGL", 10)[m[K;
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:25:24:[m[K [01;31m[Kerror: [m[K‘[01m[KPose2D[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’?
+   25 |         geometry_msgs::[01;31m[KPose2D[m[K Pos;
+      |                        [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp:7[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose2D[m[K’ declared here
+  150 | using [01;36m[KPose2D[m[K =
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:75:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+   75 |             [01;31m[KPos[m[K.x = keypoints[i].pt.x;
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kcos[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   80 |         [01;31m[Kpublisher_[m[K->publish(Pos);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+   80 |         publisher_->publish([01;31m[KPos[m[K);
+      |                             [01;31m[K^~~[m[K
+      |                             [32m[Kcos[m[K
+gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

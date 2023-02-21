@@ -1,0 +1,53 @@
+[ 25%] Built target grayscaler
+[ 50%] Built target brightness_check
+[35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[ 75%] Built target brightmask
+[ 87%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleBlobDetector[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::SimpleBlobDetector[m[K’?
+   28 |         [01;31m[KSimpleBlobDetector[m[K detector;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcv::SimpleBlobDetector[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/calib3d.hpp:48[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:56[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::SimpleBlobDetector[m[K’ declared here
+  695 | class CV_EXPORTS_W [01;36m[KSimpleBlobDetector[m[K : public Feature2D
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:31:21:[m[K [01;31m[Kerror: [m[K‘[01m[KKeyPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::KeyPoint[m[K’?
+   31 |         std::vector<[01;31m[KKeyPoint[m[K> keypoints;
+      |                     [01;31m[K^~~~~~~~[m[K
+      |                     [32m[Kcv::KeyPoint[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:57[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/types.hpp:727:27:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::KeyPoint[m[K’ declared here
+  727 | class CV_EXPORTS_W_SIMPLE [01;36m[KKeyPoint[m[K
+      |                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:31:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |         std::vector<KeyPoint[01;31m[K>[m[K keypoints;
+      |                             [01;31m[K^[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:31:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetector[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   32 |         cv::[01;31m[Kdetector[m[K.detect( image_th, keypoints);
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdcv[m[K’ has not been declared
+   37 |         [01;31m[Kdcv[m[K::rawKeypoints( image_th, keypoints, im_with_keypoints, Scalar(0,0,255), DrawMatchesFlags::DRAW_RICH_KEYPOINTS );
+      |         [01;31m[K^~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:37:68:[m[K [01;31m[Kerror: [m[K‘[01m[KScalar[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Scalar[m[K’?
+   37 |  dcv::rawKeypoints( image_th, keypoints, im_with_keypoints, [01;31m[KScalar[m[K(0,0,255), DrawMatchesFlags::DRAW_RICH_KEYPOINTS );
+      |                                                             [01;31m[K^~~~~~[m[K
+      |                                                             [32m[Kcv::Scalar[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:57[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/types.hpp:685:25:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar[m[K’ declared here
+  685 | typedef Scalar_<double> [01;36m[KScalar[m[K;
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:37:85:[m[K [01;31m[Kerror: [m[K‘[01m[KDrawMatchesFlags[m[K’ has not been declared
+   37 | s( image_th, keypoints, im_with_keypoints, Scalar(0,0,255), [01;31m[KDrawMatchesFlags[m[K::DRAW_RICH_KEYPOINTS );
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

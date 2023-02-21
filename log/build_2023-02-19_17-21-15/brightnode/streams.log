@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/ram-user/ASDFR/build/brightnode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/brightnode -- -j2 -l2
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/Mrbrightside.dir/src/Brightness_check.cpp.o[0m
+[0.253s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:11:10:[m[K [01;31m[Kfatal error: [m[KOpenCV: No such file or directory
+[0.253s]    11 | #include [01;31m[K<OpenCV>[m[K
+[0.253s]       |          [01;31m[K^~~~~~~~[m[K
+[0.253s] compilation terminated.
+[0.255s] gmake[2]: *** [CMakeFiles/Mrbrightside.dir/build.make:76: CMakeFiles/Mrbrightside.dir/src/Brightness_check.cpp.o] Error 1
+[0.256s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Mrbrightside.dir/all] Error 2
+[0.256s] gmake: *** [Makefile:146: all] Error 2
+[0.258s] Invoked command in '/home/ram-user/ASDFR/build/brightnode' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/brightnode -- -j2 -l2

@@ -1,0 +1,7 @@
+[01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:11:10:[m[K [01;31m[Kfatal error: [m[KOpenCV/install/OpenCV/include/opencv4/opencv2/opencv.hpp: No such file or directory
+   11 | #include [01;31m[K<OpenCV/install/OpenCV/include/opencv4/opencv2/opencv.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/Mrbrightside.dir/build.make:76: CMakeFiles/Mrbrightside.dir/src/Brightness_check.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Mrbrightside.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

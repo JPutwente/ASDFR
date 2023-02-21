@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.081s] [ 25%] Built target grayscaler
+[0.082s] [ 50%] Built target brightness_check
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[0.108s] [ 75%] Built target brightmask
+[0.121s] [ 87%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[4.000s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.000s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[KDetect[m[K’ was not declared in this scope; did you mean ‘[01m[Kselect[m[K’?
+[4.000s]    27 |         [01;31m[KDetect[m[K blobs.
+[4.000s]       |         [01;31m[K^~~~~~[m[K
+[4.001s]       |         [32m[Kselect[m[K
+[4.010s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:29:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_th[m[K’ was not declared in this scope; did you mean ‘[01m[Kimage[m[K’?
+[4.010s]    29 |         detector.detect( [01;31m[Kimage_th[m[K, keypoints);
+[4.010s]       |                          [01;31m[K^~~~~~~~[m[K
+[4.010s]       |                          [32m[Kimage[m[K
+[4.019s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:29:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kkeypoints[m[K’ was not declared in this scope
+[4.019s]    29 |         detector.detect( image_th, [01;31m[Kkeypoints[m[K);
+[4.019s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[7.254s] gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+[7.257s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+[7.257s] gmake: *** [Makefile:146: all] Error 2
+[7.258s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

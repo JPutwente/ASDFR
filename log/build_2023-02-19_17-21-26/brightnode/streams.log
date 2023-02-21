@@ -1,0 +1,69 @@
+[0.019s] Invoking command in '/home/ram-user/ASDFR/build/brightnode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/brightnode -- -j2 -l2
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/Mrbrightside.dir/src/Brightness_check.cpp.o[0m
+[4.756s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:26:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[4.756s]    26 |   void topic_callback(const [01;31m[Ksensor_msgs[m[K::msg::Image::SharedPtr image_msg)
+[4.756s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[4.756s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:26:45:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[4.756s]    26 |   void topic_callback(const sensor_msgs::msg[01;31m[K::[m[KImage::SharedPtr image_msg)
+[4.756s]       |                                             [01;31m[K^~[m[K
+[4.756s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:26:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[4.756s]    26 |   void topic_callback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KImage::SharedPtr image_msg)
+[4.756s]       |                      [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[4.756s]       |                                             [32m[K)[m[K
+[4.777s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:26:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.777s]    26 |   void topic_callback(const sensor_msgs::[01;31m[Kmsg[m[K::Image::SharedPtr image_msg)
+[4.777s]       |                                          [01;31m[K^~~[m[K
+[4.777s]       |                                             [32m[K;[m[K
+[4.782s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:26:47:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[4.782s]    26 |   void topic_callback(const sensor_msgs::msg::[01;31m[KImage[m[K::SharedPtr image_msg)
+[4.782s]       |                                               [01;31m[K^~~~~[m[K
+[4.789s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:56:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[4.789s]    56 |   rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::Image>::SharedPtr subscription_;
+[4.789s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[4.789s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:56:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.789s]    56 |   rclcpp::Subscription<sensor_msgs::msg::Image[01;31m[K>[m[K::SharedPtr subscription_;
+[4.789s]       |                                               [01;31m[K^[m[K
+[4.789s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:56:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[4.789s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:56:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[4.789s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:56:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[4.790s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:56:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.790s]    56 |   rclcpp::Subscription<sensor_msgs::msg::Image>::[01;31m[KSharedPtr[m[K subscription_;
+[4.790s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[4.790s]       |                                                           [32m[K;[m[K
+[4.791s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:56:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[4.791s]    56 |   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr [01;31m[Ksubscription_[m[K;
+[4.791s]       |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[4.791s]       |                                                            [32m[Krmw_subscription_t[m[K
+[4.800s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:[m[K In constructor ‘[01m[KBrightnessDeterminer::BrightnessDeterminer()[m[K’:
+[4.800s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[4.800s]    21 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+[4.800s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.800s]       |     [32m[Krmw_subscription_t[m[K
+[4.806s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:21:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[4.806s]    21 |     subscription_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::Image>(
+[4.806s]       |                                               [01;31m[K^~~~~~~~~~~[m[K
+[4.806s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:21:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.806s]    21 |     subscription_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::Image>[m[K(
+[4.806s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.811s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:21:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBrightnessDeterminer::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (BrightnessDeterminer::*)(...), BrightnessDeterminer*, const std::_Placeholder<1>&>::type)[m[K’
+[4.811s]    21 |     subscription_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::Image>([m[K
+[4.811s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.811s]    22 | [01;31m[K      "topic", 10, std::bind(&BrightnessDeterminer::topic_callback, this, std::placeholders::_1))[m[K;
+[4.811s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.814s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.814s]                  from [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:9[m[K:
+[4.815s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.815s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[4.815s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.815s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.815s] [01m[K/home/ram-user/ASDFR/src/brightnode/src/Brightness_check.cpp:21:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.816s]    21 |     subscription_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::Image>([m[K
+[4.816s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.816s]    22 | [01;31m[K      "topic", 10, std::bind(&BrightnessDeterminer::topic_callback, this, std::placeholders::_1))[m[K;
+[4.816s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.961s] gmake[2]: *** [CMakeFiles/Mrbrightside.dir/build.make:76: CMakeFiles/Mrbrightside.dir/src/Brightness_check.cpp.o] Error 1
+[5.963s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Mrbrightside.dir/all] Error 2
+[5.963s] gmake: *** [Makefile:146: all] Error 2
+[5.965s] Invoked command in '/home/ram-user/ASDFR/build/brightnode' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/brightnode -- -j2 -l2

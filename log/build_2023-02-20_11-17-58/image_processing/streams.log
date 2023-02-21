@@ -1,0 +1,12 @@
+[0.011s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.067s] [ 33%] Built target brightness_check
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o[0m
+[0.090s] [ 83%] Built target brightmask
+[3.202s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:[m[K In member function ‘[01m[Kvoid GrayScalerNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.202s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:27:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[KtoImageMsg[m[K’
+[3.202s]    27 |     message.data = image.[01;31m[KtoImageMsg[m[K();
+[3.202s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[6.196s] gmake[2]: *** [CMakeFiles/grayscaler.dir/build.make:76: CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o] Error 1
+[6.197s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/grayscaler.dir/all] Error 2
+[6.198s] gmake: *** [Makefile:146: all] Error 2
+[6.201s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

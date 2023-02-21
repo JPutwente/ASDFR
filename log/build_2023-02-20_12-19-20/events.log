@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.000196] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.027200] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.041431] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.041485] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/build/image_processing', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '3030'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bac83c0a_d2aa_4749_b65a_8fc9fde8fff9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QIL8Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble')]), 'shell': False}
+[0.099654] (-) TimerEvent: {}
+[0.117096] (image_processing) StdoutLine: {'line': b'[ 33%] Built target brightness_check\n'}
+[0.158627] (image_processing) StdoutLine: {'line': b'[ 66%] Built target grayscaler\n'}
+[0.199686] (-) TimerEvent: {}
+[0.221690] (image_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target brightmask\x1b[0m\n'}
+[0.252099] (image_processing) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/brightmask.dir/src/brightness_mask.cpp.o\x1b[0m\n'}
+[0.300575] (-) TimerEvent: {}
+[0.401335] (-) TimerEvent: {}
+[0.501886] (-) TimerEvent: {}
+[0.603058] (-) TimerEvent: {}
+[0.703654] (-) TimerEvent: {}
+[0.804363] (-) TimerEvent: {}
+[0.905272] (-) TimerEvent: {}
+[1.005613] (-) TimerEvent: {}
+[1.106464] (-) TimerEvent: {}
+[1.206836] (-) TimerEvent: {}
+[1.307367] (-) TimerEvent: {}
+[1.407943] (-) TimerEvent: {}
+[1.508508] (-) TimerEvent: {}
+[1.608973] (-) TimerEvent: {}
+[1.709557] (-) TimerEvent: {}
+[1.811012] (-) TimerEvent: {}
+[1.911506] (-) TimerEvent: {}
+[2.013019] (-) TimerEvent: {}
+[2.113622] (-) TimerEvent: {}
+[2.215075] (-) TimerEvent: {}
+[2.316318] (-) TimerEvent: {}
+[2.417582] (-) TimerEvent: {}
+[2.518160] (-) TimerEvent: {}
+[2.618639] (-) TimerEvent: {}
+[2.719219] (-) TimerEvent: {}
+[2.819794] (-) TimerEvent: {}
+[2.921233] (-) TimerEvent: {}
+[3.021776] (-) TimerEvent: {}
+[3.122175] (-) TimerEvent: {}
+[3.222738] (-) TimerEvent: {}
+[3.323249] (-) TimerEvent: {}
+[3.423795] (-) TimerEvent: {}
+[3.525346] (-) TimerEvent: {}
+[3.626908] (-) TimerEvent: {}
+[3.727412] (-) TimerEvent: {}
+[3.827918] (-) TimerEvent: {}
+[3.928452] (-) TimerEvent: {}
+[4.029042] (-) TimerEvent: {}
+[4.129456] (-) TimerEvent: {}
+[4.230055] (-) TimerEvent: {}
+[4.330940] (-) TimerEvent: {}
+[4.432047] (-) TimerEvent: {}
+[4.532571] (-) TimerEvent: {}
+[4.633106] (-) TimerEvent: {}
+[4.733637] (-) TimerEvent: {}
+[4.834182] (-) TimerEvent: {}
+[4.934699] (-) TimerEvent: {}
+[5.035352] (-) TimerEvent: {}
+[5.135837] (-) TimerEvent: {}
+[5.236460] (-) TimerEvent: {}
+[5.337131] (-) TimerEvent: {}
+[5.437564] (-) TimerEvent: {}
+[5.538084] (-) TimerEvent: {}
+[5.638690] (-) TimerEvent: {}
+[5.739711] (-) TimerEvent: {}
+[5.840605] (-) TimerEvent: {}
+[5.942206] (-) TimerEvent: {}
+[6.042673] (-) TimerEvent: {}
+[6.143257] (-) TimerEvent: {}
+[6.243697] (-) TimerEvent: {}
+[6.344287] (-) TimerEvent: {}
+[6.445504] (-) TimerEvent: {}
+[6.546288] (-) TimerEvent: {}
+[6.646849] (-) TimerEvent: {}
+[6.747393] (-) TimerEvent: {}
+[6.847891] (-) TimerEvent: {}
+[6.949354] (-) TimerEvent: {}
+[7.050231] (-) TimerEvent: {}
+[7.151161] (-) TimerEvent: {}
+[7.251532] (-) TimerEvent: {}
+[7.352289] (-) TimerEvent: {}
+[7.454028] (-) TimerEvent: {}
+[7.554654] (-) TimerEvent: {}
+[7.655601] (-) TimerEvent: {}
+[7.756095] (-) TimerEvent: {}
+[7.856697] (-) TimerEvent: {}
+[7.957534] (-) TimerEvent: {}
+[8.058258] (-) TimerEvent: {}
+[8.159052] (-) TimerEvent: {}
+[8.259789] (-) TimerEvent: {}
+[8.361314] (-) TimerEvent: {}
+[8.461788] (-) TimerEvent: {}
+[8.562340] (-) TimerEvent: {}
+[8.662931] (-) TimerEvent: {}
+[8.763375] (-) TimerEvent: {}
+[8.864006] (-) TimerEvent: {}
+[8.965554] (-) TimerEvent: {}
+[9.065934] (-) TimerEvent: {}
+[9.166464] (-) TimerEvent: {}
+[9.266988] (-) TimerEvent: {}
+[9.367516] (-) TimerEvent: {}
+[9.469040] (-) TimerEvent: {}
+[9.569627] (-) TimerEvent: {}
+[9.671129] (-) TimerEvent: {}
+[9.771658] (-) TimerEvent: {}
+[9.873089] (-) TimerEvent: {}
+[9.973525] (-) TimerEvent: {}
+[10.074222] (-) TimerEvent: {}
+[10.174670] (-) TimerEvent: {}
+[10.275064] (-) TimerEvent: {}
+[10.375588] (-) TimerEvent: {}
+[10.476291] (-) TimerEvent: {}
+[10.576900] (-) TimerEvent: {}
+[10.677354] (-) TimerEvent: {}
+[10.777703] (-) TimerEvent: {}
+[10.878200] (-) TimerEvent: {}
+[10.978993] (-) TimerEvent: {}
+[11.079591] (-) TimerEvent: {}
+[11.180853] (-) TimerEvent: {}
+[11.281357] (-) TimerEvent: {}
+[11.382330] (-) TimerEvent: {}
+[11.483187] (-) TimerEvent: {}
+[11.583777] (-) TimerEvent: {}
+[11.710005] (-) TimerEvent: {}
+[11.811094] (-) TimerEvent: {}
+[11.912010] (-) TimerEvent: {}
+[12.012499] (-) TimerEvent: {}
+[12.112936] (-) TimerEvent: {}
+[12.213882] (-) TimerEvent: {}
+[12.314223] (-) TimerEvent: {}
+[12.414712] (-) TimerEvent: {}
+[12.515446] (-) TimerEvent: {}
+[12.615902] (-) TimerEvent: {}
+[12.717046] (-) TimerEvent: {}
+[12.819342] (-) TimerEvent: {}
+[12.920573] (-) TimerEvent: {}
+[13.021062] (-) TimerEvent: {}
+[13.122283] (-) TimerEvent: {}
+[13.223889] (-) TimerEvent: {}
+[13.297144] (image_processing) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable brightmask\x1b[0m\n'}
+[13.326276] (-) TimerEvent: {}
+[13.426833] (-) TimerEvent: {}
+[13.527214] (-) TimerEvent: {}
+[13.627720] (-) TimerEvent: {}
+[13.729580] (-) TimerEvent: {}
+[13.830458] (-) TimerEvent: {}
+[13.931638] (-) TimerEvent: {}
+[14.032208] (-) TimerEvent: {}
+[14.132558] (-) TimerEvent: {}
+[14.233261] (-) TimerEvent: {}
+[14.334107] (-) TimerEvent: {}
+[14.434813] (-) TimerEvent: {}
+[14.535594] (-) TimerEvent: {}
+[14.639410] (-) TimerEvent: {}
+[14.747587] (-) TimerEvent: {}
+[14.850505] (-) TimerEvent: {}
+[14.951959] (-) TimerEvent: {}
+[15.052725] (-) TimerEvent: {}
+[15.153893] (-) TimerEvent: {}
+[15.254787] (-) TimerEvent: {}
+[15.356416] (-) TimerEvent: {}
+[15.457008] (-) TimerEvent: {}
+[15.557644] (-) TimerEvent: {}
+[15.658312] (-) TimerEvent: {}
+[15.759011] (-) TimerEvent: {}
+[15.861063] (-) TimerEvent: {}
+[15.961716] (-) TimerEvent: {}
+[16.062703] (-) TimerEvent: {}
+[16.175707] (-) TimerEvent: {}
+[16.276344] (-) TimerEvent: {}
+[16.377522] (-) TimerEvent: {}
+[16.479808] (-) TimerEvent: {}
+[16.581920] (-) TimerEvent: {}
+[16.683612] (-) TimerEvent: {}
+[16.784315] (-) TimerEvent: {}
+[16.885836] (-) TimerEvent: {}
+[16.986862] (-) TimerEvent: {}
+[17.090453] (-) TimerEvent: {}
+[17.191228] (-) TimerEvent: {}
+[17.292403] (-) TimerEvent: {}
+[17.393660] (-) TimerEvent: {}
+[17.494411] (-) TimerEvent: {}
+[17.595972] (-) TimerEvent: {}
+[17.697959] (-) TimerEvent: {}
+[17.798786] (-) TimerEvent: {}
+[17.899486] (-) TimerEvent: {}
+[18.000505] (-) TimerEvent: {}
+[18.101632] (-) TimerEvent: {}
+[18.202096] (-) TimerEvent: {}
+[18.302745] (-) TimerEvent: {}
+[18.403181] (-) TimerEvent: {}
+[18.504132] (-) TimerEvent: {}
+[18.604564] (-) TimerEvent: {}
+[18.691215] (image_processing) StdoutLine: {'line': b'[100%] Built target brightmask\n'}
+[18.702127] (image_processing) CommandEnded: {'returncode': 0}
+[18.705092] (-) TimerEvent: {}
+[18.732859] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'install'}
+[18.741951] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ram-user/ASDFR/build/image_processing'], 'cwd': '/home/ram-user/ASDFR/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '3030'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bac83c0a_d2aa_4749_b65a_8fc9fde8fff9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QIL8Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble')]), 'shell': False}
+[18.768847] (image_processing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.805916] (-) TimerEvent: {}
+[18.831758] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check\n'}
+[18.858320] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/grayscaler\n'}
+[18.906658] (-) TimerEvent: {}
+[18.907963] (image_processing) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightmask\n'}
+[18.940155] (image_processing) StdoutLine: {'line': b'-- Set runtime path of "/home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightmask" to ""\n'}
+[18.941106] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing\n'}
+[18.941284] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing\n'}
+[18.941429] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.sh\n'}
+[18.941567] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv\n'}
+[18.941805] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.sh\n'}
+[18.941947] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.dsv\n'}
+[18.942079] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.bash\n'}
+[18.942292] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.sh\n'}
+[18.942435] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.zsh\n'}
+[18.942565] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.dsv\n'}
+[18.942768] (image_processing) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.dsv\n'}
+[18.942900] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/packages/image_processing\n'}
+[18.943030] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake\n'}
+[18.943161] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake\n'}
+[18.943385] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.xml\n'}
+[18.955587] (image_processing) CommandEnded: {'returncode': 0}
+[19.006779] (-) TimerEvent: {}
+[19.035862] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 0}
+[19.036300] (-) EventReactorShutdown: {}

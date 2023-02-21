@@ -1,0 +1,23 @@
+[ 33%] Built target grayscaler
+[ 66%] Built target brightness_check
+[35m[1mConsolidate compiler generated dependencies of target brightmask[0m
+[100%] Built target brightmask
+-- Install configuration: ""
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/grayscaler
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightmask
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.sh
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.bash
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.sh
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.zsh
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.dsv
+-- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/packages/image_processing
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+-- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.xml

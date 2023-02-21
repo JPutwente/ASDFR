@@ -1,0 +1,11 @@
+[0.034s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target brightness_check[0m
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/brightness_check.dir/src/brightness_check.cpp.o[0m
+[3.918s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/brightness_check.cpp:[m[K In member function ‘[01m[Kvoid ImageBrightnessNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.918s] [01m[K/home/ram-user/ASDFR/src/image_processing/src/brightness_check.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdarkness_threshold[m[K’ was not declared in this scope
+[3.918s]    29 |     [01;31m[Kdarkness_threshold[m[K = 5;
+[3.918s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.782s] gmake[2]: *** [CMakeFiles/brightness_check.dir/build.make:76: CMakeFiles/brightness_check.dir/src/brightness_check.cpp.o] Error 1
+[6.782s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brightness_check.dir/all] Error 2
+[6.783s] gmake: *** [Makefile:146: all] Error 2
+[6.785s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target grayscaler[0m
+[ 33%] Built target brightness_check
+[ 66%] Built target grayscaler
+[ 83%] [32mBuilding CXX object CMakeFiles/brightmask.dir/src/brightness_mask.cpp.o[0m

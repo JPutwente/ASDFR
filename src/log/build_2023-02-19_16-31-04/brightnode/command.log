@@ -1,0 +1,2 @@
+Invoking command in '/home/ram-user/ASDFR/src/build/brightnode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/brightnode -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/brightnode
+Invoked command in '/home/ram-user/ASDFR/src/build/brightnode' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/brightnode -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/brightnode

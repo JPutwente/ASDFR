@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000510] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.000553] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.008878] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.009294] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.009892] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/build/image_processing', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1318'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1288,unix/ramuser-vm:/tmp/.ICE-unix/1288'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/70712348_c24e_4c7b_8d4c_0300259c98b3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KJBK01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.070007] (image_processing) StdoutLine: {'line': b'[ 50%] Built target brightness_check\n'}
+[0.070177] (image_processing) StdoutLine: {'line': b'[ 50%] Built target grayscaler\n'}
+[0.081248] (image_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target light_tracker\x1b[0m\n'}
+[0.092666] (image_processing) StdoutLine: {'line': b'[ 75%] Built target brightmask\n'}
+[0.098895] (-) TimerEvent: {}
+[0.102738] (image_processing) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o\x1b[0m\n'}
+[0.199468] (-) TimerEvent: {}
+[0.300053] (-) TimerEvent: {}
+[0.400668] (-) TimerEvent: {}
+[0.501213] (-) TimerEvent: {}
+[0.601880] (-) TimerEvent: {}
+[0.702411] (-) TimerEvent: {}
+[0.803234] (-) TimerEvent: {}
+[0.903524] (-) TimerEvent: {}
+[1.004111] (-) TimerEvent: {}
+[1.104683] (-) TimerEvent: {}
+[1.205280] (-) TimerEvent: {}
+[1.305687] (-) TimerEvent: {}
+[1.406445] (-) TimerEvent: {}
+[1.508009] (-) TimerEvent: {}
+[1.609079] (-) TimerEvent: {}
+[1.709646] (-) TimerEvent: {}
+[1.811192] (-) TimerEvent: {}
+[1.911702] (-) TimerEvent: {}
+[2.012365] (-) TimerEvent: {}
+[2.112912] (-) TimerEvent: {}
+[2.213552] (-) TimerEvent: {}
+[2.314091] (-) TimerEvent: {}
+[2.414640] (-) TimerEvent: {}
+[2.515239] (-) TimerEvent: {}
+[2.615801] (-) TimerEvent: {}
+[2.716388] (-) TimerEvent: {}
+[2.816958] (-) TimerEvent: {}
+[2.917558] (-) TimerEvent: {}
+[3.019147] (-) TimerEvent: {}
+[3.036082] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPose2D\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.036273] (image_processing) StderrLine: {'line': b'   83 |     rclcpp::Publisher<geometry_msgs::\x1b[01;31m\x1b[KPose2D\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[3.036357] (image_processing) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.036423] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp:7\x1b[m\x1b[K,\n'}
+[3.036474] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:6\x1b[m\x1b[K:\n'}
+[3.036523] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp:150:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.036604] (image_processing) StderrLine: {'line': b'  150 | using \x1b[01;36m\x1b[KPose2D\x1b[m\x1b[K =\n'}
+[3.036655] (image_processing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.036703] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.036752] (image_processing) StderrLine: {'line': b'   83 |     rclcpp::Publisher<geometry_msgs::Pose2D\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[3.036832] (image_processing) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.036943] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.037003] (image_processing) StderrLine: {'line': b'   83 |     rclcpp::Publisher<geometry_msgs::Pose2D>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[3.037073] (image_processing) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.037132] (image_processing) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.038603] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:83:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.038710] (image_processing) StderrLine: {'line': b'   83 |     rclcpp::Publisher<geometry_msgs::Pose2D>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[3.038771] (image_processing) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.038824] (image_processing) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.055734] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLightTracker::LightTracker()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.055902] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.055962] (image_processing) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::Pose2D>("COGL", 10);\n'}
+[3.056016] (image_processing) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.056067] (image_processing) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.056703] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPose2D\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.056873] (image_processing) StderrLine: {'line': b'   17 |     publisher_ = this->create_publisher<geometry_msgs::\x1b[01;31m\x1b[KPose2D\x1b[m\x1b[K>("COGL", 10);\n'}
+[3.056930] (image_processing) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.056982] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp:7\x1b[m\x1b[K,\n'}
+[3.057032] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:6\x1b[m\x1b[K:\n'}
+[3.057109] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp:150:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.057210] (image_processing) StderrLine: {'line': b'  150 | using \x1b[01;36m\x1b[KPose2D\x1b[m\x1b[K =\n'}
+[3.057267] (image_processing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.057316] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLightTracker::create_publisher<<expression error> >(const char [5], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.057367] (image_processing) StderrLine: {'line': b'   17 |   publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<geometry_msgs::Pose2D>("COGL", 10)\x1b[m\x1b[K;\n'}
+[3.057419] (image_processing) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.057467] (image_processing) StderrLine: {'line': b'\n'}
+[3.057514] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.057567] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.057614] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.057661] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[3.057709] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.057761] (image_processing) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[3.057808] (image_processing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.057856] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.057904] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:17:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.057951] (image_processing) StderrLine: {'line': b'   17 |   publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<geometry_msgs::Pose2D>("COGL", 10)\x1b[m\x1b[K;\n'}
+[3.057999] (image_processing) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.058112] (image_processing) StderrLine: {'line': b'\n'}
+[3.061247] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.061471] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:25:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPose2D\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.061534] (image_processing) StderrLine: {'line': b'   25 |         geometry_msgs::\x1b[01;31m\x1b[KPose2D\x1b[m\x1b[K Pos;\n'}
+[3.061587] (image_processing) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.061638] (image_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp:7\x1b[m\x1b[K,\n'}
+[3.061701] (image_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:6\x1b[m\x1b[K:\n'}
+[3.061751] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp:150:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.061803] (image_processing) StderrLine: {'line': b'  150 | using \x1b[01;36m\x1b[KPose2D\x1b[m\x1b[K =\n'}
+[3.061851] (image_processing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.077709] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:75:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPos\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcos\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.077873] (image_processing) StderrLine: {'line': b'   75 |             \x1b[01;31m\x1b[KPos\x1b[m\x1b[K.x = keypoints[i].pt.x;\n'}
+[3.077932] (image_processing) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.077983] (image_processing) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcos\x1b[m\x1b[K\n'}
+[3.086483] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.086653] (image_processing) StderrLine: {'line': b'   80 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(Pos);\n'}
+[3.086713] (image_processing) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.086765] (image_processing) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.091557] (image_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPos\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcos\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.091696] (image_processing) StderrLine: {'line': b'   80 |         publisher_->publish(\x1b[01;31m\x1b[KPos\x1b[m\x1b[K);\n'}
+[3.091755] (image_processing) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.091806] (image_processing) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kcos\x1b[m\x1b[K\n'}
+[3.119684] (-) TimerEvent: {}
+[3.220308] (-) TimerEvent: {}
+[3.320901] (-) TimerEvent: {}
+[3.421439] (-) TimerEvent: {}
+[3.522968] (-) TimerEvent: {}
+[3.623581] (-) TimerEvent: {}
+[3.724115] (-) TimerEvent: {}
+[3.824749] (-) TimerEvent: {}
+[3.925362] (-) TimerEvent: {}
+[4.025881] (-) TimerEvent: {}
+[4.126496] (-) TimerEvent: {}
+[4.228032] (-) TimerEvent: {}
+[4.330653] (-) TimerEvent: {}
+[4.432075] (-) TimerEvent: {}
+[4.532672] (-) TimerEvent: {}
+[4.633272] (-) TimerEvent: {}
+[4.734854] (-) TimerEvent: {}
+[4.835414] (-) TimerEvent: {}
+[4.936937] (-) TimerEvent: {}
+[5.038474] (-) TimerEvent: {}
+[5.139089] (-) TimerEvent: {}
+[5.239635] (-) TimerEvent: {}
+[5.340265] (-) TimerEvent: {}
+[5.441807] (-) TimerEvent: {}
+[5.542339] (-) TimerEvent: {}
+[5.643912] (-) TimerEvent: {}
+[5.744476] (-) TimerEvent: {}
+[5.844375] (image_processing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1\n'}
+[5.844845] (-) TimerEvent: {}
+[5.844981] (image_processing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2\n'}
+[5.845080] (image_processing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.847007] (image_processing) CommandEnded: {'returncode': 2}
+[5.894314] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 2}
+[5.906094] (-) EventReactorShutdown: {}

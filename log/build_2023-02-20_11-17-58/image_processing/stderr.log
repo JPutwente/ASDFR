@@ -1,0 +1,7 @@
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:[m[K In member function ‘[01m[Kvoid GrayScalerNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/grayscale_converter.cpp:27:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[KtoImageMsg[m[K’
+   27 |     message.data = image.[01;31m[KtoImageMsg[m[K();
+      |                          [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/grayscaler.dir/build.make:76: CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/grayscaler.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

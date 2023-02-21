@@ -1,0 +1,37 @@
+[ 50%] Built target brightness_check
+[ 50%] Built target grayscaler
+[35m[1mConsolidate compiler generated dependencies of target light_tracker[0m
+[ 75%] Built target brightmask
+[ 87%] [32mBuilding CXX object CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o[0m
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:[m[K In member function ‘[01m[Kvoid LightTracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPtr[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Ptr[m[K’?
+   62 |         [01;31m[KPtr[m[K<SimpleBlobDetector> detector = SimpleBlobDetector::create(params);
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kcv::Ptr[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp:73:8:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Ptr[m[K’ declared here
+   73 | struct [01;36m[KPtr[m[K : public std::shared_ptr<T>
+      |        [01;36m[K^~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleBlobDetector[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::SimpleBlobDetector[m[K’?
+   62 |         Ptr<[01;31m[KSimpleBlobDetector[m[K> detector = SimpleBlobDetector::create(params);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kcv::SimpleBlobDetector[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/calib3d.hpp:48[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:56[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/features2d.hpp:695:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::SimpleBlobDetector[m[K’ declared here
+  695 | class CV_EXPORTS_W [01;36m[KSimpleBlobDetector[m[K : public Feature2D
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetector[m[K’ was not declared in this scope
+   62 |         Ptr<SimpleBlobDetector> [01;31m[Kdetector[m[K = SimpleBlobDetector::create(params);
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/image_processing/src/light_tracker.cpp:62:44:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleBlobDetector[m[K’ is not a class, namespace, or enumeration
+   62 |         Ptr<SimpleBlobDetector> detector = [01;31m[KSimpleBlobDetector[m[K::create(params);
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/light_tracker.dir/build.make:76: CMakeFiles/light_tracker.dir/src/light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/light_tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
