@@ -1,0 +1,28 @@
+[0.039s] Invoking command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[0.249s] [ 25%] [32mBuilding CXX object CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o[0m
+[5.475s] [ 50%] [32m[1mLinking CXX executable jiwy_controller[0m
+[5.717s] [ 50%] Built target jiwy_controller
+[5.763s] [100%] Built target simplesub
+[5.813s] Invoked command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller' returned '0': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2
+[5.843s] Invoking command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller
+[5.852s] -- Install configuration: ""
+[5.853s] -- Installing: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/lib/jiwy_controller/jiwy_controller
+[5.855s] -- Set runtime path of "/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/lib/jiwy_controller/jiwy_controller" to ""
+[5.855s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/lib/jiwy_controller/simplesub
+[5.856s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/ament_index/resource_index/package_run_dependencies/jiwy_controller
+[5.856s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/ament_index/resource_index/parent_prefix_path/jiwy_controller
+[5.856s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.sh
+[5.856s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.dsv
+[5.856s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/environment/path.sh
+[5.857s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/environment/path.dsv
+[5.857s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/local_setup.bash
+[5.857s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/local_setup.sh
+[5.857s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/local_setup.zsh
+[5.857s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/local_setup.dsv
+[5.858s] -- Installing: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/package.dsv
+[5.858s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/ament_index/resource_index/packages/jiwy_controller
+[5.858s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig.cmake
+[5.858s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig-version.cmake
+[5.858s] -- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/package.xml
+[5.873s] Invoked command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller' returned '0': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller

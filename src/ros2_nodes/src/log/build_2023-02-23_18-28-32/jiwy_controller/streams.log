@@ -1,0 +1,12 @@
+[0.062s] Invoking command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[0.252s] [ 50%] Built target simplesub
+[0.255s] [ 75%] [32mBuilding CXX object CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o[0m
+[3.219s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:[m[K In constructor ‘[01m[KJiwyControllerNode::JiwyControllerNode()[m[K’:
+[3.219s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:34:22:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+[3.219s]    34 |       2s, std::bind(&[01;31m[KMinimalPublisher[m[K::image_callback, this));
+[3.219s]       |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.241s] gmake[2]: *** [CMakeFiles/jiwy_controller.dir/build.make:76: CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o] Error 1
+[4.241s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/jiwy_controller.dir/all] Error 2
+[4.242s] gmake: *** [Makefile:146: all] Error 2
+[4.244s] Invoked command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller' returned '2': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2

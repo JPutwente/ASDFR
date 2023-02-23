@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o[0m
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:[m[K In member function ‘[01m[Kvoid JiwyControllerNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:35:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   35 |   void image_callback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr img[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 50%] [32m[1mLinking CXX executable jiwy_controller[0m
+[ 50%] Built target jiwy_controller
+[100%] Built target simplesub
+-- Install configuration: ""
+-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/lib/jiwy_controller/jiwy_controller
+-- Set runtime path of "/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/lib/jiwy_controller/jiwy_controller" to ""
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/lib/jiwy_controller/simplesub
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/ament_index/resource_index/package_run_dependencies/jiwy_controller
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/ament_index/resource_index/parent_prefix_path/jiwy_controller
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/environment/path.sh
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/environment/path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/local_setup.bash
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/local_setup.sh
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/local_setup.zsh
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/local_setup.dsv
+-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/package.dsv
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/ament_index/resource_index/packages/jiwy_controller
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig.cmake
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig-version.cmake
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller/share/jiwy_controller/package.xml

@@ -14,11 +14,13 @@
 
 using std::placeholders::_1;
 using namespace std::chrono_literals;
-
+using namespace std::this_thread; // sleep_for, sleep_until
+using namespace std::chrono; // nanoseconds, system_clock, seconds
 
 
 class JiwyControllerNode : public rclcpp::Node
 {
+  rclcpp::TimerBase::SharedPtr timer_;
 
   rclcpp::Publisher<asdfr_interfaces::msg::Point2>::SharedPtr publisher_;
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
@@ -26,18 +28,21 @@ class JiwyControllerNode : public rclcpp::Node
 public:
   JiwyControllerNode() : Node("jiwy_controller")
   {
-    subscription_ = this->create_subscription<sensor_msgs::msg::Image>("image", 10, std::bind(&JiwyControllerNode::image_callback, this, std::placeholders::_1));
+    // subscription_ = this->create_subscription<sensor_msgs::msg::Image>("image", 10, std::bind(&JiwyControllerNode::image_callback, this, std::placeholders::_1));
     publisher_ = this->create_publisher<asdfr_interfaces::msg::Point2>("setpoint",10);
+          timer_ = this->create_wall_timer(
+      2s, std::bind(&JiwyControllerNode::image_callback, this));
   }
 
 private:
-  void image_callback(const sensor_msgs::msg::Image::SharedPtr img)
+  void image_callback()
   {
     // Output the actual position
     asdfr_interfaces::msg::Point2 pos;
     pos.x = (float)(rand() % 160 - 80)/100;
     pos.y = (float)(rand() % 120 - 60)/100;
     publisher_->publish(pos);
+
   }
 };
 
