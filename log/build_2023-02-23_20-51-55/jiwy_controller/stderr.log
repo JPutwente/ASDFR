@@ -1,0 +1,7 @@
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In constructor ‘[01m[KJCLightTrackerNode::JCLightTrackerNode()[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:36:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   36 |       "im_COGL", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::image_callback, this, _1));
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/jc_lighttracker.dir/build.make:76: CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/jc_lighttracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

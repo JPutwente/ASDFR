@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target jc_lighttracker[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o[0m
+[ 50%] Built target jiwy_controller
+[35m[1mConsolidate compiler generated dependencies of target simplesub[0m
+[ 83%] Built target simplesub

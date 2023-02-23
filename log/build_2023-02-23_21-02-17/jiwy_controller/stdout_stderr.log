@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target jc_lighttracker[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o[0m
+[ 50%] Built target jiwy_controller
+[ 83%] Built target simplesub
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In member function ‘[01m[Kvoid JCLightTrackerNode::topic_callback(const Pose2D&)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:45:11:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Pose2D_<std::allocator<void> >::x[m[K’ in read-only object
+   45 |     [01;31m[Kpos.x = (pos.x + width/2) * (0.8/width)[m[K;
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:46:11:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Pose2D_<std::allocator<void> >::y[m[K’ in read-only object
+   46 |     [01;31m[Kpos.y = (pos.y + height/2) * (0.8/height)[m[K;
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/jc_lighttracker.dir/build.make:76: CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/jc_lighttracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

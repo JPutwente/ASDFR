@@ -735,5 +735,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/jiwy_controller_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/jiwy_controller.dir/DependInfo.cmake"
+  "CMakeFiles/jc_lighttracker.dir/DependInfo.cmake"
   "CMakeFiles/simplesub.dir/DependInfo.cmake"
   )

@@ -1,0 +1,7 @@
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In member function ‘[01m[Kvoid JCLightTrackerNode::topic_callback(const Pose2D&)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:54:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpan[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   54 |     jc_pos.x = [01;35m[Kpan[m[K;
+      |                [01;35m[K^~~[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:55:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktilt[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   55 |     jc_pos.y = [01;35m[Ktilt[m[K;
+      |                [01;35m[K^~~~[m[K

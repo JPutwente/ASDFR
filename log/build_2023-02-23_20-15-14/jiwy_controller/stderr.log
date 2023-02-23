@@ -1,0 +1,14 @@
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:25:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |   rclcpp::Subscription<geometry_msgs::msg::Pose2D::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:25:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:25:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:25:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In constructor ‘[01m[KJCLightTrackerNode::JCLightTrackerNode()[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   30 |     [01;31m[Ksubscription_[m[K = this->create_subscription<geometry_msgs::msg::Pose2D>("COGL", 10, std::bind(&JCLightTrackerNode::topic_callback, this, std::placeholders::_1));
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/jc_lighttracker.dir/build.make:76: CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/jc_lighttracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

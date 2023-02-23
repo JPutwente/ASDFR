@@ -211,6 +211,19 @@ jiwy_controller/fast:
 .PHONY : jiwy_controller/fast
 
 #=============================================================================
+# Target rules for targets named jc_lighttracker
+
+# Build rule for target.
+jc_lighttracker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jc_lighttracker
+.PHONY : jc_lighttracker
+
+# fast build rule for target.
+jc_lighttracker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jc_lighttracker.dir/build.make CMakeFiles/jc_lighttracker.dir/build
+.PHONY : jc_lighttracker/fast
+
+#=============================================================================
 # Target rules for targets named simplesub
 
 # Build rule for target.
@@ -246,6 +259,30 @@ src/SimpleSub.s: src/SimpleSub.cpp.s
 src/SimpleSub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simplesub.dir/build.make CMakeFiles/simplesub.dir/src/SimpleSub.cpp.s
 .PHONY : src/SimpleSub.cpp.s
+
+src/jc_light_tracker.o: src/jc_light_tracker.cpp.o
+.PHONY : src/jc_light_tracker.o
+
+# target to build an object file
+src/jc_light_tracker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jc_lighttracker.dir/build.make CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o
+.PHONY : src/jc_light_tracker.cpp.o
+
+src/jc_light_tracker.i: src/jc_light_tracker.cpp.i
+.PHONY : src/jc_light_tracker.i
+
+# target to preprocess a source file
+src/jc_light_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jc_lighttracker.dir/build.make CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.i
+.PHONY : src/jc_light_tracker.cpp.i
+
+src/jc_light_tracker.s: src/jc_light_tracker.cpp.s
+.PHONY : src/jc_light_tracker.s
+
+# target to generate assembly for a file
+src/jc_light_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jc_lighttracker.dir/build.make CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.s
+.PHONY : src/jc_light_tracker.cpp.s
 
 src/jiwy_controller.o: src/jiwy_controller.cpp.o
 .PHONY : src/jiwy_controller.o
@@ -286,11 +323,15 @@ help:
 	@echo "... test"
 	@echo "... jiwy_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... jc_lighttracker"
 	@echo "... jiwy_controller"
 	@echo "... simplesub"
 	@echo "... src/SimpleSub.o"
 	@echo "... src/SimpleSub.i"
 	@echo "... src/SimpleSub.s"
+	@echo "... src/jc_light_tracker.o"
+	@echo "... src/jc_light_tracker.i"
+	@echo "... src/jc_light_tracker.s"
 	@echo "... src/jiwy_controller.o"
 	@echo "... src/jiwy_controller.i"
 	@echo "... src/jiwy_controller.s"

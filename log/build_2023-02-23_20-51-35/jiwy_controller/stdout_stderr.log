@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target jc_lighttracker[0m
+[ 33%] Built target jiwy_controller
+[ 50%] [32mBuilding CXX object CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o[0m
+[ 83%] Built target simplesub
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+   16 | #include [01;31m[K"opencv2/opencv.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/jc_lighttracker.dir/build.make:76: CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/jc_lighttracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

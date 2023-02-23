@@ -1,0 +1,20 @@
+[0.057s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target jc_lighttracker[0m
+[0.239s] [ 33%] Built target jiwy_controller
+[0.246s] [ 50%] [32mBuilding CXX object CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o[0m
+[0.360s] [ 83%] Built target simplesub
+[3.609s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:25:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.609s]    25 |   rclcpp::Subscription<geometry_msgs::msg::Pose2D::SharedPtr [01;31m[Ksubscription_[m[K;
+[3.609s]       |                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[3.609s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:25:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.609s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:25:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[3.609s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:25:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[3.617s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In constructor ‘[01m[KJCLightTrackerNode::JCLightTrackerNode()[m[K’:
+[3.618s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[3.618s]    30 |     [01;31m[Ksubscription_[m[K = this->create_subscription<geometry_msgs::msg::Pose2D>("COGL", 10, std::bind(&JCLightTrackerNode::topic_callback, this, std::placeholders::_1));
+[3.618s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.618s]       |     [32m[Krmw_subscription_t[m[K
+[6.453s] gmake[2]: *** [CMakeFiles/jc_lighttracker.dir/build.make:76: CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o] Error 1
+[6.453s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/jc_lighttracker.dir/all] Error 2
+[6.453s] gmake: *** [Makefile:146: all] Error 2
+[6.455s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '2': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2

@@ -9,11 +9,29 @@ def generate_launch_description():
             executable='cam2image',
             name='cam2image'
          ),
+        Node(
+            package='image_processing',
+            namespace='UnitTest',
+            executable='grayscaler',
+            name='grayscaler'
+        ),
+        Node(
+            package='image_processing',
+            namespace='UnitTest',
+            executable='brightmask',
+            name='brightmask'
+        ),
+        Node(
+            package='image_processing',
+            namespace='UnitTest',
+            executable='light_tracker',
+            name='light_tracker'
+        ),
        Node(
             package='jiwy_controller',
             namespace='UnitTest',
-            executable='jiwy_controller',
-            name='jiwy_controller'
+            executable='jc_lighttracker',
+            name='jc_lighttracker'
         ),
         Node(
             package='jiwy_simulator',

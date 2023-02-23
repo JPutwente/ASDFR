@@ -13,9 +13,14 @@ find_package(sensor_msgs REQUIRED)
 find_package(asdfr_interfaces REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(cv_bridge REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
 
 add_executable(jiwy_controller src/jiwy_controller.cpp)
 ament_target_dependencies(jiwy_controller rclcpp std_msgs sensor_msgs asdfr_interfaces)
+
+add_executable(jc_lighttracker src/jc_light_tracker.cpp)
+ament_target_dependencies(jc_lighttracker rclcpp std_msgs sensor_msgs asdfr_interfaces geometry_msgs OpenCV cv_bridge)
 
 add_executable(simplesub src/SimpleSub.cpp)
 ament_target_dependencies(simplesub rclcpp std_msgs sensor_msgs asdfr_interfaces OpenCV cv_bridge)
@@ -27,6 +32,7 @@ target_compile_features(jiwy_controller PUBLIC c_std_99 cxx_std_17)  # Require C
 
 install(TARGETS 
   jiwy_controller
+  jc_lighttracker
   simplesub
   DESTINATION lib/${PROJECT_NAME})
 

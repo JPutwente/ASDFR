@@ -1,0 +1,23 @@
+[0.035s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
+[0.288s] [ 33%] Built target jiwy_controller
+[0.310s] [35m[1mConsolidate compiler generated dependencies of target jc_lighttracker[0m
+[0.354s] [ 50%] [32mBuilding CXX object CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o[0m
+[0.399s] [ 83%] Built target simplesub
+[3.986s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In constructor ‘[01m[KJCLightTrackerNode::JCLightTrackerNode()[m[K’:
+[3.986s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:33:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[3.986s]    33 |       "im_COGL", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::image_callback, this, _1));
+[3.986s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.992s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In member function ‘[01m[Kvoid JCLightTrackerNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.992s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+[3.993s]    56 |     [01;31m[Kcv[m[K::Mat image = cv_bridge::toCvCopy(image_msg,  "mono8")->image;
+[3.994s]       |     [01;31m[K^~[m[K
+[4.004s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:58:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage[m[K’ was not declared in this scope
+[4.005s]    58 |     height = [01;31m[Kimage[m[K.rows;
+[4.005s]       |              [01;31m[K^~~~~[m[K
+[4.020s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:53:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimage_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.020s]    53 |   void image_callback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr image_msg[m[K)
+[4.021s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[6.955s] gmake[2]: *** [CMakeFiles/jc_lighttracker.dir/build.make:76: CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o] Error 1
+[6.955s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/jc_lighttracker.dir/all] Error 2
+[6.955s] gmake: *** [Makefile:146: all] Error 2
+[6.958s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '2': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
