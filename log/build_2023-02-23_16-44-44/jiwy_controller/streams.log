@@ -1,0 +1,22 @@
+[0.060s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
+[0.646s] [100%] Built target jiwy_controller
+[0.687s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '0': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
+[0.827s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/jiwy_controller
+[0.847s] -- Install configuration: ""
+[0.854s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/lib/jiwy_controller/jiwy_controller
+[0.854s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/package_run_dependencies/jiwy_controller
+[0.854s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/parent_prefix_path/jiwy_controller
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.sh
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.dsv
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/path.sh
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/path.dsv
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.bash
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.sh
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.zsh
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.dsv
+[0.855s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/package.dsv
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/packages/jiwy_controller
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig.cmake
+[0.855s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig-version.cmake
+[0.856s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/package.xml
+[0.866s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '0': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/jiwy_controller

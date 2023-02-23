@@ -1,0 +1,70 @@
+[0.251s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/install/jiwy_controller
+[4.014s] -- The C compiler identification is GNU 11.3.0
+[5.770s] -- The CXX compiler identification is GNU 11.3.0
+[5.957s] -- Detecting C compiler ABI info
+[7.476s] -- Detecting C compiler ABI info - done
+[7.676s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.683s] -- Detecting C compile features
+[7.694s] -- Detecting C compile features - done
+[7.724s] -- Detecting CXX compiler ABI info
+[9.485s] -- Detecting CXX compiler ABI info - done
+[9.620s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.629s] -- Detecting CXX compile features
+[9.635s] -- Detecting CXX compile features - done
+[9.696s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.558s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[12.573s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[13.197s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[13.228s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[13.302s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[13.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.807s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.670s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[14.722s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.478s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.612s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.905s] -- Looking for pthread.h
+[18.644s] -- Looking for pthread.h - found
+[18.660s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.240s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[21.241s] -- Found Threads: TRUE  
+[23.860s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[25.122s] -- Found asdfr_interfaces: 0.0.0 (/home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake)
+[25.183s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[26.081s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.083s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/include>
+[26.084s] -- Configured cppcheck exclude dirs and/or files: 
+[26.090s] -- Added test 'lint_cmake' to check CMake code style
+[26.095s] -- Added test 'uncrustify' to check C / C++ code style
+[26.096s] -- Configured uncrustify additional arguments: 
+[26.105s] -- Added test 'xmllint' to check XML markup files
+[26.112s] -- Configuring done
+[26.154s] -- Generating done
+[26.165s] -- Build files have been written to: /home/ram-user/ASDFR/build/jiwy_controller
+[26.211s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/install/jiwy_controller
+[26.219s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
+[26.764s] [ 50%] [32mBuilding CXX object CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o[0m
+[66.389s] [100%] [32m[1mLinking CXX executable jiwy_controller[0m
+[69.011s] [100%] Built target jiwy_controller
+[69.184s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
+[69.556s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/build/jiwy_controller
+[69.677s] -- Install configuration: ""
+[69.678s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/lib/jiwy_controller/jiwy_controller
+[69.678s] -- Set runtime path of "/home/ram-user/ASDFR/install/jiwy_controller/lib/jiwy_controller/jiwy_controller" to ""
+[69.678s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/package_run_dependencies/jiwy_controller
+[69.689s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/parent_prefix_path/jiwy_controller
+[69.693s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.sh
+[69.704s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.dsv
+[69.711s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/path.sh
+[69.721s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/path.dsv
+[69.728s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.bash
+[69.728s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.sh
+[69.734s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.zsh
+[69.771s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.dsv
+[69.783s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/package.dsv
+[69.786s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/packages/jiwy_controller
+[69.810s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig.cmake
+[69.818s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig-version.cmake
+[69.828s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/package.xml
+[69.880s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/build/jiwy_controller

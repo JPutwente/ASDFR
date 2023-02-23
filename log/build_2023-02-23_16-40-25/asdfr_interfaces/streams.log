@@ -1,0 +1,142 @@
+[0.079s] Invoking command in '/home/ram-user/ASDFR/build/asdfr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/asdfr_interfaces -- -j2 -l2
+[0.207s] [  3%] Built target asdfr_interfaces__cpp
+[0.272s] [ 12%] Built target asdfr_interfaces__rosidl_generator_c
+[0.363s] [ 12%] Built target ament_cmake_python_copy_asdfr_interfaces
+[0.416s] [ 22%] Built target asdfr_interfaces__rosidl_typesupport_cpp
+[0.483s] [ 32%] Built target asdfr_interfaces__rosidl_typesupport_fastrtps_c
+[0.555s] [ 41%] Built target asdfr_interfaces__rosidl_typesupport_introspection_c
+[0.662s] [ 51%] Built target asdfr_interfaces__rosidl_typesupport_c
+[0.797s] [ 61%] Built target asdfr_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.925s] [ 70%] Built target asdfr_interfaces__rosidl_typesupport_introspection_cpp
+[1.676s] running egg_info
+[1.683s] writing asdfr_interfaces.egg-info/PKG-INFO
+[1.689s] writing dependency_links to asdfr_interfaces.egg-info/dependency_links.txt
+[1.695s] writing top-level names to asdfr_interfaces.egg-info/top_level.txt
+[1.705s] reading manifest file 'asdfr_interfaces.egg-info/SOURCES.txt'
+[1.709s] writing manifest file 'asdfr_interfaces.egg-info/SOURCES.txt'
+[1.776s] [ 70%] Built target ament_cmake_python_build_asdfr_interfaces_egg
+[1.832s] [ 70%] Built target asdfr_interfaces
+[1.911s] [ 74%] Built target asdfr_interfaces__py
+[2.019s] [ 80%] Built target asdfr_interfaces__rosidl_generator_py
+[2.113s] [ 87%] Built target asdfr_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.231s] [ 93%] Built target asdfr_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.355s] [100%] Built target asdfr_interfaces__rosidl_typesupport_c__pyext
+[2.405s] Invoked command in '/home/ram-user/ASDFR/build/asdfr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/asdfr_interfaces -- -j2 -l2
+[2.717s] Invoking command in '/home/ram-user/ASDFR/build/asdfr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/asdfr_interfaces
+[2.772s] -- Install configuration: ""
+[2.788s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/ament_index/resource_index/rosidl_interfaces/asdfr_interfaces
+[2.789s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces
+[2.789s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg
+[2.789s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail
+[2.789s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__functions.c
+[2.790s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__struct.h
+[2.790s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__functions.h
+[2.790s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__type_support.h
+[2.790s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.790s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/point2.h
+[2.791s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/environment/library_path.sh
+[2.791s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/environment/library_path.dsv
+[2.791s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_generator_c.so
+[2.791s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces
+[2.791s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg
+[2.791s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.792s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail
+[2.792s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_c.h
+[2.792s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.792s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces
+[2.792s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg
+[2.793s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.795s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail
+[2.812s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__rosidl_typesupport_introspection_c.h
+[2.813s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__type_support.c
+[2.813s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_introspection_c.so
+[2.814s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_c.so
+[2.814s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces
+[2.814s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg
+[2.815s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/point2.hpp
+[2.815s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail
+[2.815s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__traits.hpp
+[2.816s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__builder.hpp
+[2.816s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__struct.hpp
+[2.816s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces
+[2.816s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg
+[2.817s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail
+[2.817s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_cpp.hpp
+[2.817s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/dds_fastrtps
+[2.817s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.818s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.818s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces
+[2.819s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg
+[2.819s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail
+[2.819s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp
+[2.819s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__type_support.cpp
+[2.820s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.820s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_cpp.so
+[2.821s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/environment/pythonpath.sh
+[2.822s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/environment/pythonpath.dsv
+[2.822s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info
+[2.822s] -- Installing: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.823s] -- Installing: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.823s] -- Installing: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.824s] -- Installing: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.824s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces
+[2.825s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/__init__.py
+[2.825s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/_asdfr_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.825s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.870s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/libasdfr_interfaces__rosidl_generator_py.so
+[2.870s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.870s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/_asdfr_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.871s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/_asdfr_interfaces_s.ep.rosidl_typesupport_c.c
+[2.871s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg
+[2.871s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg/__init__.py
+[2.871s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg/_point2.py
+[2.871s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg/_point2_s.c
+[2.871s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.961s] Listing '/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces'...
+[2.961s] Listing '/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg'...
+[3.019s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.020s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.020s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.023s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_generator_py.so
+[3.023s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/msg/Point2.idl
+[3.023s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/msg/Point2.msg
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/ament_index/resource_index/package_run_dependencies/asdfr_interfaces
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/ament_index/resource_index/parent_prefix_path/asdfr_interfaces
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/environment/ament_prefix_path.sh
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/environment/ament_prefix_path.dsv
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/environment/path.sh
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/environment/path.dsv
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/local_setup.bash
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/local_setup.sh
+[3.024s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/local_setup.zsh
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/local_setup.dsv
+[3.025s] -- Installing: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/package.dsv
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/ament_index/resource_index/packages/asdfr_interfaces
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_cExport.cmake
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.025s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_cExport.cmake
+[3.026s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.026s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_cppExport.cmake
+[3.026s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.026s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.026s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.026s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.026s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_cppExport.cmake
+[3.026s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_pyExport.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.027s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfacesConfig.cmake
+[3.028s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfacesConfig-version.cmake
+[3.028s] -- Up-to-date: /home/ram-user/ASDFR/install/asdfr_interfaces/share/asdfr_interfaces/package.xml
+[3.047s] Invoked command in '/home/ram-user/ASDFR/build/asdfr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/asdfr_interfaces

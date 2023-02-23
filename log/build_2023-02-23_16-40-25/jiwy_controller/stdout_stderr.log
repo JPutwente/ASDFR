@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[100%] Built target jiwy_controller
+-- Install configuration: ""
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/lib/jiwy_controller/jiwy_controller
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/package_run_dependencies/jiwy_controller
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/parent_prefix_path/jiwy_controller
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/path.sh
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.bash
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.sh
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.zsh
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.dsv
+-- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/package.dsv
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/packages/jiwy_controller
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig.cmake
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig-version.cmake
+-- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/package.xml

@@ -1,8 +1,7 @@
 /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check
-/home/ram-user/ASDFR/install/image_processing/lib/image_processing/grayscaler
-/home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightmask
+/home/ram-user/ASDFR/install/image_processing/lib/image_processing/grayscale_converter
+/home/ram-user/ASDFR/install/image_processing/lib/image_processing/threshold_converter
 /home/ram-user/ASDFR/install/image_processing/lib/image_processing/light_tracker
-/home/ram-user/ASDFR/install/image_processing/lib/image_processing/SimpleSub
 /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
 /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
 /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.sh

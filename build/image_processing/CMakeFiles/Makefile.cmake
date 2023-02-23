@@ -727,8 +727,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/image_processing_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/brightness_check.dir/DependInfo.cmake"
-  "CMakeFiles/grayscaler.dir/DependInfo.cmake"
-  "CMakeFiles/brightmask.dir/DependInfo.cmake"
+  "CMakeFiles/grayscale_converter.dir/DependInfo.cmake"
+  "CMakeFiles/threshold_converter.dir/DependInfo.cmake"
   "CMakeFiles/light_tracker.dir/DependInfo.cmake"
-  "CMakeFiles/SimpleSub.dir/DependInfo.cmake"
   )

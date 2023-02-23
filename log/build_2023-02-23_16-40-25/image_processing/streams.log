@@ -1,0 +1,31 @@
+[0.059s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target brightness_check[0m
+[0.194s] [ 25%] Built target brightness_check
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target grayscale_converter[0m
+[0.259s] [ 50%] Built target grayscale_converter
+[0.275s] [35m[1mConsolidate compiler generated dependencies of target threshold_converter[0m
+[0.324s] [ 75%] Built target threshold_converter
+[0.400s] [100%] Built target light_tracker
+[0.452s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/build/image_processing -- -j2 -l2
+[0.673s] Invoking command in '/home/ram-user/ASDFR/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing
+[0.691s] -- Install configuration: ""
+[0.691s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/brightness_check
+[0.691s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/grayscale_converter
+[0.691s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/threshold_converter
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/lib/image_processing/light_tracker
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.sh
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/environment/path.dsv
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.bash
+[0.697s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.sh
+[0.698s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.zsh
+[0.698s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/local_setup.dsv
+[0.698s] -- Installing: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.dsv
+[0.698s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/ament_index/resource_index/packages/image_processing
+[0.698s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+[0.698s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+[0.698s] -- Up-to-date: /home/ram-user/ASDFR/install/image_processing/share/image_processing/package.xml
+[0.711s] Invoked command in '/home/ram-user/ASDFR/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/build/image_processing

@@ -211,30 +211,30 @@ brightness_check/fast:
 .PHONY : brightness_check/fast
 
 #=============================================================================
-# Target rules for targets named grayscaler
+# Target rules for targets named grayscale_converter
 
 # Build rule for target.
-grayscaler: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 grayscaler
-.PHONY : grayscaler
+grayscale_converter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 grayscale_converter
+.PHONY : grayscale_converter
 
 # fast build rule for target.
-grayscaler/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscaler.dir/build.make CMakeFiles/grayscaler.dir/build
-.PHONY : grayscaler/fast
+grayscale_converter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale_converter.dir/build.make CMakeFiles/grayscale_converter.dir/build
+.PHONY : grayscale_converter/fast
 
 #=============================================================================
-# Target rules for targets named brightmask
+# Target rules for targets named threshold_converter
 
 # Build rule for target.
-brightmask: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 brightmask
-.PHONY : brightmask
+threshold_converter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 threshold_converter
+.PHONY : threshold_converter
 
 # fast build rule for target.
-brightmask/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightmask.dir/build.make CMakeFiles/brightmask.dir/build
-.PHONY : brightmask/fast
+threshold_converter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold_converter.dir/build.make CMakeFiles/threshold_converter.dir/build
+.PHONY : threshold_converter/fast
 
 #=============================================================================
 # Target rules for targets named light_tracker
@@ -248,43 +248,6 @@ light_tracker: cmake_check_build_system
 light_tracker/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/light_tracker.dir/build.make CMakeFiles/light_tracker.dir/build
 .PHONY : light_tracker/fast
-
-#=============================================================================
-# Target rules for targets named SimpleSub
-
-# Build rule for target.
-SimpleSub: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SimpleSub
-.PHONY : SimpleSub
-
-# fast build rule for target.
-SimpleSub/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleSub.dir/build.make CMakeFiles/SimpleSub.dir/build
-.PHONY : SimpleSub/fast
-
-src/SimpleSub.o: src/SimpleSub.cpp.o
-.PHONY : src/SimpleSub.o
-
-# target to build an object file
-src/SimpleSub.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleSub.dir/build.make CMakeFiles/SimpleSub.dir/src/SimpleSub.cpp.o
-.PHONY : src/SimpleSub.cpp.o
-
-src/SimpleSub.i: src/SimpleSub.cpp.i
-.PHONY : src/SimpleSub.i
-
-# target to preprocess a source file
-src/SimpleSub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleSub.dir/build.make CMakeFiles/SimpleSub.dir/src/SimpleSub.cpp.i
-.PHONY : src/SimpleSub.cpp.i
-
-src/SimpleSub.s: src/SimpleSub.cpp.s
-.PHONY : src/SimpleSub.s
-
-# target to generate assembly for a file
-src/SimpleSub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleSub.dir/build.make CMakeFiles/SimpleSub.dir/src/SimpleSub.cpp.s
-.PHONY : src/SimpleSub.cpp.s
 
 src/brightness_check.o: src/brightness_check.cpp.o
 .PHONY : src/brightness_check.o
@@ -310,36 +273,12 @@ src/brightness_check.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_check.dir/build.make CMakeFiles/brightness_check.dir/src/brightness_check.cpp.s
 .PHONY : src/brightness_check.cpp.s
 
-src/brightness_mask.o: src/brightness_mask.cpp.o
-.PHONY : src/brightness_mask.o
-
-# target to build an object file
-src/brightness_mask.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightmask.dir/build.make CMakeFiles/brightmask.dir/src/brightness_mask.cpp.o
-.PHONY : src/brightness_mask.cpp.o
-
-src/brightness_mask.i: src/brightness_mask.cpp.i
-.PHONY : src/brightness_mask.i
-
-# target to preprocess a source file
-src/brightness_mask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightmask.dir/build.make CMakeFiles/brightmask.dir/src/brightness_mask.cpp.i
-.PHONY : src/brightness_mask.cpp.i
-
-src/brightness_mask.s: src/brightness_mask.cpp.s
-.PHONY : src/brightness_mask.s
-
-# target to generate assembly for a file
-src/brightness_mask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightmask.dir/build.make CMakeFiles/brightmask.dir/src/brightness_mask.cpp.s
-.PHONY : src/brightness_mask.cpp.s
-
 src/grayscale_converter.o: src/grayscale_converter.cpp.o
 .PHONY : src/grayscale_converter.o
 
 # target to build an object file
 src/grayscale_converter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscaler.dir/build.make CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale_converter.dir/build.make CMakeFiles/grayscale_converter.dir/src/grayscale_converter.cpp.o
 .PHONY : src/grayscale_converter.cpp.o
 
 src/grayscale_converter.i: src/grayscale_converter.cpp.i
@@ -347,7 +286,7 @@ src/grayscale_converter.i: src/grayscale_converter.cpp.i
 
 # target to preprocess a source file
 src/grayscale_converter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscaler.dir/build.make CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale_converter.dir/build.make CMakeFiles/grayscale_converter.dir/src/grayscale_converter.cpp.i
 .PHONY : src/grayscale_converter.cpp.i
 
 src/grayscale_converter.s: src/grayscale_converter.cpp.s
@@ -355,7 +294,7 @@ src/grayscale_converter.s: src/grayscale_converter.cpp.s
 
 # target to generate assembly for a file
 src/grayscale_converter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscaler.dir/build.make CMakeFiles/grayscaler.dir/src/grayscale_converter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale_converter.dir/build.make CMakeFiles/grayscale_converter.dir/src/grayscale_converter.cpp.s
 .PHONY : src/grayscale_converter.cpp.s
 
 src/light_tracker.o: src/light_tracker.cpp.o
@@ -382,6 +321,30 @@ src/light_tracker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/light_tracker.dir/build.make CMakeFiles/light_tracker.dir/src/light_tracker.cpp.s
 .PHONY : src/light_tracker.cpp.s
 
+src/threshold_converter.o: src/threshold_converter.cpp.o
+.PHONY : src/threshold_converter.o
+
+# target to build an object file
+src/threshold_converter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold_converter.dir/build.make CMakeFiles/threshold_converter.dir/src/threshold_converter.cpp.o
+.PHONY : src/threshold_converter.cpp.o
+
+src/threshold_converter.i: src/threshold_converter.cpp.i
+.PHONY : src/threshold_converter.i
+
+# target to preprocess a source file
+src/threshold_converter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold_converter.dir/build.make CMakeFiles/threshold_converter.dir/src/threshold_converter.cpp.i
+.PHONY : src/threshold_converter.cpp.i
+
+src/threshold_converter.s: src/threshold_converter.cpp.s
+.PHONY : src/threshold_converter.s
+
+# target to generate assembly for a file
+src/threshold_converter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold_converter.dir/build.make CMakeFiles/threshold_converter.dir/src/threshold_converter.cpp.s
+.PHONY : src/threshold_converter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -397,26 +360,22 @@ help:
 	@echo "... test"
 	@echo "... image_processing_uninstall"
 	@echo "... uninstall"
-	@echo "... SimpleSub"
-	@echo "... brightmask"
 	@echo "... brightness_check"
-	@echo "... grayscaler"
+	@echo "... grayscale_converter"
 	@echo "... light_tracker"
-	@echo "... src/SimpleSub.o"
-	@echo "... src/SimpleSub.i"
-	@echo "... src/SimpleSub.s"
+	@echo "... threshold_converter"
 	@echo "... src/brightness_check.o"
 	@echo "... src/brightness_check.i"
 	@echo "... src/brightness_check.s"
-	@echo "... src/brightness_mask.o"
-	@echo "... src/brightness_mask.i"
-	@echo "... src/brightness_mask.s"
 	@echo "... src/grayscale_converter.o"
 	@echo "... src/grayscale_converter.i"
 	@echo "... src/grayscale_converter.s"
 	@echo "... src/light_tracker.o"
 	@echo "... src/light_tracker.i"
 	@echo "... src/light_tracker.s"
+	@echo "... src/threshold_converter.o"
+	@echo "... src/threshold_converter.i"
+	@echo "... src/threshold_converter.s"
 .PHONY : help
 
 

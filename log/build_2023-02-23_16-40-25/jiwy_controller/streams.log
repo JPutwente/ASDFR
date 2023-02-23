@@ -1,0 +1,23 @@
+[0.137s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
+[0.382s] [35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[0.475s] [100%] Built target jiwy_controller
+[0.584s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/build/jiwy_controller -- -j2 -l2
+[0.861s] Invoking command in '/home/ram-user/ASDFR/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/build/jiwy_controller
+[0.906s] -- Install configuration: ""
+[0.906s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/lib/jiwy_controller/jiwy_controller
+[0.906s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/package_run_dependencies/jiwy_controller
+[0.906s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/parent_prefix_path/jiwy_controller
+[0.906s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.sh
+[0.907s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.dsv
+[0.907s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/path.sh
+[0.907s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/environment/path.dsv
+[0.908s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.bash
+[0.908s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.sh
+[0.908s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.zsh
+[0.908s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/local_setup.dsv
+[0.908s] -- Installing: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/package.dsv
+[0.908s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/ament_index/resource_index/packages/jiwy_controller
+[0.909s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig.cmake
+[0.909s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig-version.cmake
+[0.909s] -- Up-to-date: /home/ram-user/ASDFR/install/jiwy_controller/share/jiwy_controller/package.xml
+[0.917s] Invoked command in '/home/ram-user/ASDFR/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/build/jiwy_controller
