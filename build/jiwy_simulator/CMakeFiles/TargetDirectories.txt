@@ -1,0 +1,10 @@
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/uninstall.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/jiwy_simulator_uninstall.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/jiwy_simulator.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/test.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/edit_cache.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/rebuild_cache.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/list_install_components.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/install.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/install/local.dir
+/home/ram-user/ASDFR/build/jiwy_simulator/CMakeFiles/install/strip.dir

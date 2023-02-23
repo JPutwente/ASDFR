@@ -1,0 +1,26 @@
+[0.039s] Invoking command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[0.112s] [ 50%] [32mBuilding CXX object CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o[0m
+[2.595s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:38:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.596s]    38 |   rclcpp::Publisher<asdfr_interfaces::msg::Point2::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.596s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[2.618s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:[m[K In constructor ‘[01m[KJiwyControllerNode::JiwyControllerNode()[m[K’:
+[2.618s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.618s]    23 |     [01;31m[Kpublisher_[m[K = this->create_publisher<asdfr_interfaces::msg::Point2>("setpoint", 10);
+[2.618s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.619s]       |     [32m[Krmw_publisher_t[m[K
+[2.636s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:[m[K In member function ‘[01m[Kvoid JiwyControllerNode::image_callback(asdfr_interfaces::msg::Point2_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.636s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamics_simulation_[m[K’ was not declared in this scope
+[2.637s]    29 |     [01;31m[Kdynamics_simulation_[m[K.set_des(3.00, 10.5);
+[2.637s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.644s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.644s]    35 |     [01;31m[Kpublisher_[m[K->publish(pos);
+[2.644s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.644s]       |     [32m[Krmw_publisher_t[m[K
+[2.644s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:27:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimage_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.644s]    27 |   void image_callback([01;35m[Kconst asdfr_interfaces::msg::Point2::SharedPtr image_msg[m[K)
+[2.645s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.389s] gmake[2]: *** [CMakeFiles/jiwy_controller.dir/build.make:76: CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o] Error 1
+[3.389s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/jiwy_controller.dir/all] Error 2
+[3.389s] gmake: *** [Makefile:146: all] Error 2
+[3.391s] Invoked command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller' returned '2': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2

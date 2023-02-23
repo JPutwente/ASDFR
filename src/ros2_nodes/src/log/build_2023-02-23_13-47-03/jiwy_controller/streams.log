@@ -1,0 +1,23 @@
+[0.031s] Invoking command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o[0m
+[2.556s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:42:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.556s]    42 |   rclcpp::Publisher<asdfr_interfaces::msg::Point2::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.557s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[2.564s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:[m[K In constructor ‘[01m[KJiwyControllerNode::JiwyControllerNode()[m[K’:
+[2.564s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.565s]    25 |     [01;31m[Kpublisher_[m[K = this->create_publisher<asdfr_interfaces::msg::Point2>("setpoint", 10);
+[2.566s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.566s]       |     [32m[Krmw_publisher_t[m[K
+[2.571s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:26:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[2.572s]    26 |     timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&JiwyControllerNode::timer_callback, this));
+[2.572s]       |                                      [01;31m[K^~~~~[m[K
+[2.582s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:[m[K In member function ‘[01m[Kvoid JiwyControllerNode::timer_callback()[m[K’:
+[2.583s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jiwy_controller.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.584s]    38 |     [01;31m[Kpublisher_[m[K->publish(pos);
+[2.584s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.585s]       |     [32m[Krmw_publisher_t[m[K
+[3.258s] gmake[2]: *** [CMakeFiles/jiwy_controller.dir/build.make:76: CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o] Error 1
+[3.259s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/jiwy_controller.dir/all] Error 2
+[3.260s] gmake: *** [Makefile:146: all] Error 2
+[3.262s] Invoked command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller' returned '2': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2

@@ -1,0 +1,10 @@
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/uninstall.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/jiwy_controller_uninstall.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/jiwy_controller.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/test.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/edit_cache.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/rebuild_cache.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/list_install_components.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/install.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/install/local.dir
+/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller/CMakeFiles/install/strip.dir
