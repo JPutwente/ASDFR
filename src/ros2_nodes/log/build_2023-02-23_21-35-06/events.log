@@ -1,0 +1,377 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (asdfr_interfaces) JobQueued: {'identifier': 'asdfr_interfaces', 'dependencies': OrderedDict()}
+[0.001553] (jiwy_controller) JobQueued: {'identifier': 'jiwy_controller', 'dependencies': OrderedDict([('asdfr_interfaces', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces')])}
+[0.002021] (jiwy_simulator) JobQueued: {'identifier': 'jiwy_simulator', 'dependencies': OrderedDict([('asdfr_interfaces', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces')])}
+[0.002463] (asdfr_interfaces) JobStarted: {'identifier': 'asdfr_interfaces'}
+[0.013415] (asdfr_interfaces) JobProgress: {'identifier': 'asdfr_interfaces', 'progress': 'cmake'}
+[0.014718] (asdfr_interfaces) JobProgress: {'identifier': 'asdfr_interfaces', 'progress': 'build'}
+[0.014995] (asdfr_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/src/ros2_nodes/build/asdfr_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/src/ros2_nodes/build/asdfr_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib:/home/ram-user/ASDFR/install/asdfr_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user/ASDFR/src/ros2_nodes/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install:/home/ram-user/ASDFR/install:/home/ram-user/.local/share/Trash/files/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd7e988_035a_4053_8214_f7cdcd7f97ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D56001'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.233'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/src/ros2_nodes/build/asdfr_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.089541] (asdfr_interfaces) StdoutLine: {'line': b'[  9%] Built target asdfr_interfaces__rosidl_generator_c\n'}
+[0.094322] (asdfr_interfaces) StdoutLine: {'line': b'[ 12%] Built target asdfr_interfaces__cpp\n'}
+[0.099637] (-) TimerEvent: {}
+[0.155247] (asdfr_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_asdfr_interfaces\n'}
+[0.160227] (asdfr_interfaces) StdoutLine: {'line': b'[ 22%] Built target asdfr_interfaces__rosidl_typesupport_cpp\n'}
+[0.179711] (asdfr_interfaces) StdoutLine: {'line': b'[ 38%] Built target asdfr_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.180762] (asdfr_interfaces) StdoutLine: {'line': b'[ 41%] Built target asdfr_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.199780] (-) TimerEvent: {}
+[0.200907] (asdfr_interfaces) StdoutLine: {'line': b'[ 54%] Built target asdfr_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.201962] (asdfr_interfaces) StdoutLine: {'line': b'[ 61%] Built target asdfr_interfaces__rosidl_typesupport_c\n'}
+[0.224904] (asdfr_interfaces) StdoutLine: {'line': b'[ 70%] Built target asdfr_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.262328] (asdfr_interfaces) StdoutLine: {'line': b'[ 70%] Built target asdfr_interfaces\n'}
+[0.283801] (asdfr_interfaces) StdoutLine: {'line': b'[ 74%] Built target asdfr_interfaces__py\n'}
+[0.300001] (-) TimerEvent: {}
+[0.308539] (asdfr_interfaces) StdoutLine: {'line': b'[ 80%] Built target asdfr_interfaces__rosidl_generator_py\n'}
+[0.340360] (asdfr_interfaces) StdoutLine: {'line': b'[ 87%] Built target asdfr_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.375721] (asdfr_interfaces) StdoutLine: {'line': b'[ 93%] Built target asdfr_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.400119] (asdfr_interfaces) StdoutLine: {'line': b'[100%] Built target asdfr_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.400756] (-) TimerEvent: {}
+[0.464752] (asdfr_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.466497] (asdfr_interfaces) StdoutLine: {'line': b'writing asdfr_interfaces.egg-info/PKG-INFO\n'}
+[0.466600] (asdfr_interfaces) StdoutLine: {'line': b'writing dependency_links to asdfr_interfaces.egg-info/dependency_links.txt\n'}
+[0.467820] (asdfr_interfaces) StdoutLine: {'line': b'writing top-level names to asdfr_interfaces.egg-info/top_level.txt\n'}
+[0.468722] (asdfr_interfaces) StdoutLine: {'line': b"reading manifest file 'asdfr_interfaces.egg-info/SOURCES.txt'\n"}
+[0.469265] (asdfr_interfaces) StdoutLine: {'line': b"writing manifest file 'asdfr_interfaces.egg-info/SOURCES.txt'\n"}
+[0.500896] (-) TimerEvent: {}
+[0.501557] (asdfr_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_asdfr_interfaces_egg\n'}
+[0.515143] (asdfr_interfaces) CommandEnded: {'returncode': 0}
+[0.604227] (-) TimerEvent: {}
+[0.622774] (asdfr_interfaces) JobProgress: {'identifier': 'asdfr_interfaces', 'progress': 'install'}
+[0.642629] (asdfr_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ram-user/ASDFR/src/ros2_nodes/build/asdfr_interfaces'], 'cwd': '/home/ram-user/ASDFR/src/ros2_nodes/build/asdfr_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib:/home/ram-user/ASDFR/install/asdfr_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user/ASDFR/src/ros2_nodes/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install:/home/ram-user/ASDFR/install:/home/ram-user/.local/share/Trash/files/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd7e988_035a_4053_8214_f7cdcd7f97ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D56001'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.233'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/src/ros2_nodes/build/asdfr_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.660224] (asdfr_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.660794] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/ament_index/resource_index/rosidl_interfaces/asdfr_interfaces\n'}
+[0.661517] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces\n'}
+[0.661683] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg\n'}
+[0.661835] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail\n'}
+[0.662206] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__functions.c\n'}
+[0.672030] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__struct.h\n'}
+[0.672286] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__functions.h\n'}
+[0.672369] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__type_support.h\n'}
+[0.672481] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.672595] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/point2.h\n'}
+[0.672669] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/environment/library_path.sh\n'}
+[0.674958] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/environment/library_path.dsv\n'}
+[0.675044] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_generator_c.so\n'}
+[0.675116] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces\n'}
+[0.675174] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg\n'}
+[0.675229] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.675284] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail\n'}
+[0.675338] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_c.h\n'}
+[0.675391] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.675444] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces\n'}
+[0.675497] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg\n'}
+[0.675562] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.675617] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail\n'}
+[0.675734] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__rosidl_typesupport_introspection_c.h\n'}
+[0.675790] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__type_support.c\n'}
+[0.675843] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.675896] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_c.so\n'}
+[0.675949] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces\n'}
+[0.676002] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg\n'}
+[0.691174] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/point2.hpp\n'}
+[0.691446] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail\n'}
+[0.691594] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__traits.hpp\n'}
+[0.691684] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__builder.hpp\n'}
+[0.691755] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__struct.hpp\n'}
+[0.691886] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces\n'}
+[0.691971] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg\n'}
+[0.695060] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail\n'}
+[0.695270] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.695465] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/dds_fastrtps\n'}
+[0.695570] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.695711] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.695784] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces\n'}
+[0.695841] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg\n'}
+[0.695896] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail\n'}
+[0.695950] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.696005] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/include/asdfr_interfaces/asdfr_interfaces/msg/detail/point2__type_support.cpp\n'}
+[0.696060] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.696114] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.696247] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/environment/pythonpath.sh\n'}
+[0.696304] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/environment/pythonpath.dsv\n'}
+[0.696375] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.696431] (asdfr_interfaces) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.696486] (asdfr_interfaces) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.696540] (asdfr_interfaces) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.696594] (asdfr_interfaces) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.696649] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces\n'}
+[0.696702] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/__init__.py\n'}
+[0.696758] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/_asdfr_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.696814] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.696870] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/libasdfr_interfaces__rosidl_generator_py.so\n'}
+[0.696924] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.696980] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/_asdfr_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.697037] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/_asdfr_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.697092] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg\n'}
+[0.697283] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg/__init__.py\n'}
+[0.697368] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg/_point2.py\n'}
+[0.697436] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg/_point2_s.c\n'}
+[0.697493] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.707016] (-) TimerEvent: {}
+[0.755037] (asdfr_interfaces) StdoutLine: {'line': b"Listing '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces'...\n"}
+[0.755218] (asdfr_interfaces) StdoutLine: {'line': b"Listing '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/msg'...\n"}
+[0.755287] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.755361] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.755436] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages/asdfr_interfaces/asdfr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.755508] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib/libasdfr_interfaces__rosidl_generator_py.so\n'}
+[0.755579] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/msg/Point2.idl\n'}
+[0.755687] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/msg/Point2.msg\n'}
+[0.755817] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/ament_index/resource_index/package_run_dependencies/asdfr_interfaces\n'}
+[0.755879] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/ament_index/resource_index/parent_prefix_path/asdfr_interfaces\n'}
+[0.755935] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/environment/ament_prefix_path.sh\n'}
+[0.755992] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.756068] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/environment/path.sh\n'}
+[0.756138] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/environment/path.dsv\n'}
+[0.756193] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/local_setup.bash\n'}
+[0.756247] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/local_setup.sh\n'}
+[0.756303] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/local_setup.zsh\n'}
+[0.756357] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/local_setup.dsv\n'}
+[0.756411] (asdfr_interfaces) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/package.dsv\n'}
+[0.756464] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/ament_index/resource_index/packages/asdfr_interfaces\n'}
+[0.756519] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.756575] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.756684] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.756779] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.756842] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.756898] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.756952] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.757007] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.757061] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.757114] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.757168] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.757224] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.757278] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.757332] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.757422] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.757488] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.757542] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/export_asdfr_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.757596] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.757718] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.757777] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.757914] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.758107] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.758166] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.758222] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.758277] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfacesConfig.cmake\n'}
+[0.758331] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/cmake/asdfr_interfacesConfig-version.cmake\n'}
+[0.758384] (asdfr_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/share/asdfr_interfaces/package.xml\n'}
+[0.763845] (asdfr_interfaces) CommandEnded: {'returncode': 0}
+[0.807265] (-) TimerEvent: {}
+[0.891708] (asdfr_interfaces) JobEnded: {'identifier': 'asdfr_interfaces', 'rc': 0}
+[0.892233] (jiwy_controller) JobStarted: {'identifier': 'jiwy_controller'}
+[0.903343] (jiwy_simulator) JobStarted: {'identifier': 'jiwy_simulator'}
+[0.907599] (-) TimerEvent: {}
+[0.924441] (jiwy_controller) JobProgress: {'identifier': 'jiwy_controller', 'progress': 'cmake'}
+[0.924540] (jiwy_controller) JobProgress: {'identifier': 'jiwy_controller', 'progress': 'build'}
+[0.924581] (jiwy_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_controller', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib:/home/ram-user/ASDFR/install/asdfr_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user/ASDFR/src/ros2_nodes/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install:/home/ram-user/ASDFR/install:/home/ram-user/.local/share/Trash/files/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd7e988_035a_4053_8214_f7cdcd7f97ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D56001'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.233'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.948638] (jiwy_simulator) JobProgress: {'identifier': 'jiwy_simulator', 'progress': 'cmake'}
+[0.948719] (jiwy_simulator) JobProgress: {'identifier': 'jiwy_simulator', 'progress': 'build'}
+[0.948743] (jiwy_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_simulator', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib:/home/ram-user/ASDFR/install/asdfr_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user/ASDFR/src/ros2_nodes/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install:/home/ram-user/ASDFR/install:/home/ram-user/.local/share/Trash/files/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd7e988_035a_4053_8214_f7cdcd7f97ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D56001'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.233'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_simulator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble')]), 'shell': False}
+[1.001579] (jiwy_simulator) StdoutLine: {'line': b'[100%] Built target jiwy_simulator\n'}
+[1.007746] (-) TimerEvent: {}
+[1.012315] (jiwy_simulator) CommandEnded: {'returncode': 0}
+[1.037509] (jiwy_simulator) JobProgress: {'identifier': 'jiwy_simulator', 'progress': 'install'}
+[1.037584] (jiwy_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_simulator'], 'cwd': '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib:/home/ram-user/ASDFR/install/asdfr_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user/ASDFR/src/ros2_nodes/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install:/home/ram-user/ASDFR/install:/home/ram-user/.local/share/Trash/files/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd7e988_035a_4053_8214_f7cdcd7f97ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D56001'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.233'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_simulator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble')]), 'shell': False}
+[1.069189] (jiwy_simulator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.070834] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/lib/jiwy_simulator/jiwy_simulator\n'}
+[1.071432] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/ament_index/resource_index/package_run_dependencies/jiwy_simulator\n'}
+[1.071762] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/ament_index/resource_index/parent_prefix_path/jiwy_simulator\n'}
+[1.071981] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/environment/ament_prefix_path.sh\n'}
+[1.072199] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/environment/ament_prefix_path.dsv\n'}
+[1.072488] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/environment/path.sh\n'}
+[1.072573] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/environment/path.dsv\n'}
+[1.072635] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/local_setup.bash\n'}
+[1.072813] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/local_setup.sh\n'}
+[1.073048] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/local_setup.zsh\n'}
+[1.073249] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/local_setup.dsv\n'}
+[1.073444] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/package.dsv\n'}
+[1.073782] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/ament_index/resource_index/packages/jiwy_simulator\n'}
+[1.074035] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/cmake/jiwy_simulatorConfig.cmake\n'}
+[1.074244] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/cmake/jiwy_simulatorConfig-version.cmake\n'}
+[1.074460] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/package.xml\n'}
+[1.074662] (jiwy_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/\n'}
+[1.083209] (jiwy_simulator) CommandEnded: {'returncode': 0}
+[1.119980] (-) TimerEvent: {}
+[1.120348] (jiwy_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target jc_lighttracker\x1b[0m\n'}
+[1.165765] (jiwy_controller) StdoutLine: {'line': b'[ 33%] Built target jiwy_controller\n'}
+[1.191855] (jiwy_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o\x1b[0m\n'}
+[1.213545] (jiwy_simulator) JobEnded: {'identifier': 'jiwy_simulator', 'rc': 0}
+[1.220309] (-) TimerEvent: {}
+[1.243710] (jiwy_controller) StdoutLine: {'line': b'[ 83%] Built target simplesub\n'}
+[1.320436] (-) TimerEvent: {}
+[1.420779] (-) TimerEvent: {}
+[1.521109] (-) TimerEvent: {}
+[1.621449] (-) TimerEvent: {}
+[1.721783] (-) TimerEvent: {}
+[1.822131] (-) TimerEvent: {}
+[1.922457] (-) TimerEvent: {}
+[2.022739] (-) TimerEvent: {}
+[2.123051] (-) TimerEvent: {}
+[2.223691] (-) TimerEvent: {}
+[2.324009] (-) TimerEvent: {}
+[2.424730] (-) TimerEvent: {}
+[2.525041] (-) TimerEvent: {}
+[2.625408] (-) TimerEvent: {}
+[2.725736] (-) TimerEvent: {}
+[2.826123] (-) TimerEvent: {}
+[2.926477] (-) TimerEvent: {}
+[3.027085] (-) TimerEvent: {}
+[3.127510] (-) TimerEvent: {}
+[3.228017] (-) TimerEvent: {}
+[3.328542] (-) TimerEvent: {}
+[3.429072] (-) TimerEvent: {}
+[3.529599] (-) TimerEvent: {}
+[3.630093] (-) TimerEvent: {}
+[3.730525] (-) TimerEvent: {}
+[3.831040] (-) TimerEvent: {}
+[3.931507] (-) TimerEvent: {}
+[4.031959] (-) TimerEvent: {}
+[4.132765] (-) TimerEvent: {}
+[4.233176] (-) TimerEvent: {}
+[4.333841] (-) TimerEvent: {}
+[4.434204] (-) TimerEvent: {}
+[4.537121] (-) TimerEvent: {}
+[4.637626] (-) TimerEvent: {}
+[4.737935] (-) TimerEvent: {}
+[4.838273] (-) TimerEvent: {}
+[4.938679] (-) TimerEvent: {}
+[5.038989] (-) TimerEvent: {}
+[5.139385] (-) TimerEvent: {}
+[5.239785] (-) TimerEvent: {}
+[5.340168] (-) TimerEvent: {}
+[5.440844] (-) TimerEvent: {}
+[5.541338] (-) TimerEvent: {}
+[5.641659] (-) TimerEvent: {}
+[5.742103] (-) TimerEvent: {}
+[5.842535] (-) TimerEvent: {}
+[5.942989] (-) TimerEvent: {}
+[6.044071] (-) TimerEvent: {}
+[6.144455] (-) TimerEvent: {}
+[6.244891] (-) TimerEvent: {}
+[6.345371] (-) TimerEvent: {}
+[6.445770] (-) TimerEvent: {}
+[6.546135] (-) TimerEvent: {}
+[6.646674] (-) TimerEvent: {}
+[6.747013] (-) TimerEvent: {}
+[6.847459] (-) TimerEvent: {}
+[6.947864] (-) TimerEvent: {}
+[7.048216] (-) TimerEvent: {}
+[7.148615] (-) TimerEvent: {}
+[7.249095] (-) TimerEvent: {}
+[7.349448] (-) TimerEvent: {}
+[7.450459] (-) TimerEvent: {}
+[7.550832] (-) TimerEvent: {}
+[7.651296] (-) TimerEvent: {}
+[7.751723] (-) TimerEvent: {}
+[7.852150] (-) TimerEvent: {}
+[7.952523] (-) TimerEvent: {}
+[8.052811] (-) TimerEvent: {}
+[8.153365] (-) TimerEvent: {}
+[8.253785] (-) TimerEvent: {}
+[8.354238] (-) TimerEvent: {}
+[8.454643] (-) TimerEvent: {}
+[8.555311] (-) TimerEvent: {}
+[8.655897] (-) TimerEvent: {}
+[8.756461] (-) TimerEvent: {}
+[8.857005] (-) TimerEvent: {}
+[8.957433] (-) TimerEvent: {}
+[9.058043] (-) TimerEvent: {}
+[9.158522] (-) TimerEvent: {}
+[9.259068] (-) TimerEvent: {}
+[9.359588] (-) TimerEvent: {}
+[9.460148] (-) TimerEvent: {}
+[9.560651] (-) TimerEvent: {}
+[9.661124] (-) TimerEvent: {}
+[9.761505] (-) TimerEvent: {}
+[9.861933] (-) TimerEvent: {}
+[9.962752] (-) TimerEvent: {}
+[10.063059] (-) TimerEvent: {}
+[10.163448] (-) TimerEvent: {}
+[10.263824] (-) TimerEvent: {}
+[10.364193] (-) TimerEvent: {}
+[10.464561] (-) TimerEvent: {}
+[10.564959] (-) TimerEvent: {}
+[10.665334] (-) TimerEvent: {}
+[10.765716] (-) TimerEvent: {}
+[10.866156] (-) TimerEvent: {}
+[10.966549] (-) TimerEvent: {}
+[11.066890] (-) TimerEvent: {}
+[11.168069] (-) TimerEvent: {}
+[11.268467] (-) TimerEvent: {}
+[11.368846] (-) TimerEvent: {}
+[11.469663] (-) TimerEvent: {}
+[11.570144] (-) TimerEvent: {}
+[11.670707] (-) TimerEvent: {}
+[11.771176] (-) TimerEvent: {}
+[11.871731] (-) TimerEvent: {}
+[11.972134] (-) TimerEvent: {}
+[12.072981] (-) TimerEvent: {}
+[12.173316] (-) TimerEvent: {}
+[12.273875] (-) TimerEvent: {}
+[12.374248] (-) TimerEvent: {}
+[12.474938] (-) TimerEvent: {}
+[12.575420] (-) TimerEvent: {}
+[12.676007] (-) TimerEvent: {}
+[12.776368] (-) TimerEvent: {}
+[12.876837] (-) TimerEvent: {}
+[12.978579] (-) TimerEvent: {}
+[13.078989] (-) TimerEvent: {}
+[13.179365] (-) TimerEvent: {}
+[13.280198] (-) TimerEvent: {}
+[13.380617] (-) TimerEvent: {}
+[13.480976] (-) TimerEvent: {}
+[13.581371] (-) TimerEvent: {}
+[13.681864] (-) TimerEvent: {}
+[13.782226] (-) TimerEvent: {}
+[13.883206] (-) TimerEvent: {}
+[13.983837] (-) TimerEvent: {}
+[14.092575] (-) TimerEvent: {}
+[14.193305] (-) TimerEvent: {}
+[14.303175] (-) TimerEvent: {}
+[14.403574] (-) TimerEvent: {}
+[14.504170] (-) TimerEvent: {}
+[14.604697] (-) TimerEvent: {}
+[14.705228] (-) TimerEvent: {}
+[14.805747] (-) TimerEvent: {}
+[14.906286] (-) TimerEvent: {}
+[15.006864] (-) TimerEvent: {}
+[15.107439] (-) TimerEvent: {}
+[15.207913] (-) TimerEvent: {}
+[15.308375] (-) TimerEvent: {}
+[15.316602] (jiwy_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable jc_lighttracker\x1b[0m\n'}
+[15.408970] (-) TimerEvent: {}
+[15.509464] (-) TimerEvent: {}
+[15.610041] (-) TimerEvent: {}
+[15.710798] (-) TimerEvent: {}
+[15.811205] (-) TimerEvent: {}
+[15.911597] (-) TimerEvent: {}
+[16.012124] (-) TimerEvent: {}
+[16.112693] (-) TimerEvent: {}
+[16.213226] (-) TimerEvent: {}
+[16.263817] (jiwy_controller) StdoutLine: {'line': b'[100%] Built target jc_lighttracker\n'}
+[16.276924] (jiwy_controller) CommandEnded: {'returncode': 0}
+[16.308584] (jiwy_controller) JobProgress: {'identifier': 'jiwy_controller', 'progress': 'install'}
+[16.308800] (jiwy_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_controller'], 'cwd': '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/lib:/home/ram-user/ASDFR/install/asdfr_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('OLDPWD', '/home/ram-user/ASDFR/src/ros2_nodes/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install:/home/ram-user/ASDFR/install:/home/ram-user/.local/share/Trash/files/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1281,unix/ramuser-vm:/tmp/.ICE-unix/1281'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd7e988_035a_4053_8214_f7cdcd7f97ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D56001'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.233'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/ASDFR/src/ros2_nodes/build/jiwy_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/home/ram-user/ASDFR/install/asdfr_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble')]), 'shell': False}
+[16.313366] (-) TimerEvent: {}
+[16.316060] (jiwy_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.317473] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/lib/jiwy_controller/jiwy_controller\n'}
+[16.324123] (jiwy_controller) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/lib/jiwy_controller/jc_lighttracker\n'}
+[16.324282] (jiwy_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/lib/jiwy_controller/jc_lighttracker" to ""\n'}
+[16.324423] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/lib/jiwy_controller/simplesub\n'}
+[16.326518] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/ament_index/resource_index/package_run_dependencies/jiwy_controller\n'}
+[16.326651] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/ament_index/resource_index/parent_prefix_path/jiwy_controller\n'}
+[16.326718] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.sh\n'}
+[16.326778] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.dsv\n'}
+[16.326835] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/environment/path.sh\n'}
+[16.326916] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/environment/path.dsv\n'}
+[16.326990] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/local_setup.bash\n'}
+[16.327047] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/local_setup.sh\n'}
+[16.327102] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/local_setup.zsh\n'}
+[16.327157] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/local_setup.dsv\n'}
+[16.327211] (jiwy_controller) StdoutLine: {'line': b'-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/package.dsv\n'}
+[16.327275] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/ament_index/resource_index/packages/jiwy_controller\n'}
+[16.327631] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig.cmake\n'}
+[16.327692] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig-version.cmake\n'}
+[16.327749] (jiwy_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller/share/jiwy_controller/package.xml\n'}
+[16.335986] (jiwy_controller) CommandEnded: {'returncode': 0}
+[16.394094] (jiwy_controller) JobEnded: {'identifier': 'jiwy_controller', 'rc': 0}
+[16.394615] (-) EventReactorShutdown: {}

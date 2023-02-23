@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target jc_lighttracker[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o[0m
+[ 50%] Built target jiwy_controller
+[ 83%] Built target simplesub
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In member function ‘[01m[Kvoid JCLightTrackerNode::topic_callback(const Pose2D&)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:47:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   47 |     double [01;35m[Kpan[m[K, tilt;
+      |            [01;35m[K^~~[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:47:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktilt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   47 |     double pan, [01;35m[Ktilt[m[K;
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:[m[K In member function ‘[01m[Kvoid JCLightTrackerNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpan[m[K’ was not declared in this scope; did you mean ‘[01m[Ktan[m[K’?
+   64 |     [01;31m[Kpan[m[K = midX * 1.6/width;
+      |     [01;31m[K^~~[m[K
+      |     [32m[Ktan[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/jc_light_tracker.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktilt[m[K’ was not declared in this scope
+   65 |     [01;31m[Ktilt[m[K = midY * 1.2/height;
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/jc_lighttracker.dir/build.make:76: CMakeFiles/jc_lighttracker.dir/src/jc_light_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/jc_lighttracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -26,7 +26,8 @@ class JCLightTrackerNode : public rclcpp::Node
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscript_im_;
   float midY,midX = 0;
   float cx,cy = 0;
-
+  float height, width = 0;
+  double pan, tilt;
 
 
   
@@ -43,17 +44,9 @@ public:
 private:
   void topic_callback(const geometry_msgs::msg::Pose2D & pos)
   {
-    RCLCPP_INFO(this->get_logger(), "I heard: '%f and %f'", pos.x, pos.y);
-    float pan, tilt;
-
+    RCLCPP_INFO(this->get_logger(), "COG: '%f and %f'", pos.x, pos.y);
     cx = pos.x;
     cy = pos.y;
-
-    // Output the actual position
-    asdfr_interfaces::msg::Point2 jc_pos;
-    jc_pos.x = pan;
-    jc_pos.y = tilt;
-    publisher_->publish(jc_pos);
 
   }
 
@@ -62,8 +55,15 @@ private:
     // Convert the image message to an OpenCV Mat object and greyscale
     cv::Mat image = cv_bridge::toCvCopy(image_msg,  "rgb8")->image;
 
-    midX = image.rows/2 - cx;
-    midY = image.cols/2 - cy;
+    height = image.rows;
+    width = image.cols;   
+
+    midX = image.cols/2 - cx;
+    midY = image.rows/2 - cy;
+
+    pan = midX * 1.6/width;
+    tilt = midY * 1.2/height;
+    RCLCPP_INFO(this->get_logger(), "pan: %f tilt: %f", pan, tilt);
 
     // remap to centre
     cv::Mat transform = cv::Mat::eye(3,3,CV_64F);
@@ -75,6 +75,13 @@ private:
 
     cv::imshow("light follow", output );
     cv::waitKey(1);
+
+
+    // Output the actual position
+    asdfr_interfaces::msg::Point2 jc_pos;
+    jc_pos.x = -pan;
+    jc_pos.y = tilt;
+    publisher_->publish(jc_pos);   
   }
 };
 

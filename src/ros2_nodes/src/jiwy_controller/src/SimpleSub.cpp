@@ -44,7 +44,7 @@ class MinimalSubscriber : public rclcpp::Node
     void moving_cam_callback(const sensor_msgs::msg::Image::SharedPtr img)
     {
       // Convert the image message to an OpenCV Mat object
-      cv::Mat image = cv_bridge::toCvCopy(img,  "rgb8")->image;
+      cv::Mat image = cv_bridge::toCvCopy(img,"mono8")->image;
 
       // show image
       cv::imshow("im_jiwy", image);
