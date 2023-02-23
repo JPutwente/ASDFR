@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/jiwy_simulator.dir/src/jiwy_simulator.cpp.o[0m
+[100%] [32m[1mLinking CXX executable jiwy_simulator[0m
+[100%] Built target jiwy_simulator
+-- Install configuration: ""
+-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/lib/jiwy_simulator/jiwy_simulator
+-- Set runtime path of "/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/lib/jiwy_simulator/jiwy_simulator" to ""
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/ament_index/resource_index/package_run_dependencies/jiwy_simulator
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/ament_index/resource_index/parent_prefix_path/jiwy_simulator
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/environment/path.sh
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/environment/path.dsv
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/local_setup.bash
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/local_setup.sh
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/local_setup.zsh
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/local_setup.dsv
+-- Installing: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/package.dsv
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/ament_index/resource_index/packages/jiwy_simulator
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/cmake/jiwy_simulatorConfig.cmake
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/cmake/jiwy_simulatorConfig-version.cmake
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator/package.xml
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator//launch
+-- Up-to-date: /home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator/share/jiwy_simulator//launch/jiwy_simulator.launch.py

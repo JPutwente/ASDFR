@@ -14,4 +14,3 @@
 /home/ram-user/ASDFR/install/jiwy_simulator/share/jiwy_simulator/cmake/jiwy_simulatorConfig.cmake
 /home/ram-user/ASDFR/install/jiwy_simulator/share/jiwy_simulator/cmake/jiwy_simulatorConfig-version.cmake
 /home/ram-user/ASDFR/install/jiwy_simulator/share/jiwy_simulator/package.xml
-/home/ram-user/ASDFR/install/jiwy_simulator/share/jiwy_simulator//launch/jiwy_simulator.launch.py

@@ -1,0 +1,67 @@
+[0.037s] Invoking command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2
+[0.256s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.812s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.128s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.136s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.154s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.465s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.492s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.801s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.327s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.532s] -- Found asdfr_interfaces: 0.0.0 (/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces/share/asdfr_interfaces/cmake)
+[2.562s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.747s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.748s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/include>
+[2.748s] -- Configured cppcheck exclude dirs and/or files: 
+[2.751s] -- Added test 'lint_cmake' to check CMake code style
+[2.757s] -- Added test 'uncrustify' to check C / C++ code style
+[2.758s] -- Configured uncrustify additional arguments: 
+[2.760s] -- Added test 'xmllint' to check XML markup files
+[2.767s] -- Configuring done
+[2.871s] -- Generating done
+[2.876s] -- Build files have been written to: /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller
+[2.908s] [35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[2.932s] [ 25%] [32mBuilding CXX object CMakeFiles/simplesub.dir/src/SimpleSub.cpp.o[0m
+[2.962s] [ 75%] Built target jiwy_controller
+[5.477s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.478s]                  from [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:7[m[K:
+[5.478s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::pos_callback(asdfr_interfaces::msg::Point2_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.478s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:38:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<asdfr_interfaces::msg::Point2_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kx[m[K’
+[5.478s]    38 |       RCLCPP_INFO(this->get_logger(), "x y: '%f and %f'", pos.[01;31m[Kx[m[K, pos.y);
+[5.478s]       |                                                               [01;31m[K^[m[K
+[5.478s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:38:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<asdfr_interfaces::msg::Point2_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ky[m[K’
+[5.478s]    38 |       RCLCPP_INFO(this->get_logger(), "x y: '%f and %f'", pos.x, pos.[01;31m[Ky[m[K);
+[5.478s]       |                                                                      [01;31m[K^[m[K
+[5.481s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::moving_cam_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.481s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:44:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+[5.481s]    44 |       [01;31m[Kcv[m[K::Mat image = cv_bridge::toCvCopy(img,  "rgb8")->image;
+[5.481s]       |       [01;31m[K^~[m[K
+[5.481s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:47:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+[5.481s]    47 |       [01;31m[Kcv[m[K::imshow("im_jiwy", image);
+[5.481s]       |       [01;31m[K^~[m[K
+[5.485s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:47:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage[m[K’ was not declared in this scope; did you mean ‘[01m[Kimg[m[K’?
+[5.485s]    47 |       cv::imshow("im_jiwy", [01;31m[Kimage[m[K);
+[5.485s]       |                             [01;31m[K^~~~~[m[K
+[5.485s]       |                             [32m[Kimg[m[K
+[5.485s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:48:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+[5.485s]    48 |       [01;31m[Kcv[m[K::waitKey(1);
+[5.485s]       |       [01;31m[K^~[m[K
+[5.500s] [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:41:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.500s]    41 |     void moving_cam_callback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr img[m[K)
+[5.500s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.403s] gmake[2]: *** [CMakeFiles/simplesub.dir/build.make:76: CMakeFiles/simplesub.dir/src/SimpleSub.cpp.o] Error 1
+[9.405s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simplesub.dir/all] Error 2
+[9.405s] gmake: *** [Makefile:146: all] Error 2
+[9.406s] Invoked command in '/home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller' returned '2': CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/ros2_nodes/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/src/install/jiwy_controller:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/ros2_nodes/src/build/jiwy_controller -- -j2 -l2

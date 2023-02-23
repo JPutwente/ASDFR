@@ -20,5 +20,11 @@ def generate_launch_description():
             namespace='UnitTest',
             executable='jiwy_simulator',
             name='jiwy_simulator'
+        ),
+        Node(
+            package='jiwy_controller',
+            namespace='UnitTest',
+            executable='simplesub',
+            name='simplesub'
         )
     ])

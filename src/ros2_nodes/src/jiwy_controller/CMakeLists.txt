@@ -11,16 +11,23 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(asdfr_interfaces REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(cv_bridge REQUIRED)
 
 add_executable(jiwy_controller src/jiwy_controller.cpp)
 ament_target_dependencies(jiwy_controller rclcpp std_msgs sensor_msgs asdfr_interfaces)
+
+add_executable(simplesub src/SimpleSub.cpp)
+ament_target_dependencies(simplesub rclcpp std_msgs sensor_msgs asdfr_interfaces OpenCV cv_bridge)
 
 target_include_directories(jiwy_controller PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 target_compile_features(jiwy_controller PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
-install(TARGETS jiwy_controller
+install(TARGETS 
+  jiwy_controller
+  simplesub
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

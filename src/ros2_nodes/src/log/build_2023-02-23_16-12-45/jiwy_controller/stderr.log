@@ -1,0 +1,39 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:7[m[K:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::pos_callback(asdfr_interfaces::msg::Point2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:38:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<asdfr_interfaces::msg::Point2_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kx[m[K’
+   38 |       RCLCPP_INFO(this->get_logger(), "x y: '%f and %f'", pos.[01;31m[Kx[m[K, pos.y);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:38:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<asdfr_interfaces::msg::Point2_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ky[m[K’
+   38 |       RCLCPP_INFO(this->get_logger(), "x y: '%f and %f'", pos.x, pos.[01;31m[Ky[m[K);
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::moving_cam_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:44:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+   44 |       [01;31m[Kcv[m[K::Mat image = cv_bridge::toCvCopy(img,  "rgb8")->image;
+      |       [01;31m[K^~[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:47:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+   47 |       [01;31m[Kcv[m[K::imshow("im_jiwy", image);
+      |       [01;31m[K^~[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:47:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage[m[K’ was not declared in this scope; did you mean ‘[01m[Kimg[m[K’?
+   47 |       cv::imshow("im_jiwy", [01;31m[Kimage[m[K);
+      |                             [01;31m[K^~~~~[m[K
+      |                             [32m[Kimg[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:48:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+   48 |       [01;31m[Kcv[m[K::waitKey(1);
+      |       [01;31m[K^~[m[K
+[01m[K/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller/src/SimpleSub.cpp:41:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |     void moving_cam_callback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr img[m[K)
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/simplesub.dir/build.make:76: CMakeFiles/simplesub.dir/src/SimpleSub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simplesub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

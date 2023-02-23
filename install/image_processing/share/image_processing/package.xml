@@ -3,8 +3,8 @@
 <package format="3">
   <name>image_processing</name>
   <version>0.0.0</version>
-  <description>Image processing package</description>
-  <maintainer email="c.f.buschman@student.utwente.nl">Your Name</maintainer>
+  <description>Examples of minimal publisher/subscriber using rclcpp</description>
+  <maintainer email="j.p.derie@student.utwente.nl">Your Name</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

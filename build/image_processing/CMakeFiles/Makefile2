@@ -64,9 +64,10 @@ CMAKE_BINARY_DIR = /home/ram-user/ASDFR/build/image_processing
 
 # The main recursive "all" target.
 all: CMakeFiles/brightness_check.dir/all
-all: CMakeFiles/grayscale_converter.dir/all
-all: CMakeFiles/threshold_converter.dir/all
+all: CMakeFiles/grayscaler.dir/all
+all: CMakeFiles/brightmask.dir/all
 all: CMakeFiles/light_tracker.dir/all
+all: CMakeFiles/SimpleSub.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,9 +78,10 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/image_processing_uninstall.dir/clean
 clean: CMakeFiles/brightness_check.dir/clean
-clean: CMakeFiles/grayscale_converter.dir/clean
-clean: CMakeFiles/threshold_converter.dir/clean
+clean: CMakeFiles/grayscaler.dir/clean
+clean: CMakeFiles/brightmask.dir/clean
 clean: CMakeFiles/light_tracker.dir/clean
+clean: CMakeFiles/SimpleSub.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -141,7 +143,7 @@ CMakeFiles/image_processing_uninstall.dir/clean:
 CMakeFiles/brightness_check.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_check.dir/build.make CMakeFiles/brightness_check.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_check.dir/build.make CMakeFiles/brightness_check.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=1,2 "Built target brightness_check"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=5,6 "Built target brightness_check"
 .PHONY : CMakeFiles/brightness_check.dir/all
 
 # Build rule for subdir invocation for target.
@@ -161,56 +163,56 @@ CMakeFiles/brightness_check.dir/clean:
 .PHONY : CMakeFiles/brightness_check.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/grayscale_converter.dir
+# Target rules for target CMakeFiles/grayscaler.dir
 
 # All Build rule for target.
-CMakeFiles/grayscale_converter.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale_converter.dir/build.make CMakeFiles/grayscale_converter.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale_converter.dir/build.make CMakeFiles/grayscale_converter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=3,4 "Built target grayscale_converter"
-.PHONY : CMakeFiles/grayscale_converter.dir/all
+CMakeFiles/grayscaler.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscaler.dir/build.make CMakeFiles/grayscaler.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscaler.dir/build.make CMakeFiles/grayscaler.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=7,8 "Built target grayscaler"
+.PHONY : CMakeFiles/grayscaler.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/grayscale_converter.dir/rule: cmake_check_build_system
+CMakeFiles/grayscaler.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ram-user/ASDFR/build/image_processing/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/grayscale_converter.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/grayscaler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ram-user/ASDFR/build/image_processing/CMakeFiles 0
-.PHONY : CMakeFiles/grayscale_converter.dir/rule
+.PHONY : CMakeFiles/grayscaler.dir/rule
 
 # Convenience name for target.
-grayscale_converter: CMakeFiles/grayscale_converter.dir/rule
-.PHONY : grayscale_converter
+grayscaler: CMakeFiles/grayscaler.dir/rule
+.PHONY : grayscaler
 
 # clean rule for target.
-CMakeFiles/grayscale_converter.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale_converter.dir/build.make CMakeFiles/grayscale_converter.dir/clean
-.PHONY : CMakeFiles/grayscale_converter.dir/clean
+CMakeFiles/grayscaler.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscaler.dir/build.make CMakeFiles/grayscaler.dir/clean
+.PHONY : CMakeFiles/grayscaler.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/threshold_converter.dir
+# Target rules for target CMakeFiles/brightmask.dir
 
 # All Build rule for target.
-CMakeFiles/threshold_converter.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold_converter.dir/build.make CMakeFiles/threshold_converter.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold_converter.dir/build.make CMakeFiles/threshold_converter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=7,8 "Built target threshold_converter"
-.PHONY : CMakeFiles/threshold_converter.dir/all
+CMakeFiles/brightmask.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightmask.dir/build.make CMakeFiles/brightmask.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightmask.dir/build.make CMakeFiles/brightmask.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=3,4 "Built target brightmask"
+.PHONY : CMakeFiles/brightmask.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/threshold_converter.dir/rule: cmake_check_build_system
+CMakeFiles/brightmask.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ram-user/ASDFR/build/image_processing/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/threshold_converter.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/brightmask.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ram-user/ASDFR/build/image_processing/CMakeFiles 0
-.PHONY : CMakeFiles/threshold_converter.dir/rule
+.PHONY : CMakeFiles/brightmask.dir/rule
 
 # Convenience name for target.
-threshold_converter: CMakeFiles/threshold_converter.dir/rule
-.PHONY : threshold_converter
+brightmask: CMakeFiles/brightmask.dir/rule
+.PHONY : brightmask
 
 # clean rule for target.
-CMakeFiles/threshold_converter.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold_converter.dir/build.make CMakeFiles/threshold_converter.dir/clean
-.PHONY : CMakeFiles/threshold_converter.dir/clean
+CMakeFiles/brightmask.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightmask.dir/build.make CMakeFiles/brightmask.dir/clean
+.PHONY : CMakeFiles/brightmask.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/light_tracker.dir
@@ -219,7 +221,7 @@ CMakeFiles/threshold_converter.dir/clean:
 CMakeFiles/light_tracker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/light_tracker.dir/build.make CMakeFiles/light_tracker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/light_tracker.dir/build.make CMakeFiles/light_tracker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=5,6 "Built target light_tracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=9,10 "Built target light_tracker"
 .PHONY : CMakeFiles/light_tracker.dir/all
 
 # Build rule for subdir invocation for target.
@@ -237,6 +239,32 @@ light_tracker: CMakeFiles/light_tracker.dir/rule
 CMakeFiles/light_tracker.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/light_tracker.dir/build.make CMakeFiles/light_tracker.dir/clean
 .PHONY : CMakeFiles/light_tracker.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SimpleSub.dir
+
+# All Build rule for target.
+CMakeFiles/SimpleSub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleSub.dir/build.make CMakeFiles/SimpleSub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleSub.dir/build.make CMakeFiles/SimpleSub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/image_processing/CMakeFiles --progress-num=1,2 "Built target SimpleSub"
+.PHONY : CMakeFiles/SimpleSub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SimpleSub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ram-user/ASDFR/build/image_processing/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SimpleSub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ram-user/ASDFR/build/image_processing/CMakeFiles 0
+.PHONY : CMakeFiles/SimpleSub.dir/rule
+
+# Convenience name for target.
+SimpleSub: CMakeFiles/SimpleSub.dir/rule
+.PHONY : SimpleSub
+
+# clean rule for target.
+CMakeFiles/SimpleSub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleSub.dir/build.make CMakeFiles/SimpleSub.dir/clean
+.PHONY : CMakeFiles/SimpleSub.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

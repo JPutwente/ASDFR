@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/ram-user/ASDFR/build/jiwy_controller
 
 # The main recursive "all" target.
 all: CMakeFiles/jiwy_controller.dir/all
+all: CMakeFiles/simplesub.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/jiwy_controller_uninstall.dir/clean
 clean: CMakeFiles/jiwy_controller.dir/clean
+clean: CMakeFiles/simplesub.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ jiwy_controller: CMakeFiles/jiwy_controller.dir/rule
 CMakeFiles/jiwy_controller.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jiwy_controller.dir/build.make CMakeFiles/jiwy_controller.dir/clean
 .PHONY : CMakeFiles/jiwy_controller.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simplesub.dir
+
+# All Build rule for target.
+CMakeFiles/simplesub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simplesub.dir/build.make CMakeFiles/simplesub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simplesub.dir/build.make CMakeFiles/simplesub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ram-user/ASDFR/build/jiwy_controller/CMakeFiles --progress-num=3,4 "Built target simplesub"
+.PHONY : CMakeFiles/simplesub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simplesub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ram-user/ASDFR/build/jiwy_controller/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simplesub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ram-user/ASDFR/build/jiwy_controller/CMakeFiles 0
+.PHONY : CMakeFiles/simplesub.dir/rule
+
+# Convenience name for target.
+simplesub: CMakeFiles/simplesub.dir/rule
+.PHONY : simplesub
+
+# clean rule for target.
+CMakeFiles/simplesub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simplesub.dir/build.make CMakeFiles/simplesub.dir/clean
+.PHONY : CMakeFiles/simplesub.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

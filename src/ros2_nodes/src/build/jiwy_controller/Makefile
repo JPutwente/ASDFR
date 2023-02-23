@@ -210,6 +210,43 @@ jiwy_controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jiwy_controller.dir/build.make CMakeFiles/jiwy_controller.dir/build
 .PHONY : jiwy_controller/fast
 
+#=============================================================================
+# Target rules for targets named simplesub
+
+# Build rule for target.
+simplesub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simplesub
+.PHONY : simplesub
+
+# fast build rule for target.
+simplesub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simplesub.dir/build.make CMakeFiles/simplesub.dir/build
+.PHONY : simplesub/fast
+
+src/SimpleSub.o: src/SimpleSub.cpp.o
+.PHONY : src/SimpleSub.o
+
+# target to build an object file
+src/SimpleSub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simplesub.dir/build.make CMakeFiles/simplesub.dir/src/SimpleSub.cpp.o
+.PHONY : src/SimpleSub.cpp.o
+
+src/SimpleSub.i: src/SimpleSub.cpp.i
+.PHONY : src/SimpleSub.i
+
+# target to preprocess a source file
+src/SimpleSub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simplesub.dir/build.make CMakeFiles/simplesub.dir/src/SimpleSub.cpp.i
+.PHONY : src/SimpleSub.cpp.i
+
+src/SimpleSub.s: src/SimpleSub.cpp.s
+.PHONY : src/SimpleSub.s
+
+# target to generate assembly for a file
+src/SimpleSub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simplesub.dir/build.make CMakeFiles/simplesub.dir/src/SimpleSub.cpp.s
+.PHONY : src/SimpleSub.cpp.s
+
 src/jiwy_controller.o: src/jiwy_controller.cpp.o
 .PHONY : src/jiwy_controller.o
 
@@ -250,6 +287,10 @@ help:
 	@echo "... jiwy_controller_uninstall"
 	@echo "... uninstall"
 	@echo "... jiwy_controller"
+	@echo "... simplesub"
+	@echo "... src/SimpleSub.o"
+	@echo "... src/SimpleSub.i"
+	@echo "... src/SimpleSub.s"
 	@echo "... src/jiwy_controller.o"
 	@echo "... src/jiwy_controller.i"
 	@echo "... src/jiwy_controller.s"

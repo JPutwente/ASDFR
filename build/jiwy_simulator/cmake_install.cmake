@@ -122,7 +122,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/" TYPE DIRECTORY FILES "/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_simulator/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/" TYPE DIRECTORY FILES "")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

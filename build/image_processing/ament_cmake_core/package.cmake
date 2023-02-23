@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "image_processing")
 set(image_processing_VERSION "0.0.0")
-set(image_processing_MAINTAINER "Your Name <c.f.buschman@student.utwente.nl>")
+set(image_processing_MAINTAINER "Your Name <j.p.derie@student.utwente.nl>")
 set(image_processing_BUILD_DEPENDS "rclcpp" "std_msgs" "geometry_msgs" "OpenCV" "sensor_msgs" "cv_bridge" "image_tools")
 set(image_processing_BUILDTOOL_DEPENDS "ament_cmake")
 set(image_processing_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "geometry_msgs" "OpenCV" "sensor_msgs" "cv_bridge" "image_tools")

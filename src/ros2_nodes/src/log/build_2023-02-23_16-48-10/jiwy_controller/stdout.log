@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target jiwy_controller[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/jiwy_controller.dir/src/jiwy_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simplesub.dir/src/SimpleSub.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable simplesub[0m
+[ 75%] Built target simplesub

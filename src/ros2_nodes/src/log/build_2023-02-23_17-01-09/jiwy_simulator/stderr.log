@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:125 (file):
+  file INSTALL cannot find
+  "/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_simulator/launch": No such
+  file or directory.
+
+[0m
