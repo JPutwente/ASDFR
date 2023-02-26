@@ -1,0 +1,26 @@
+[0.031s] Invoking command in '/home/ram-user/ASDFR/src/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/jiwy_controller -- -j2 -l2
+[0.116s] [ 33%] Built target jiwy_controller
+[0.149s] [ 66%] Built target jc_lighttracker
+[0.181s] [100%] Built target simplesub
+[0.214s] Invoked command in '/home/ram-user/ASDFR/src/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/jiwy_controller -- -j2 -l2
+[0.257s] Invoking command in '/home/ram-user/ASDFR/src/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/jiwy_controller
+[0.272s] -- Install configuration: ""
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/lib/jiwy_controller/jiwy_controller
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/lib/jiwy_controller/jc_lighttracker
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/lib/jiwy_controller/simplesub
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/ament_index/resource_index/package_run_dependencies/jiwy_controller
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/ament_index/resource_index/parent_prefix_path/jiwy_controller
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.sh
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/environment/ament_prefix_path.dsv
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/environment/path.sh
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/environment/path.dsv
+[0.273s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/local_setup.bash
+[0.276s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/local_setup.sh
+[0.276s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/local_setup.zsh
+[0.276s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/local_setup.dsv
+[0.276s] -- Installing: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.dsv
+[0.277s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/ament_index/resource_index/packages/jiwy_controller
+[0.277s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig.cmake
+[0.277s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/cmake/jiwy_controllerConfig-version.cmake
+[0.277s] -- Up-to-date: /home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.xml
+[0.284s] Invoked command in '/home/ram-user/ASDFR/src/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/jiwy_controller

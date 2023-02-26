@@ -1,0 +1,420 @@
+[0.886s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.886s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fec5abf84c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fec5b4f4dc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fec5b4f4dc0>>)
+[0.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.957s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ram-user/ASDFR/src'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'colcon_pkg'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extensions ['colcon_meta']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'colcon_meta'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extensions ['ros']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'ros'
+[0.999s] DEBUG:colcon.colcon_core.package_identification:Package 'image_processing' with type 'ros.ament_cmake' and name 'image_processing'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extension 'ignore'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extension 'ignore_ament_install'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extensions ['colcon_pkg']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extension 'colcon_pkg'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extensions ['colcon_meta']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extension 'colcon_meta'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extensions ['ros']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extension 'ros'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extensions ['cmake', 'python']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extension 'cmake'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extension 'python'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extensions ['python_setup_py']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes) by extension 'python_setup_py'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/build) by extensions ['ignore', 'ignore_ament_install']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/build) by extension 'ignore'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/build) ignored
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/install) by extensions ['ignore', 'ignore_ament_install']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/install) by extension 'ignore'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/install) ignored
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extensions ['ignore', 'ignore_ament_install']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extension 'ignore'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extension 'ignore_ament_install'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extensions ['colcon_pkg']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extension 'colcon_pkg'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extensions ['colcon_meta']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extension 'colcon_meta'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extensions ['ros']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extension 'ros'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extensions ['cmake', 'python']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extension 'cmake'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extension 'python'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extensions ['python_setup_py']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch) by extension 'python_setup_py'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extension 'ignore_ament_install'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extensions ['colcon_pkg']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extension 'colcon_pkg'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extensions ['colcon_meta']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extension 'colcon_meta'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extensions ['ros']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extension 'ros'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extensions ['cmake', 'python']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extension 'cmake'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extension 'python'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extensions ['python_setup_py']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/__pycache__) by extension 'python_setup_py'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/build) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/build) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/build) ignored
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/install) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/install) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/install) ignored
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/log) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/log) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/launch/log) ignored
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/log) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/log) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/log) ignored
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extensions ['colcon_meta']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extension 'colcon_meta'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extensions ['ros']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extension 'ros'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extensions ['cmake', 'python']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extension 'cmake'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extension 'python'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extensions ['python_setup_py']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src) by extension 'python_setup_py'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extension 'ignore_ament_install'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extensions ['colcon_pkg']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extension 'colcon_pkg'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extensions ['colcon_meta']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extension 'colcon_meta'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extensions ['ros']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/asdfr_interfaces) by extension 'ros'
+[1.005s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_nodes/src/asdfr_interfaces' with type 'ros.ament_cmake' and name 'asdfr_interfaces'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/build) by extension 'ignore'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/build) ignored
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/install) by extension 'ignore'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/install) ignored
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extension 'ignore'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extension 'ignore_ament_install'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extensions ['colcon_pkg']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extension 'colcon_pkg'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extensions ['colcon_meta']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extension 'colcon_meta'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extensions ['ros']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_controller) by extension 'ros'
+[1.007s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_nodes/src/jiwy_controller' with type 'ros.ament_cmake' and name 'jiwy_controller'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extension 'ignore'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extensions ['colcon_pkg']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extension 'colcon_pkg'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extensions ['colcon_meta']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extension 'colcon_meta'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extensions ['ros']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/jiwy_simulator) by extension 'ros'
+[1.008s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_nodes/src/jiwy_simulator' with type 'ros.ament_cmake' and name 'jiwy_simulator'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/log) by extension 'ignore'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_nodes/src/log) ignored
+[1.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.034s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ram-user/ASDFR/src/ros2_nodes/install
+[1.035s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ram-user/ASDFR/install
+[1.036s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ram-user/.local/share/Trash/files/install
+[1.038s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[1.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'asdfr_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.099s] DEBUG:colcon.colcon_core.verb:Building package 'asdfr_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram-user/ASDFR/src/build/asdfr_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram-user/ASDFR/src/install/asdfr_interfaces', 'merge_install': False, 'path': '/home/ram-user/ASDFR/src/ros2_nodes/src/asdfr_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_args' from command line to 'None'
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target' from command line to 'None'
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_first' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_force_configure' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'ament_cmake_args' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.101s] DEBUG:colcon.colcon_core.verb:Building package 'image_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram-user/ASDFR/src/build/image_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram-user/ASDFR/src/install/image_processing', 'merge_install': False, 'path': '/home/ram-user/ASDFR/src/image_processing', 'symlink_install': False, 'test_result_base': None}
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'cmake_args' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'cmake_target' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'jiwy_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.103s] DEBUG:colcon.colcon_core.verb:Building package 'jiwy_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram-user/ASDFR/src/build/jiwy_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram-user/ASDFR/src/install/jiwy_controller', 'merge_install': False, 'path': '/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller', 'symlink_install': False, 'test_result_base': None}
+[1.104s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'cmake_args' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'cmake_target' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'jiwy_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.106s] DEBUG:colcon.colcon_core.verb:Building package 'jiwy_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram-user/ASDFR/src/build/jiwy_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram-user/ASDFR/src/install/jiwy_simulator', 'merge_install': False, 'path': '/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_simulator', 'symlink_install': False, 'test_result_base': None}
+[1.106s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.109s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.110s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ram-user/ASDFR/src/ros2_nodes/src/asdfr_interfaces' with build type 'ament_cmake'
+[1.111s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ram-user/ASDFR/src/ros2_nodes/src/asdfr_interfaces'
+[1.114s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.122s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ram-user/ASDFR/src/image_processing' with build type 'ament_cmake'
+[1.122s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ram-user/ASDFR/src/image_processing'
+[1.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.123s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/asdfr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/ros2_nodes/src/asdfr_interfaces -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/asdfr_interfaces
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/image_processing -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/image_processing
+[5.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/asdfr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/ros2_nodes/src/asdfr_interfaces -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/asdfr_interfaces
+[5.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/asdfr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/asdfr_interfaces -- -j2 -l2
+[6.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/image_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ram-user/ASDFR/src/image_processing -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/image_processing
+[6.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/image_processing -- -j2 -l2
+[22.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/asdfr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/asdfr_interfaces -- -j2 -l2
+[23.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/asdfr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/asdfr_interfaces
+[24.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asdfr_interfaces)
+[24.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/asdfr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/asdfr_interfaces
+[24.349s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces' for CMake module files
+[24.361s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces' for CMake config files
+[24.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('asdfr_interfaces', 'cmake_prefix_path')
+[24.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/cmake_prefix_path.ps1'
+[24.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/cmake_prefix_path.dsv'
+[24.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/cmake_prefix_path.sh'
+[24.387s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib'
+[24.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('asdfr_interfaces', 'ld_library_path_lib')
+[24.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/ld_library_path_lib.ps1'
+[24.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/ld_library_path_lib.dsv'
+[24.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/ld_library_path_lib.sh'
+[24.409s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/bin'
+[24.409s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib/pkgconfig/asdfr_interfaces.pc'
+[24.409s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib/python3.10/site-packages'
+[24.410s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/bin'
+[24.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.ps1'
+[24.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.dsv'
+[24.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.sh'
+[24.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.bash'
+[24.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.zsh'
+[24.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/colcon-core/packages/asdfr_interfaces)
+[25.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asdfr_interfaces)
+[25.265s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces' for CMake module files
+[25.267s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces' for CMake config files
+[25.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('asdfr_interfaces', 'cmake_prefix_path')
+[25.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/cmake_prefix_path.ps1'
+[25.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/cmake_prefix_path.dsv'
+[25.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/cmake_prefix_path.sh'
+[25.303s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib'
+[25.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('asdfr_interfaces', 'ld_library_path_lib')
+[25.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/ld_library_path_lib.ps1'
+[25.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/ld_library_path_lib.dsv'
+[25.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/hook/ld_library_path_lib.sh'
+[25.314s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/bin'
+[25.314s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib/pkgconfig/asdfr_interfaces.pc'
+[25.314s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib/python3.10/site-packages'
+[25.314s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/asdfr_interfaces/bin'
+[25.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.ps1'
+[25.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.dsv'
+[25.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.sh'
+[25.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.bash'
+[25.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/asdfr_interfaces/package.zsh'
+[25.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram-user/ASDFR/src/install/asdfr_interfaces/share/colcon-core/packages/asdfr_interfaces)
+[25.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller' with build type 'ament_cmake'
+[25.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller'
+[25.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/jiwy_controller
+[30.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_controller -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/jiwy_controller
+[30.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/jiwy_controller -- -j2 -l2
+[89.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/image_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/image_processing -- -j2 -l2
+[89.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/image_processing
+[89.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/jiwy_controller -- -j2 -l2
+[89.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/jiwy_controller': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/jiwy_controller
+[90.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jiwy_controller)
+[90.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/jiwy_controller' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/jiwy_controller
+[90.351s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller' for CMake module files
+[90.353s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller' for CMake config files
+[90.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('jiwy_controller', 'cmake_prefix_path')
+[90.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/hook/cmake_prefix_path.ps1'
+[90.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/hook/cmake_prefix_path.dsv'
+[90.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/hook/cmake_prefix_path.sh'
+[90.378s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/lib'
+[90.378s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/bin'
+[90.378s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/lib/pkgconfig/jiwy_controller.pc'
+[90.382s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/lib/python3.10/site-packages'
+[90.382s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/bin'
+[90.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.ps1'
+[90.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.dsv'
+[90.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.sh'
+[90.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.bash'
+[90.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.zsh'
+[90.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram-user/ASDFR/src/install/jiwy_controller/share/colcon-core/packages/jiwy_controller)
+[90.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_processing)
+[90.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/image_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/image_processing
+[90.455s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing' for CMake module files
+[90.456s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing' for CMake config files
+[90.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'cmake_prefix_path')
+[90.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/hook/cmake_prefix_path.ps1'
+[90.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/hook/cmake_prefix_path.dsv'
+[90.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/hook/cmake_prefix_path.sh'
+[90.470s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/lib'
+[90.471s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/bin'
+[90.472s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/lib/pkgconfig/image_processing.pc'
+[90.472s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/lib/python3.10/site-packages'
+[90.472s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/bin'
+[90.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.ps1'
+[90.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.dsv'
+[90.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.sh'
+[90.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.bash'
+[90.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.zsh'
+[90.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram-user/ASDFR/src/install/image_processing/share/colcon-core/packages/image_processing)
+[90.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jiwy_controller)
+[90.558s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller' for CMake module files
+[90.559s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller' for CMake config files
+[90.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('jiwy_controller', 'cmake_prefix_path')
+[90.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/hook/cmake_prefix_path.ps1'
+[90.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/hook/cmake_prefix_path.dsv'
+[90.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/hook/cmake_prefix_path.sh'
+[90.567s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/lib'
+[90.567s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/bin'
+[90.567s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/lib/pkgconfig/jiwy_controller.pc'
+[90.568s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/lib/python3.10/site-packages'
+[90.576s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_controller/bin'
+[90.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.ps1'
+[90.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.dsv'
+[90.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.sh'
+[90.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.bash'
+[90.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_controller/share/jiwy_controller/package.zsh'
+[90.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram-user/ASDFR/src/install/jiwy_controller/share/colcon-core/packages/jiwy_controller)
+[90.602s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_simulator' with build type 'ament_cmake'
+[90.603s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_simulator'
+[90.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[90.630s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[90.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_processing)
+[90.678s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing' for CMake module files
+[90.679s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing' for CMake config files
+[90.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'cmake_prefix_path')
+[90.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/hook/cmake_prefix_path.ps1'
+[90.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/hook/cmake_prefix_path.dsv'
+[90.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/hook/cmake_prefix_path.sh'
+[90.682s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/lib'
+[90.682s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/bin'
+[90.686s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/lib/pkgconfig/image_processing.pc'
+[90.686s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/lib/python3.10/site-packages'
+[90.687s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/image_processing/bin'
+[90.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.ps1'
+[90.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.dsv'
+[90.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.sh'
+[90.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.bash'
+[90.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/image_processing/share/image_processing/package.zsh'
+[90.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram-user/ASDFR/src/install/image_processing/share/colcon-core/packages/image_processing)
+[90.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/jiwy_simulator': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_simulator -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/jiwy_simulator
+[93.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/jiwy_simulator' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ram-user/ASDFR/src/ros2_nodes/src/jiwy_simulator -DCMAKE_INSTALL_PREFIX=/home/ram-user/ASDFR/src/install/jiwy_simulator
+[93.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/jiwy_simulator': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/jiwy_simulator -- -j2 -l2
+[111.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/jiwy_simulator' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram-user/ASDFR/src/build/jiwy_simulator -- -j2 -l2
+[111.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram-user/ASDFR/src/build/jiwy_simulator': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/jiwy_simulator
+[111.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jiwy_simulator)
+[111.675s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator' for CMake module files
+[111.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram-user/ASDFR/src/build/jiwy_simulator' returned '0': AMENT_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_simulator:/home/ram-user/ASDFR/src/ros2_nodes/install/jiwy_controller:/home/ram-user/ASDFR/src/ros2_nodes/install/asdfr_interfaces:/home/ram-user/ASDFR/install/jiwy_simulator:/home/ram-user/ASDFR/install/jiwy_controller:/home/ram-user/ASDFR/install/image_processing:/home/ram-user/ASDFR/install/asdfr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram-user/ASDFR/src/install/asdfr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram-user/ASDFR/src/build/jiwy_simulator
+[111.677s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator' for CMake config files
+[111.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('jiwy_simulator', 'cmake_prefix_path')
+[111.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/hook/cmake_prefix_path.ps1'
+[111.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/hook/cmake_prefix_path.dsv'
+[111.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/hook/cmake_prefix_path.sh'
+[111.680s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/lib'
+[111.680s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/bin'
+[111.680s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/lib/pkgconfig/jiwy_simulator.pc'
+[111.681s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/lib/python3.10/site-packages'
+[111.681s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/bin'
+[111.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.ps1'
+[111.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.dsv'
+[111.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.sh'
+[111.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.bash'
+[111.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.zsh'
+[111.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram-user/ASDFR/src/install/jiwy_simulator/share/colcon-core/packages/jiwy_simulator)
+[111.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jiwy_simulator)
+[111.755s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator' for CMake module files
+[111.756s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator' for CMake config files
+[111.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('jiwy_simulator', 'cmake_prefix_path')
+[111.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/hook/cmake_prefix_path.ps1'
+[111.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/hook/cmake_prefix_path.dsv'
+[111.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/hook/cmake_prefix_path.sh'
+[111.763s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/lib'
+[111.763s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/bin'
+[111.774s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/lib/pkgconfig/jiwy_simulator.pc'
+[111.775s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/lib/python3.10/site-packages'
+[111.775s] Level 1:colcon.colcon_core.environment:checking '/home/ram-user/ASDFR/src/install/jiwy_simulator/bin'
+[111.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.ps1'
+[111.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.dsv'
+[111.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.sh'
+[111.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.bash'
+[111.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram-user/ASDFR/src/install/jiwy_simulator/share/jiwy_simulator/package.zsh'
+[111.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram-user/ASDFR/src/install/jiwy_simulator/share/colcon-core/packages/jiwy_simulator)
+[111.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[111.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[112.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[112.063s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[112.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[112.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[112.659s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[112.739s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[112.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram-user/ASDFR/src/install/local_setup.ps1'
+[112.806s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ram-user/ASDFR/src/install/_local_setup_util_ps1.py'
+[112.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram-user/ASDFR/src/install/setup.ps1'
+[112.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram-user/ASDFR/src/install/local_setup.sh'
+[112.852s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ram-user/ASDFR/src/install/_local_setup_util_sh.py'
+[112.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram-user/ASDFR/src/install/setup.sh'
+[112.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram-user/ASDFR/src/install/local_setup.bash'
+[112.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram-user/ASDFR/src/install/setup.bash'
+[112.908s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram-user/ASDFR/src/install/local_setup.zsh'
+[112.909s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram-user/ASDFR/src/install/setup.zsh'
