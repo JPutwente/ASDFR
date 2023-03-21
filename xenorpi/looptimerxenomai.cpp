@@ -2,6 +2,11 @@
 #include <signal.h>
 #include <fstream>
 #include <sys/syscall.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+#include <pthread.h>
 
 
 // Define timer and signal handler
@@ -17,25 +22,22 @@ std::ofstream myfile;
 // function to monitor the global variable
 void* writevalue(void* arg)
 {
-    myfile.open("looptimerlogxenomai.csv", std::ios_base::app);
+    myfile.open("looptimerlogxenomai_stress.csv", std::ios_base::app);
     myfile << loop_time;
     myfile << "\n";
     myfile.close();
-    //std::cout << "Loop took: " << loop_time << " ms." << std::endl;
-
     return NULL;
 }
 
-void work(int signum)
+void work(int sig)
 {
-
     // Initialise start time
     struct timespec start_time;
     clock_gettime(CLOCK_MONOTONIC, &start_time);
 
     // Do computational work
     double sum = 0;
-    for(int i = 0; i < 5990; i++)
+    for(int i = 0; i < 59900; i++)
     {
         sum = i + rand();
     }
@@ -45,8 +47,7 @@ void work(int signum)
     clock_gettime(CLOCK_MONOTONIC, &end_time);
 
     // Log loop timing
-    loop_time = (end_time.tv_nsec - start_time.tv_nsec)/1000000;
-    //std::cout << "Loop took: " << (end_time.tv_nsec - start_time.tv_nsec)/1000000 << " ms." << std::endl;
+    loop_time = (end_time.tv_nsec - start_time.tv_nsec)/10000;
 
     pthread_t logthread;
     if (pthread_create(&logthread, NULL, writevalue, NULL) != 0)
@@ -83,19 +84,16 @@ void* thread_function(void* arg)
     timer_spec.it_value.tv_nsec = 1000000;
     timer_settime(timer, 0, &timer_spec, NULL);
 
+    int sig = SIGALRM;
     // Set up signal handler
     sigemptyset(&mask);
-    sigaddset(&mask, SIGRTMIN);
+    sigaddset(&mask, SIGALRM);
     sigprocmask(SIG_BLOCK, &mask, NULL);
-    action.sa_flags = 0;
-    action.sa_handler = work;
-    sigemptyset(&action.sa_mask);
-    sigaction(SIGRTMIN, &action, NULL);
 
     // Wait for signals
-    int sig;
-    while (sigwait(&mask, &sig) == 0);
-
+    while (sigwait(&mask, &sig) == 0){
+        work(sig);
+    };
     return NULL;
 }
 
